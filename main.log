@@ -1,0 +1,1444 @@
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.memrise.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /course/1136341/test/edit/database/2104176/?page=1 HTTP/1.1" 200 7977
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.memrise.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /course/1136341/test/edit/database/2104176/?page=2 HTTP/1.1" 200 7839
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.memrise.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /course/1136341/test/edit/database/2104176/?page=3 HTTP/1.1" 200 7871
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.memrise.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /course/1136341/test/edit/database/2104176/?page=4 HTTP/1.1" 200 None
+INFO:root:昂贵 --SKIPPED--
+INFO:root:凹凸 --SKIPPED--
+INFO:root:熬 --SKIPPED--
+INFO:root:奥秘 --SKIPPED--
+INFO:root:巴不得 --SKIPPED--
+INFO:root:巴结 --SKIPPED--
+INFO:root:扒 --SKIPPED--
+INFO:root:疤 --SKIPPED--
+INFO:root:挨 --SKIPPED--
+INFO:root:癌症 --SKIPPED--
+INFO:root:爱不释手 --SKIPPED--
+INFO:root:爱戴 --SKIPPED--
+INFO:root:暧昧 --SKIPPED--
+INFO:root:安宁 --SKIPPED--
+INFO:root:安详 --SKIPPED--
+INFO:root:安置 --SKIPPED--
+INFO:root:按摩 --SKIPPED--
+INFO:root:案件 --SKIPPED--
+INFO:root:案例 --SKIPPED--
+INFO:root:暗示 --SKIPPED--
+INFO:root:拔苗助长 --SKIPPED--
+INFO:root:把关 --SKIPPED--
+INFO:root:把手 --SKIPPED--
+INFO:root:罢工 --SKIPPED--
+INFO:root:霸道 --SKIPPED--
+INFO:root:掰 --SKIPPED--
+INFO:root:摆脱 --SKIPPED--
+INFO:root:败坏 --SKIPPED--
+INFO:root:拜访 --SKIPPED--
+INFO:root:拜年 --SKIPPED--
+INFO:root:拜托 --SKIPPED--
+INFO:root:颁布 --SKIPPED--
+INFO:root:颁发 --SKIPPED--
+INFO:root:斑 --SKIPPED--
+INFO:root:版本 --SKIPPED--
+INFO:root:半途而废 --SKIPPED--
+INFO:root:扮演 --SKIPPED--
+INFO:root:伴侣 --SKIPPED--
+INFO:root:伴随 --SKIPPED--
+INFO:root:绑架 --SKIPPED--
+INFO:root:包庇 --SKIPPED--
+INFO:root:包袱 --SKIPPED--
+INFO:root:包围 --SKIPPED--
+INFO:root:包装 --SKIPPED--
+INFO:root:饱和 --SKIPPED--
+INFO:root:饱经沧桑 --SKIPPED--
+INFO:root:保管 --SKIPPED--
+INFO:root:保密 --SKIPPED--
+INFO:root:保姆 --SKIPPED--
+INFO:root:保守 --SKIPPED--
+INFO:root:保卫 --SKIPPED--
+INFO:root:保养 --SKIPPED--
+INFO:root:保障 --SKIPPED--
+INFO:root:保重 --SKIPPED--
+INFO:root:报仇 --SKIPPED--
+INFO:root:报酬 --SKIPPED--
+INFO:root:报答 --SKIPPED--
+INFO:root:报复 --SKIPPED--
+INFO:root:榜样 --SKIPPED--
+INFO:root:磅 --SKIPPED--
+INFO:root:报警 --SKIPPED--
+INFO:root:报销 --SKIPPED--
+INFO:root:抱负 --SKIPPED--
+INFO:root:暴力 --SKIPPED--
+INFO:root:暴露 --SKIPPED--
+INFO:root:曝光 --SKIPPED--
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.memrise.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /course/1136341/test/edit/database/2104176/?page=1 HTTP/1.1" 200 7977
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.memrise.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /course/1136341/test/edit/database/2104176/?page=2 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.memrise.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /course/1136341/test/edit/database/2104176/?page=3 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.memrise.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /course/1136341/test/edit/database/2104176/?page=4 HTTP/1.1" 200 6707
+INFO:root:昂贵 --SKIPPED--
+INFO:root:凹凸 --SKIPPED--
+INFO:root:熬 --SKIPPED--
+INFO:root:奥秘 --SKIPPED--
+INFO:root:巴不得 --SKIPPED--
+INFO:root:巴结 --SKIPPED--
+INFO:root:扒 --SKIPPED--
+INFO:root:疤 --SKIPPED--
+INFO:root:挨 --SKIPPED--
+INFO:root:癌症 --SKIPPED--
+INFO:root:爱不释手 --SKIPPED--
+INFO:root:爱戴 --SKIPPED--
+INFO:root:暧昧 --SKIPPED--
+INFO:root:安宁 --SKIPPED--
+INFO:root:安详 --SKIPPED--
+INFO:root:安置 --SKIPPED--
+INFO:root:按摩 --SKIPPED--
+INFO:root:案件 --SKIPPED--
+INFO:root:案例 --SKIPPED--
+INFO:root:暗示 --SKIPPED--
+INFO:root:拔苗助长 --SKIPPED--
+INFO:root:把关 --SKIPPED--
+INFO:root:把手 --SKIPPED--
+INFO:root:罢工 --SKIPPED--
+INFO:root:霸道 --SKIPPED--
+INFO:root:掰 --SKIPPED--
+INFO:root:摆脱 --SKIPPED--
+INFO:root:败坏 --SKIPPED--
+INFO:root:拜访 --SKIPPED--
+INFO:root:拜年 --SKIPPED--
+INFO:root:拜托 --SKIPPED--
+INFO:root:颁布 --SKIPPED--
+INFO:root:颁发 --SKIPPED--
+INFO:root:斑 --SKIPPED--
+INFO:root:版本 --SKIPPED--
+INFO:root:半途而废 --SKIPPED--
+INFO:root:扮演 --SKIPPED--
+INFO:root:伴侣 --SKIPPED--
+INFO:root:伴随 --SKIPPED--
+INFO:root:绑架 --SKIPPED--
+INFO:root:包庇 --SKIPPED--
+INFO:root:包袱 --SKIPPED--
+INFO:root:包围 --SKIPPED--
+INFO:root:包装 --SKIPPED--
+INFO:root:饱和 --SKIPPED--
+INFO:root:饱经沧桑 --SKIPPED--
+INFO:root:保管 --SKIPPED--
+INFO:root:保密 --SKIPPED--
+INFO:root:保姆 --SKIPPED--
+INFO:root:保守 --SKIPPED--
+INFO:root:保卫 --SKIPPED--
+INFO:root:保养 --SKIPPED--
+INFO:root:保障 --SKIPPED--
+INFO:root:保重 --SKIPPED--
+INFO:root:报仇 --SKIPPED--
+INFO:root:报酬 --SKIPPED--
+INFO:root:报答 --SKIPPED--
+INFO:root:报复 --SKIPPED--
+INFO:root:榜样 --SKIPPED--
+INFO:root:磅 --SKIPPED--
+INFO:root:报警 --SKIPPED--
+INFO:root:报销 --SKIPPED--
+INFO:root:抱负 --SKIPPED--
+INFO:root:暴力 --SKIPPED--
+INFO:root:暴露 --SKIPPED--
+INFO:root:曝光 --SKIPPED--
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.memrise.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /course/1136341/test/edit/database/2104176/?page=1 HTTP/1.1" 200 7977
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.memrise.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /course/1136341/test/edit/database/2104176/?page=1 HTTP/1.1" 200 7977
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.memrise.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /course/1136341/test/edit/database/2104176/?page=1 HTTP/1.1" 200 7977
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.memrise.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /course/1136341/test/edit/database/2104176/?page=2 HTTP/1.1" 200 7839
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.memrise.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /course/1136341/test/edit/database/2104176/?page=3 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.memrise.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /course/1136341/test/edit/database/2104176/?page=4 HTTP/1.1" 200 None
+INFO:root:昂贵 --SKIPPED--
+INFO:root:凹凸 --SKIPPED--
+INFO:root:熬 --SKIPPED--
+INFO:root:奥秘 --SKIPPED--
+INFO:root:巴不得 --SKIPPED--
+INFO:root:巴结 --SKIPPED--
+INFO:root:扒 --SKIPPED--
+INFO:root:疤 --SKIPPED--
+INFO:root:挨 --SKIPPED--
+INFO:root:癌症 --SKIPPED--
+INFO:root:爱不释手 --SKIPPED--
+INFO:root:爱戴 --SKIPPED--
+INFO:root:暧昧 --SKIPPED--
+INFO:root:安宁 --SKIPPED--
+INFO:root:安详 --SKIPPED--
+INFO:root:安置 --SKIPPED--
+INFO:root:按摩 --SKIPPED--
+INFO:root:案件 --SKIPPED--
+INFO:root:案例 --SKIPPED--
+INFO:root:暗示 --SKIPPED--
+INFO:root:拔苗助长 --SKIPPED--
+INFO:root:把关 --SKIPPED--
+INFO:root:把手 --SKIPPED--
+INFO:root:罢工 --SKIPPED--
+INFO:root:霸道 --SKIPPED--
+INFO:root:掰 --SKIPPED--
+INFO:root:摆脱 --SKIPPED--
+INFO:root:败坏 --SKIPPED--
+INFO:root:拜访 --SKIPPED--
+INFO:root:拜年 --SKIPPED--
+INFO:root:拜托 --SKIPPED--
+INFO:root:颁布 --SKIPPED--
+INFO:root:颁发 --SKIPPED--
+INFO:root:斑 --SKIPPED--
+INFO:root:版本 --SKIPPED--
+INFO:root:半途而废 --SKIPPED--
+INFO:root:扮演 --SKIPPED--
+INFO:root:伴侣 --SKIPPED--
+INFO:root:伴随 --SKIPPED--
+INFO:root:绑架 --SKIPPED--
+INFO:root:包庇 --SKIPPED--
+INFO:root:包袱 --SKIPPED--
+INFO:root:包围 --SKIPPED--
+INFO:root:包装 --SKIPPED--
+INFO:root:饱和 --SKIPPED--
+INFO:root:饱经沧桑 --SKIPPED--
+INFO:root:保管 --SKIPPED--
+INFO:root:保密 --SKIPPED--
+INFO:root:保姆 --SKIPPED--
+INFO:root:保守 --SKIPPED--
+INFO:root:保卫 --SKIPPED--
+INFO:root:保养 --SKIPPED--
+INFO:root:保障 --SKIPPED--
+INFO:root:保重 --SKIPPED--
+INFO:root:报仇 --SKIPPED--
+INFO:root:报酬 --SKIPPED--
+INFO:root:报答 --SKIPPED--
+INFO:root:报复 --SKIPPED--
+INFO:root:榜样 --SKIPPED--
+INFO:root:磅 --SKIPPED--
+INFO:root:报警 --SKIPPED--
+INFO:root:报销 --SKIPPED--
+INFO:root:抱负 --SKIPPED--
+INFO:root:暴力 --SKIPPED--
+INFO:root:暴露 --SKIPPED--
+INFO:root:曝光 --SKIPPED--
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.memrise.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /course/1136341/test/edit/database/2104176/?page=1 HTTP/1.1" 200 7977
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.memrise.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /course/1136341/test/edit/database/2104176/?page=2 HTTP/1.1" 200 7839
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.memrise.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /course/1136341/test/edit/database/2104176/?page=3 HTTP/1.1" 200 7871
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.memrise.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /course/1136341/test/edit/database/2104176/?page=4 HTTP/1.1" 200 6707
+INFO:root:昂贵 --SKIPPED--
+INFO:root:凹凸 --SKIPPED--
+INFO:root:熬 --SKIPPED--
+INFO:root:奥秘 --SKIPPED--
+INFO:root:巴不得 --SKIPPED--
+INFO:root:巴结 --SKIPPED--
+INFO:root:扒 --SKIPPED--
+INFO:root:疤 --SKIPPED--
+INFO:root:挨 --SKIPPED--
+INFO:root:癌症 --SKIPPED--
+INFO:root:爱不释手 --SKIPPED--
+INFO:root:爱戴 --SKIPPED--
+INFO:root:暧昧 --SKIPPED--
+INFO:root:安宁 --SKIPPED--
+INFO:root:安详 --SKIPPED--
+INFO:root:安置 --SKIPPED--
+INFO:root:按摩 --SKIPPED--
+INFO:root:案件 --SKIPPED--
+INFO:root:案例 --SKIPPED--
+INFO:root:暗示 --SKIPPED--
+INFO:root:拔苗助长 --SKIPPED--
+INFO:root:把关 --SKIPPED--
+INFO:root:把手 --SKIPPED--
+INFO:root:罢工 --SKIPPED--
+INFO:root:霸道 --SKIPPED--
+INFO:root:掰 --SKIPPED--
+INFO:root:摆脱 --SKIPPED--
+INFO:root:败坏 --SKIPPED--
+INFO:root:拜访 --SKIPPED--
+INFO:root:拜年 --SKIPPED--
+INFO:root:拜托 --SKIPPED--
+INFO:root:颁布 --SKIPPED--
+INFO:root:颁发 --SKIPPED--
+INFO:root:斑 --SKIPPED--
+INFO:root:版本 --SKIPPED--
+INFO:root:半途而废 --SKIPPED--
+INFO:root:扮演 --SKIPPED--
+INFO:root:伴侣 --SKIPPED--
+INFO:root:伴随 --SKIPPED--
+INFO:root:绑架 --SKIPPED--
+INFO:root:包庇 --SKIPPED--
+INFO:root:包袱 --SKIPPED--
+INFO:root:包围 --SKIPPED--
+INFO:root:包装 --SKIPPED--
+INFO:root:饱和 --SKIPPED--
+INFO:root:饱经沧桑 --SKIPPED--
+INFO:root:保管 --SKIPPED--
+INFO:root:保密 --SKIPPED--
+INFO:root:保姆 --SKIPPED--
+INFO:root:保守 --SKIPPED--
+INFO:root:保卫 --SKIPPED--
+INFO:root:保养 --SKIPPED--
+INFO:root:保障 --SKIPPED--
+INFO:root:保重 --SKIPPED--
+INFO:root:报仇 --SKIPPED--
+INFO:root:报酬 --SKIPPED--
+INFO:root:报答 --SKIPPED--
+INFO:root:报复 --SKIPPED--
+INFO:root:榜样 --SKIPPED--
+INFO:root:磅 --SKIPPED--
+INFO:root:报警 --SKIPPED--
+INFO:root:报销 --SKIPPED--
+INFO:root:抱负 --SKIPPED--
+INFO:root:暴力 --SKIPPED--
+INFO:root:暴露 --SKIPPED--
+INFO:root:曝光 --SKIPPED--
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.memrise.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /course/1136341/test/edit/database/2104176/?page=1 HTTP/1.1" 200 7977
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.memrise.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /course/1136341/test/edit/database/2104176/?page=1 HTTP/1.1" 200 7977
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.memrise.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /course/1136341/test/edit/database/2104176/?page=2 HTTP/1.1" 200 7839
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.memrise.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /course/1136341/test/edit/database/2104176/?page=3 HTTP/1.1" 200 7871
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.memrise.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /course/1136341/test/edit/database/2104176/?page=4 HTTP/1.1" 200 6707
+INFO:root:昂贵 --SKIPPED--
+INFO:root:凹凸 --SKIPPED--
+INFO:root:熬 --SKIPPED--
+INFO:root:奥秘 --SKIPPED--
+INFO:root:巴不得 --SKIPPED--
+INFO:root:巴结 --SKIPPED--
+INFO:root:扒 --SKIPPED--
+INFO:root:疤 --SKIPPED--
+INFO:root:挨 --SKIPPED--
+INFO:root:癌症 --SKIPPED--
+INFO:root:爱不释手 --SKIPPED--
+INFO:root:爱戴 --SKIPPED--
+INFO:root:暧昧 --SKIPPED--
+INFO:root:安宁 --SKIPPED--
+INFO:root:安详 --SKIPPED--
+INFO:root:安置 --SKIPPED--
+INFO:root:按摩 --SKIPPED--
+INFO:root:案件 --SKIPPED--
+INFO:root:案例 --SKIPPED--
+INFO:root:暗示 --SKIPPED--
+INFO:root:拔苗助长 --SKIPPED--
+INFO:root:把关 --SKIPPED--
+INFO:root:把手 --SKIPPED--
+INFO:root:罢工 --SKIPPED--
+INFO:root:霸道 --SKIPPED--
+INFO:root:掰 --SKIPPED--
+INFO:root:摆脱 --SKIPPED--
+INFO:root:败坏 --SKIPPED--
+INFO:root:拜访 --SKIPPED--
+INFO:root:拜年 --SKIPPED--
+INFO:root:拜托 --SKIPPED--
+INFO:root:颁布 --SKIPPED--
+INFO:root:颁发 --SKIPPED--
+INFO:root:斑 --SKIPPED--
+INFO:root:版本 --SKIPPED--
+INFO:root:半途而废 --SKIPPED--
+INFO:root:扮演 --SKIPPED--
+INFO:root:伴侣 --SKIPPED--
+INFO:root:伴随 --SKIPPED--
+INFO:root:绑架 --SKIPPED--
+INFO:root:包庇 --SKIPPED--
+INFO:root:包袱 --SKIPPED--
+INFO:root:包围 --SKIPPED--
+INFO:root:包装 --SKIPPED--
+INFO:root:饱和 --SKIPPED--
+INFO:root:饱经沧桑 --SKIPPED--
+INFO:root:保管 --SKIPPED--
+INFO:root:保密 --SKIPPED--
+INFO:root:保姆 --SKIPPED--
+INFO:root:保守 --SKIPPED--
+INFO:root:保卫 --SKIPPED--
+INFO:root:保养 --SKIPPED--
+INFO:root:保障 --SKIPPED--
+INFO:root:保重 --SKIPPED--
+INFO:root:报仇 --SKIPPED--
+INFO:root:报酬 --SKIPPED--
+INFO:root:报答 --SKIPPED--
+INFO:root:报复 --SKIPPED--
+INFO:root:榜样 --SKIPPED--
+INFO:root:磅 --SKIPPED--
+INFO:root:报警 --SKIPPED--
+INFO:root:报销 --SKIPPED--
+INFO:root:抱负 --SKIPPED--
+INFO:root:暴力 --SKIPPED--
+INFO:root:暴露 --SKIPPED--
+INFO:root:曝光 --SKIPPED--
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.memrise.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /course/1136341/test/edit/database/2104176/?page=1 HTTP/1.1" 200 7977
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.memrise.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /course/1136341/test/edit/database/2104176/?page=2 HTTP/1.1" 200 7839
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.memrise.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /course/1136341/test/edit/database/2104176/?page=3 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.memrise.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /course/1136341/test/edit/database/2104176/?page=4 HTTP/1.1" 200 None
+INFO:root:昂贵 --SKIPPED--
+INFO:root:凹凸 --SKIPPED--
+INFO:root:熬 --SKIPPED--
+INFO:root:奥秘 --SKIPPED--
+INFO:root:巴不得 --SKIPPED--
+INFO:root:巴结 --SKIPPED--
+INFO:root:扒 --SKIPPED--
+INFO:root:疤 --SKIPPED--
+INFO:root:挨 --SKIPPED--
+INFO:root:癌症 --SKIPPED--
+INFO:root:爱不释手 --SKIPPED--
+INFO:root:爱戴 --SKIPPED--
+INFO:root:暧昧 --SKIPPED--
+INFO:root:安宁 --SKIPPED--
+INFO:root:安详 --SKIPPED--
+INFO:root:安置 --SKIPPED--
+INFO:root:按摩 --SKIPPED--
+INFO:root:案件 --SKIPPED--
+INFO:root:案例 --SKIPPED--
+INFO:root:暗示 --SKIPPED--
+INFO:root:拔苗助长 --SKIPPED--
+INFO:root:把关 --SKIPPED--
+INFO:root:把手 --SKIPPED--
+INFO:root:罢工 --SKIPPED--
+INFO:root:霸道 --SKIPPED--
+INFO:root:掰 --SKIPPED--
+INFO:root:摆脱 --SKIPPED--
+INFO:root:败坏 --SKIPPED--
+INFO:root:拜访 --SKIPPED--
+INFO:root:拜年 --SKIPPED--
+INFO:root:拜托 --SKIPPED--
+INFO:root:颁布 --SKIPPED--
+INFO:root:颁发 --SKIPPED--
+INFO:root:斑 --SKIPPED--
+INFO:root:版本 --SKIPPED--
+INFO:root:半途而废 --SKIPPED--
+INFO:root:扮演 --SKIPPED--
+INFO:root:伴侣 --SKIPPED--
+INFO:root:伴随 --SKIPPED--
+INFO:root:绑架 --SKIPPED--
+INFO:root:包庇 --SKIPPED--
+INFO:root:包袱 --SKIPPED--
+INFO:root:包围 --SKIPPED--
+INFO:root:包装 --SKIPPED--
+INFO:root:饱和 --SKIPPED--
+INFO:root:饱经沧桑 --SKIPPED--
+INFO:root:保管 --SKIPPED--
+INFO:root:保密 --SKIPPED--
+INFO:root:保姆 --SKIPPED--
+INFO:root:保守 --SKIPPED--
+INFO:root:保卫 --SKIPPED--
+INFO:root:保养 --SKIPPED--
+INFO:root:保障 --SKIPPED--
+INFO:root:保重 --SKIPPED--
+INFO:root:报仇 --SKIPPED--
+INFO:root:报酬 --SKIPPED--
+INFO:root:报答 --SKIPPED--
+INFO:root:报复 --SKIPPED--
+INFO:root:榜样 --SKIPPED--
+INFO:root:磅 --SKIPPED--
+INFO:root:报警 --SKIPPED--
+INFO:root:报销 --SKIPPED--
+INFO:root:抱负 --SKIPPED--
+INFO:root:暴力 --SKIPPED--
+INFO:root:暴露 --SKIPPED--
+INFO:root:曝光 --SKIPPED--
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.memrise.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /course/1136341/test/edit/database/2104176/?page=1 HTTP/1.1" 200 7977
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.memrise.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /course/1136341/test/edit/database/2104176/?page=2 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.memrise.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /course/1136341/test/edit/database/2104176/?page=3 HTTP/1.1" 200 7871
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.memrise.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /course/1136341/test/edit/database/2104176/?page=4 HTTP/1.1" 200 6707
+INFO:root:昂贵 --SKIPPED--
+INFO:root:凹凸 --SKIPPED--
+INFO:root:熬 --SKIPPED--
+INFO:root:奥秘 --SKIPPED--
+INFO:root:巴不得 --SKIPPED--
+INFO:root:巴结 --SKIPPED--
+INFO:root:扒 --SKIPPED--
+INFO:root:疤 --SKIPPED--
+INFO:root:挨 --SKIPPED--
+INFO:root:癌症 --SKIPPED--
+INFO:root:爱不释手 --SKIPPED--
+INFO:root:爱戴 --SKIPPED--
+INFO:root:暧昧 --SKIPPED--
+INFO:root:安宁 --SKIPPED--
+INFO:root:安详 --SKIPPED--
+INFO:root:安置 --SKIPPED--
+INFO:root:按摩 --SKIPPED--
+INFO:root:案件 --SKIPPED--
+INFO:root:案例 --SKIPPED--
+INFO:root:暗示 --SKIPPED--
+INFO:root:拔苗助长 --SKIPPED--
+INFO:root:把关 --SKIPPED--
+INFO:root:把手 --SKIPPED--
+INFO:root:罢工 --SKIPPED--
+INFO:root:霸道 --SKIPPED--
+INFO:root:掰 --SKIPPED--
+INFO:root:摆脱 --SKIPPED--
+INFO:root:败坏 --SKIPPED--
+INFO:root:拜访 --SKIPPED--
+INFO:root:拜年 --SKIPPED--
+INFO:root:拜托 --SKIPPED--
+INFO:root:颁布 --SKIPPED--
+INFO:root:颁发 --SKIPPED--
+INFO:root:斑 --SKIPPED--
+INFO:root:版本 --SKIPPED--
+INFO:root:半途而废 --SKIPPED--
+INFO:root:扮演 --SKIPPED--
+INFO:root:伴侣 --SKIPPED--
+INFO:root:伴随 --SKIPPED--
+INFO:root:绑架 --SKIPPED--
+INFO:root:包庇 --SKIPPED--
+INFO:root:包袱 --SKIPPED--
+INFO:root:包围 --SKIPPED--
+INFO:root:包装 --SKIPPED--
+INFO:root:饱和 --SKIPPED--
+INFO:root:饱经沧桑 --SKIPPED--
+INFO:root:保管 --SKIPPED--
+INFO:root:保密 --SKIPPED--
+INFO:root:保姆 --SKIPPED--
+INFO:root:保守 --SKIPPED--
+INFO:root:保卫 --SKIPPED--
+INFO:root:保养 --SKIPPED--
+INFO:root:保障 --SKIPPED--
+INFO:root:保重 --SKIPPED--
+INFO:root:报仇 --SKIPPED--
+INFO:root:报酬 --SKIPPED--
+INFO:root:报答 --SKIPPED--
+INFO:root:报复 --SKIPPED--
+INFO:root:榜样 --SKIPPED--
+INFO:root:磅 --SKIPPED--
+INFO:root:报警 --SKIPPED--
+INFO:root:报销 --SKIPPED--
+INFO:root:抱负 --SKIPPED--
+INFO:root:暴力 --SKIPPED--
+INFO:root:暴露 --SKIPPED--
+INFO:root:曝光 --SKIPPED--
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.memrise.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /course/1136341/test/edit/database/2104176/?page=1 HTTP/1.1" 200 7977
+INFO:root:昂贵 --SKIPPED--
+INFO:root:凹凸 --SKIPPED--
+INFO:root:熬 --SKIPPED--
+INFO:root:奥秘 --SKIPPED--
+INFO:root:巴不得 --SKIPPED--
+INFO:root:巴结 --SKIPPED--
+INFO:root:扒 --SKIPPED--
+INFO:root:疤 --SKIPPED--
+INFO:root:挨 --SKIPPED--
+INFO:root:癌症 --SKIPPED--
+INFO:root:爱不释手 --SKIPPED--
+INFO:root:爱戴 --SKIPPED--
+INFO:root:暧昧 --SKIPPED--
+INFO:root:安宁 --SKIPPED--
+INFO:root:安详 --SKIPPED--
+INFO:root:安置 --SKIPPED--
+INFO:root:按摩 --SKIPPED--
+INFO:root:案件 --SKIPPED--
+INFO:root:案例 --SKIPPED--
+INFO:root:暗示 --SKIPPED--
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.memrise.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /course/1136341/test/edit/database/2104176/?page=1 HTTP/1.1" 200 7977
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.memrise.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /course/1136341/test/edit/database/2104176/?page=2 HTTP/1.1" 200 7839
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.memrise.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /course/1136341/test/edit/database/2104176/?page=3 HTTP/1.1" 200 7871
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.memrise.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /course/1136341/test/edit/database/2104176/?page=4 HTTP/1.1" 200 6707
+INFO:root:昂贵 --SKIPPED--
+INFO:root:凹凸 --SKIPPED--
+INFO:root:熬 --SKIPPED--
+INFO:root:奥秘 --SKIPPED--
+INFO:root:巴不得 --SKIPPED--
+INFO:root:巴结 --SKIPPED--
+INFO:root:扒 --SKIPPED--
+INFO:root:疤 --SKIPPED--
+INFO:root:挨 --SKIPPED--
+INFO:root:癌症 --SKIPPED--
+INFO:root:爱不释手 --SKIPPED--
+INFO:root:爱戴 --SKIPPED--
+INFO:root:暧昧 --SKIPPED--
+INFO:root:安宁 --SKIPPED--
+INFO:root:安详 --SKIPPED--
+INFO:root:安置 --SKIPPED--
+INFO:root:按摩 --SKIPPED--
+INFO:root:案件 --SKIPPED--
+INFO:root:案例 --SKIPPED--
+INFO:root:暗示 --SKIPPED--
+INFO:root:拔苗助长 --SKIPPED--
+INFO:root:把关 --SKIPPED--
+INFO:root:把手 --SKIPPED--
+INFO:root:罢工 --SKIPPED--
+INFO:root:霸道 --SKIPPED--
+INFO:root:掰 --SKIPPED--
+INFO:root:摆脱 --SKIPPED--
+INFO:root:败坏 --SKIPPED--
+INFO:root:拜访 --SKIPPED--
+INFO:root:拜年 --SKIPPED--
+INFO:root:拜托 --SKIPPED--
+INFO:root:颁布 --SKIPPED--
+INFO:root:颁发 --SKIPPED--
+INFO:root:斑 --SKIPPED--
+INFO:root:版本 --SKIPPED--
+INFO:root:半途而废 --SKIPPED--
+INFO:root:扮演 --SKIPPED--
+INFO:root:伴侣 --SKIPPED--
+INFO:root:伴随 --SKIPPED--
+INFO:root:绑架 --SKIPPED--
+INFO:root:包庇 --SKIPPED--
+INFO:root:包袱 --SKIPPED--
+INFO:root:包围 --SKIPPED--
+INFO:root:包装 --SKIPPED--
+INFO:root:饱和 --SKIPPED--
+INFO:root:饱经沧桑 --SKIPPED--
+INFO:root:保管 --SKIPPED--
+INFO:root:保密 --SKIPPED--
+INFO:root:保姆 --SKIPPED--
+INFO:root:保守 --SKIPPED--
+INFO:root:保卫 --SKIPPED--
+INFO:root:保养 --SKIPPED--
+INFO:root:保障 --SKIPPED--
+INFO:root:保重 --SKIPPED--
+INFO:root:报仇 --SKIPPED--
+INFO:root:报酬 --SKIPPED--
+INFO:root:报答 --SKIPPED--
+INFO:root:报复 --SKIPPED--
+INFO:root:榜样 --SKIPPED--
+INFO:root:磅 --SKIPPED--
+INFO:root:报警 --SKIPPED--
+INFO:root:报销 --SKIPPED--
+INFO:root:抱负 --SKIPPED--
+INFO:root:暴力 --SKIPPED--
+INFO:root:暴露 --SKIPPED--
+INFO:root:曝光 --SKIPPED--
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.memrise.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /course/1136341/test/edit/database/2104176/?page=1 HTTP/1.1" 200 7977
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.memrise.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /course/1136341/test/edit/database/2104176/?page=2 HTTP/1.1" 200 7839
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.memrise.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /course/1136341/test/edit/database/2104176/?page=3 HTTP/1.1" 200 7871
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.memrise.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /course/1136341/test/edit/database/2104176/?page=4 HTTP/1.1" 200 6707
+INFO:root:昂贵 --SKIPPED--
+INFO:root:凹凸 --SKIPPED--
+INFO:root:熬 --SKIPPED--
+INFO:root:奥秘 --SKIPPED--
+INFO:root:巴不得 --SKIPPED--
+INFO:root:巴结 --SKIPPED--
+INFO:root:扒 --SKIPPED--
+INFO:root:疤 --SKIPPED--
+INFO:root:挨 --SKIPPED--
+INFO:root:癌症 --SKIPPED--
+INFO:root:爱不释手 --SKIPPED--
+INFO:root:爱戴 --SKIPPED--
+INFO:root:暧昧 --SKIPPED--
+INFO:root:安宁 --SKIPPED--
+INFO:root:安详 --SKIPPED--
+INFO:root:安置 --SKIPPED--
+INFO:root:按摩 --SKIPPED--
+INFO:root:案件 --SKIPPED--
+INFO:root:案例 --SKIPPED--
+INFO:root:暗示 --SKIPPED--
+INFO:root:拔苗助长 --SKIPPED--
+INFO:root:把关 --SKIPPED--
+INFO:root:把手 --SKIPPED--
+INFO:root:罢工 --SKIPPED--
+INFO:root:霸道 --SKIPPED--
+INFO:root:掰 --SKIPPED--
+INFO:root:摆脱 --SKIPPED--
+INFO:root:败坏 --SKIPPED--
+INFO:root:拜访 --SKIPPED--
+INFO:root:拜年 --SKIPPED--
+INFO:root:拜托 --SKIPPED--
+INFO:root:颁布 --SKIPPED--
+INFO:root:颁发 --SKIPPED--
+INFO:root:斑 --SKIPPED--
+INFO:root:版本 --SKIPPED--
+INFO:root:半途而废 --SKIPPED--
+INFO:root:扮演 --SKIPPED--
+INFO:root:伴侣 --SKIPPED--
+INFO:root:伴随 --SKIPPED--
+INFO:root:绑架 --SKIPPED--
+INFO:root:包庇 --SKIPPED--
+INFO:root:包袱 --SKIPPED--
+INFO:root:包围 --SKIPPED--
+INFO:root:包装 --SKIPPED--
+INFO:root:饱和 --SKIPPED--
+INFO:root:饱经沧桑 --SKIPPED--
+INFO:root:保管 --SKIPPED--
+INFO:root:保密 --SKIPPED--
+INFO:root:保姆 --SKIPPED--
+INFO:root:保守 --SKIPPED--
+INFO:root:保卫 --SKIPPED--
+INFO:root:保养 --SKIPPED--
+INFO:root:保障 --SKIPPED--
+INFO:root:保重 --SKIPPED--
+INFO:root:报仇 --SKIPPED--
+INFO:root:报酬 --SKIPPED--
+INFO:root:报答 --SKIPPED--
+INFO:root:报复 --SKIPPED--
+INFO:root:榜样 --SKIPPED--
+INFO:root:磅 --SKIPPED--
+INFO:root:报警 --SKIPPED--
+INFO:root:报销 --SKIPPED--
+INFO:root:抱负 --SKIPPED--
+INFO:root:暴力 --SKIPPED--
+INFO:root:暴露 --SKIPPED--
+INFO:root:曝光 --SKIPPED--
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.memrise.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /course/1136341/test/edit/database/2104176/?page=1 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.memrise.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /course/1136341/test/edit/database/2104176/?page=2 HTTP/1.1" 200 7839
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.memrise.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /course/1136341/test/edit/database/2104176/?page=3 HTTP/1.1" 200 7871
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.memrise.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /course/1136341/test/edit/database/2104176/?page=4 HTTP/1.1" 200 6707
+INFO:root:昂贵 --SKIPPED--
+INFO:root:凹凸 --SKIPPED--
+INFO:root:熬 --SKIPPED--
+INFO:root:奥秘 --SKIPPED--
+INFO:root:巴不得 --SKIPPED--
+INFO:root:巴结 --SKIPPED--
+INFO:root:扒 --SKIPPED--
+INFO:root:疤 --SKIPPED--
+INFO:root:挨 --SKIPPED--
+INFO:root:癌症 --SKIPPED--
+INFO:root:爱不释手 --SKIPPED--
+INFO:root:爱戴 --SKIPPED--
+INFO:root:暧昧 --SKIPPED--
+INFO:root:安宁 --SKIPPED--
+INFO:root:安详 --SKIPPED--
+INFO:root:安置 --SKIPPED--
+INFO:root:按摩 --SKIPPED--
+INFO:root:案件 --SKIPPED--
+INFO:root:案例 --SKIPPED--
+INFO:root:暗示 --SKIPPED--
+INFO:root:拔苗助长 --SKIPPED--
+INFO:root:把关 --SKIPPED--
+INFO:root:把手 --SKIPPED--
+INFO:root:罢工 --SKIPPED--
+INFO:root:霸道 --SKIPPED--
+INFO:root:掰 --SKIPPED--
+INFO:root:摆脱 --SKIPPED--
+INFO:root:败坏 --SKIPPED--
+INFO:root:拜访 --SKIPPED--
+INFO:root:拜年 --SKIPPED--
+INFO:root:拜托 --SKIPPED--
+INFO:root:颁布 --SKIPPED--
+INFO:root:颁发 --SKIPPED--
+INFO:root:斑 --SKIPPED--
+INFO:root:版本 --SKIPPED--
+INFO:root:半途而废 --SKIPPED--
+INFO:root:扮演 --SKIPPED--
+INFO:root:伴侣 --SKIPPED--
+INFO:root:伴随 --SKIPPED--
+INFO:root:绑架 --SKIPPED--
+INFO:root:包庇 --SKIPPED--
+INFO:root:包袱 --SKIPPED--
+INFO:root:包围 --SKIPPED--
+INFO:root:包装 --SKIPPED--
+INFO:root:饱和 --SKIPPED--
+INFO:root:饱经沧桑 --SKIPPED--
+INFO:root:保管 --SKIPPED--
+INFO:root:保密 --SKIPPED--
+INFO:root:保姆 --SKIPPED--
+INFO:root:保守 --SKIPPED--
+INFO:root:保卫 --SKIPPED--
+INFO:root:保养 --SKIPPED--
+INFO:root:保障 --SKIPPED--
+INFO:root:保重 --SKIPPED--
+INFO:root:报仇 --SKIPPED--
+INFO:root:报酬 --SKIPPED--
+INFO:root:报答 --SKIPPED--
+INFO:root:报复 --SKIPPED--
+INFO:root:榜样 --SKIPPED--
+INFO:root:磅 --SKIPPED--
+INFO:root:报警 --SKIPPED--
+INFO:root:报销 --SKIPPED--
+INFO:root:抱负 --SKIPPED--
+INFO:root:暴力 --SKIPPED--
+INFO:root:暴露 --SKIPPED--
+INFO:root:曝光 --SKIPPED--
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.memrise.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /course/1136341/test/edit/database/2104176/?page=1 HTTP/1.1" 200 7977
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.memrise.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /course/1136341/test/edit/database/2104176/?page=2 HTTP/1.1" 200 7839
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.memrise.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /course/1136341/test/edit/database/2104176/?page=3 HTTP/1.1" 200 7871
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.memrise.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /course/1136341/test/edit/database/2104176/?page=4 HTTP/1.1" 200 None
+INFO:root:getting audio for 昂贵
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E6%98%82%E8%B4%B5.mp3 HTTP/1.1" 200 3553
+INFO:root:getting audio for 凹凸
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E5%87%B9%E5%87%B8.mp3 HTTP/1.1" 200 3448
+INFO:root:getting audio for 熬
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E7%86%AC.mp3 HTTP/1.1" 200 2508
+INFO:root:getting audio for 奥秘
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E5%A5%A5%E7%A7%98.mp3 HTTP/1.1" 200 4075
+INFO:root:getting audio for 巴不得
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E5%B7%B4%E4%B8%8D%E5%BE%97.mp3 HTTP/1.1" 200 5433
+INFO:root:getting audio for 巴结
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E5%B7%B4%E7%BB%93.mp3 HTTP/1.1" 200 4389
+INFO:root:getting audio for 扒
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E6%89%92.mp3 HTTP/1.1" 200 2717
+INFO:root:疤 --SKIPPED--
+INFO:root:getting audio for 挨
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E6%8C%A8.mp3 HTTP/1.1" 200 2508
+INFO:root:癌症 --SKIPPED--
+INFO:root:getting audio for 爱不释手
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E7%88%B1%E4%B8%8D%E9%87%8A%E6%89%8B.mp3 HTTP/1.1" 200 5747
+INFO:root:getting audio for 爱戴
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E7%88%B1%E6%88%B4.mp3 HTTP/1.1" 200 3239
+INFO:root:getting audio for 暧昧
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E6%9A%A7%E6%98%A7.mp3 HTTP/1.1" 200 3448
+INFO:root:getting audio for 安宁
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E5%AE%89%E5%AE%81.mp3 HTTP/1.1" 200 3866
+INFO:root:getting audio for 安详
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E5%AE%89%E8%AF%A6.mp3 HTTP/1.1" 200 4180
+INFO:root:getting audio for 安置
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E5%AE%89%E7%BD%AE.mp3 HTTP/1.1" 200 3657
+INFO:root:按摩 --SKIPPED--
+INFO:root:getting audio for 案件
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E6%A1%88%E4%BB%B6.mp3 HTTP/1.1" 200 3657
+INFO:root:getting audio for 案例
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E6%A1%88%E4%BE%8B.mp3 HTTP/1.1" 200 3553
+INFO:root:getting audio for 暗示
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E6%9A%97%E7%A4%BA.mp3 HTTP/1.1" 200 3553
+INFO:root:getting audio for 拔苗助长
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E6%8B%94%E8%8B%97%E5%8A%A9%E9%95%BF.mp3 HTTP/1.1" 200 6374
+INFO:root:getting audio for 把关
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E6%8A%8A%E5%85%B3.mp3 HTTP/1.1" 200 4493
+INFO:root:getting audio for 把手
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E6%8A%8A%E6%89%8B.mp3 HTTP/1.1" 200 4180
+INFO:root:getting audio for 罢工
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E7%BD%A2%E5%B7%A5.mp3 HTTP/1.1" 200 4180
+INFO:root:getting audio for 霸道
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E9%9C%B8%E9%81%93.mp3 HTTP/1.1" 200 3971
+INFO:root:getting audio for 掰
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E6%8E%B0.mp3 HTTP/1.1" 200 2717
+INFO:root:getting audio for 摆脱
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E6%91%86%E8%84%B1.mp3 HTTP/1.1" 200 4180
+INFO:root:getting audio for 败坏
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E8%B4%A5%E5%9D%8F.mp3 HTTP/1.1" 200 3971
+INFO:root:getting audio for 拜访
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E6%8B%9C%E8%AE%BF.mp3 HTTP/1.1" 200 4284
+INFO:root:getting audio for 拜年
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E6%8B%9C%E5%B9%B4.mp3 HTTP/1.1" 200 4493
+INFO:root:getting audio for 拜托
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E6%8B%9C%E6%89%98.mp3 HTTP/1.1" 200 4180
+INFO:root:getting audio for 颁布
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 500 291
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E9%A2%81%E5%B8%83.mp3 HTTP/1.1" 404 233
+INFO:root:getting audio for 颁发
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E9%A2%81%E5%8F%91.mp3 HTTP/1.1" 200 4389
+INFO:root:getting audio for 斑
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E6%96%91.mp3 HTTP/1.1" 200 2926
+INFO:root:getting audio for 版本
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E7%89%88%E6%9C%AC.mp3 HTTP/1.1" 200 4284
+INFO:root:getting audio for 半途而废
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E5%8D%8A%E9%80%94%E8%80%8C%E5%BA%9F.mp3 HTTP/1.1" 200 6269
+INFO:root:getting audio for 扮演
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E6%89%AE%E6%BC%94.mp3 HTTP/1.1" 200 4284
+INFO:root:getting audio for 伴侣
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E4%BC%B4%E4%BE%A3.mp3 HTTP/1.1" 200 4389
+INFO:root:getting audio for 伴随
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E4%BC%B4%E9%9A%8F.mp3 HTTP/1.1" 200 4493
+INFO:root:getting audio for 绑架
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E7%BB%91%E6%9E%B6.mp3 HTTP/1.1" 200 4389
+INFO:root:getting audio for 包庇
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E5%8C%85%E5%BA%87.mp3 HTTP/1.1" 200 4180
+INFO:root:getting audio for 包袱
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E5%8C%85%E8%A2%B1.mp3 HTTP/1.1" 200 3971
+INFO:root:getting audio for 包围
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E5%8C%85%E5%9B%B4.mp3 HTTP/1.1" 200 4284
+INFO:root:getting audio for 包装
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E5%8C%85%E8%A3%85.mp3 HTTP/1.1" 200 4389
+INFO:root:饱和 --SKIPPED--
+INFO:root:getting audio for 饱经沧桑
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E9%A5%B1%E7%BB%8F%E6%B2%A7%E6%A1%91.mp3 HTTP/1.1" 200 6896
+INFO:root:getting audio for 保管
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E4%BF%9D%E7%AE%A1.mp3 HTTP/1.1" 200 4284
+INFO:root:getting audio for 保密
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E4%BF%9D%E5%AF%86.mp3 HTTP/1.1" 200 4180
+INFO:root:getting audio for 保姆
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E4%BF%9D%E5%A7%86.mp3 HTTP/1.1" 200 4180
+INFO:root:getting audio for 保守
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E4%BF%9D%E5%AE%88.mp3 HTTP/1.1" 200 4180
+INFO:root:getting audio for 保卫
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E4%BF%9D%E5%8D%AB.mp3 HTTP/1.1" 200 3971
+INFO:root:getting audio for 保养
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E4%BF%9D%E5%85%BB.mp3 HTTP/1.1" 200 4180
+INFO:root:getting audio for 保障
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E4%BF%9D%E9%9A%9C.mp3 HTTP/1.1" 200 4180
+INFO:root:getting audio for 保重
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E4%BF%9D%E9%87%8D.mp3 HTTP/1.1" 200 4075
+INFO:root:getting audio for 报仇
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E6%8A%A5%E4%BB%87.mp3 HTTP/1.1" 200 4389
+INFO:root:getting audio for 报酬
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E6%8A%A5%E9%85%AC.mp3 HTTP/1.1" 200 4389
+INFO:root:getting audio for 报答
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E6%8A%A5%E7%AD%94.mp3 HTTP/1.1" 200 4180
+INFO:root:getting audio for 报复
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E6%8A%A5%E5%A4%8D.mp3 HTTP/1.1" 200 4284
+INFO:root:getting audio for 榜样
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E6%A6%9C%E6%A0%B7.mp3 HTTP/1.1" 200 4284
+INFO:root:getting audio for 磅
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E7%A3%85.mp3 HTTP/1.1" 200 2612
+INFO:root:getting audio for 报警
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E6%8A%A5%E8%AD%A6.mp3 HTTP/1.1" 200 4284
+INFO:root:getting audio for 报销
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E6%8A%A5%E9%94%80.mp3 HTTP/1.1" 200 4389
+INFO:root:getting audio for 抱负
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E6%8A%B1%E8%B4%9F.mp3 HTTP/1.1" 200 4075
+INFO:root:getting audio for 暴力
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E6%9A%B4%E5%8A%9B.mp3 HTTP/1.1" 200 3762
+INFO:root:getting audio for 暴露
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E6%9A%B4%E9%9C%B2.mp3 HTTP/1.1" 200 3971
+INFO:root:getting audio for 曝光
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 37
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E6%9B%9D%E5%85%89.mp3 HTTP/1.1" 200 3553
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.memrise.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /course/1136341/test/edit/database/2104176/?page=1 HTTP/1.1" 200 8245
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.memrise.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /course/1136341/test/edit/database/2104176/?page=2 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.memrise.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /course/1136341/test/edit/database/2104176/?page=3 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.memrise.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /course/1136341/test/edit/database/2104176/?page=4 HTTP/1.1" 200 6886
+INFO:root:昂贵 --SKIPPED--
+INFO:root:凹凸 --SKIPPED--
+INFO:root:熬 --SKIPPED--
+INFO:root:奥秘 --SKIPPED--
+INFO:root:巴不得 --SKIPPED--
+INFO:root:巴结 --SKIPPED--
+INFO:root:扒 --SKIPPED--
+INFO:root:疤 --SKIPPED--
+INFO:root:挨 --SKIPPED--
+INFO:root:癌症 --SKIPPED--
+INFO:root:爱不释手 --SKIPPED--
+INFO:root:爱戴 --SKIPPED--
+INFO:root:暧昧 --SKIPPED--
+INFO:root:安宁 --SKIPPED--
+INFO:root:安详 --SKIPPED--
+INFO:root:安置 --SKIPPED--
+INFO:root:按摩 --SKIPPED--
+INFO:root:案件 --SKIPPED--
+INFO:root:案例 --SKIPPED--
+INFO:root:暗示 --SKIPPED--
+INFO:root:拔苗助长 --SKIPPED--
+INFO:root:把关 --SKIPPED--
+INFO:root:把手 --SKIPPED--
+INFO:root:罢工 --SKIPPED--
+INFO:root:霸道 --SKIPPED--
+INFO:root:掰 --SKIPPED--
+INFO:root:摆脱 --SKIPPED--
+INFO:root:败坏 --SKIPPED--
+INFO:root:拜访 --SKIPPED--
+INFO:root:拜年 --SKIPPED--
+INFO:root:拜托 --SKIPPED--
+INFO:root:getting audio for 颁布
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E9%A2%81%E5%B8%83.mp3 HTTP/1.1" 200 4180
+INFO:root:颁发 --SKIPPED--
+INFO:root:斑 --SKIPPED--
+INFO:root:版本 --SKIPPED--
+INFO:root:半途而废 --SKIPPED--
+INFO:root:扮演 --SKIPPED--
+INFO:root:伴侣 --SKIPPED--
+INFO:root:伴随 --SKIPPED--
+INFO:root:绑架 --SKIPPED--
+INFO:root:包庇 --SKIPPED--
+INFO:root:包袱 --SKIPPED--
+INFO:root:包围 --SKIPPED--
+INFO:root:包装 --SKIPPED--
+INFO:root:饱和 --SKIPPED--
+INFO:root:饱经沧桑 --SKIPPED--
+INFO:root:保管 --SKIPPED--
+INFO:root:保密 --SKIPPED--
+INFO:root:保姆 --SKIPPED--
+INFO:root:保守 --SKIPPED--
+INFO:root:保卫 --SKIPPED--
+INFO:root:保养 --SKIPPED--
+INFO:root:保障 --SKIPPED--
+INFO:root:保重 --SKIPPED--
+INFO:root:报仇 --SKIPPED--
+INFO:root:报酬 --SKIPPED--
+INFO:root:报答 --SKIPPED--
+INFO:root:报复 --SKIPPED--
+INFO:root:榜样 --SKIPPED--
+INFO:root:磅 --SKIPPED--
+INFO:root:报警 --SKIPPED--
+INFO:root:报销 --SKIPPED--
+INFO:root:抱负 --SKIPPED--
+INFO:root:暴力 --SKIPPED--
+INFO:root:暴露 --SKIPPED--
+INFO:root:曝光 --SKIPPED--
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.memrise.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /course/1117733/14313/edit/database/2084987/?page=1 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.memrise.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /course/1117733/14313/edit/database/2084987/?page=1 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.memrise.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /course/1117733/14313/edit/database/2084987/?page=1 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.memrise.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /course/1117733/14313/edit/database/2084987/?page=1 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.memrise.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /course/1117733/14313/edit/database/2084987/?page=1 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.memrise.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /course/1117733/14313/edit/database/2084987/?page=1 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.memrise.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /course/1117733/14313/edit/database/2084987/?page=1 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.memrise.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /course/1117733/14313/edit/database/2084987/?page=1 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.memrise.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /course/1117733/14313/edit/database/2084987/?page=1 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.memrise.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /course/1117733/14313/edit/database/2084987/?page=1 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.memrise.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /course/1117733/14313/edit/database/2084987/?page=1 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.memrise.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /course/1117733/14313/edit/database/2084987/?page=1 HTTP/1.1" 200 None
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.memrise.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /course/1117733/14313/edit/database/2084987/?page=1 HTTP/1.1" 200 None
+INFO:root:旋转 --SKIPPED--
+INFO:root:橇 --SKIPPED--
+INFO:root:乳头 --SKIPPED--
+INFO:root:坚 --SKIPPED--
+INFO:root:柿 --SKIPPED--
+INFO:root:窃 --SKIPPED--
+INFO:root:黎明 --SKIPPED--
+INFO:root:营地 --SKIPPED--
+INFO:root:回信 --SKIPPED--
+INFO:root:罪孽 --SKIPPED--
+INFO:root:裁缝 --SKIPPED--
+INFO:root:简称 --SKIPPED--
+INFO:root:压抑 --SKIPPED--
+INFO:root:天亮 --SKIPPED--
+INFO:root:海湾 --SKIPPED--
+INFO:root:金额 --SKIPPED--
+INFO:root:棒棒糖 --SKIPPED--
+INFO:root:胸罩 --SKIPPED--
+INFO:root:坷 --SKIPPED--
+INFO:root:灌醉 --SKIPPED--
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.memrise.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /course/1117733/14313/edit/database/2084987/?page=1 HTTP/1.1" 200 None
+INFO:root:旋转 --SKIPPED--
+INFO:root:橇 --SKIPPED--
+INFO:root:乳头 --SKIPPED--
+INFO:root:坚 --SKIPPED--
+INFO:root:柿 --SKIPPED--
+INFO:root:窃 --SKIPPED--
+INFO:root:黎明 --SKIPPED--
+INFO:root:营地 --SKIPPED--
+INFO:root:回信 --SKIPPED--
+INFO:root:罪孽 --SKIPPED--
+INFO:root:裁缝 --SKIPPED--
+INFO:root:简称 --SKIPPED--
+INFO:root:压抑 --SKIPPED--
+INFO:root:天亮 --SKIPPED--
+INFO:root:海湾 --SKIPPED--
+INFO:root:金额 --SKIPPED--
+INFO:root:棒棒糖 --SKIPPED--
+INFO:root:胸罩 --SKIPPED--
+INFO:root:坷 --SKIPPED--
+INFO:root:灌醉 --SKIPPED--
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.memrise.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /course/1117733/14313/edit/database/2084987/?page=1 HTTP/1.1" 200 None
+INFO:root:getting audio for 旋转
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.memrise.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /course/1117733/14313/edit/database/2084987/?page=1 HTTP/1.1" 200 None
+INFO:root:getting audio for 旋转
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E6%97%8B%E8%BD%AC.mp3 HTTP/1.1" 200 4598
+INFO:root:getting audio for 橇
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E6%A9%87.mp3 HTTP/1.1" 200 2821
+INFO:root:getting audio for 乳头
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E4%B9%B3%E5%A4%B4.mp3 HTTP/1.1" 200 4075
+INFO:root:getting audio for 坚
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E5%9D%9A.mp3 HTTP/1.1" 200 2821
+INFO:root:getting audio for 柿
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E6%9F%BF.mp3 HTTP/1.1" 200 2508
+INFO:root:getting audio for 窃
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E7%AA%83.mp3 HTTP/1.1" 200 2508
+INFO:root:getting audio for 黎明
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E9%BB%8E%E6%98%8E.mp3 HTTP/1.1" 200 4284
+INFO:root:getting audio for 营地
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E8%90%A5%E5%9C%B0.mp3 HTTP/1.1" 200 4180
+INFO:root:getting audio for 回信
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E5%9B%9E%E4%BF%A1.mp3 HTTP/1.1" 200 4284
+INFO:root:getting audio for 罪孽
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E7%BD%AA%E5%AD%BD.mp3 HTTP/1.1" 200 4075
+INFO:root:getting audio for 裁缝
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E8%A3%81%E7%BC%9D.mp3 HTTP/1.1" 200 3866
+INFO:root:getting audio for 简称
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E7%AE%80%E7%A7%B0.mp3 HTTP/1.1" 200 4598
+INFO:root:getting audio for 压抑
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 37
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E5%8E%8B%E6%8A%91.mp3 HTTP/1.1" 200 3344
+INFO:root:getting audio for 天亮
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E5%A4%A9%E4%BA%AE.mp3 HTTP/1.1" 200 4389
+INFO:root:getting audio for 海湾
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E6%B5%B7%E6%B9%BE.mp3 HTTP/1.1" 200 4180
+INFO:root:getting audio for 金额
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E9%87%91%E9%A2%9D.mp3 HTTP/1.1" 200 4075
+INFO:root:getting audio for 棒棒糖
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E6%A3%92%E6%A3%92%E7%B3%96.mp3 HTTP/1.1" 200 5851
+INFO:root:getting audio for 胸罩
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E8%83%B8%E7%BD%A9.mp3 HTTP/1.1" 200 4598
+INFO:root:getting audio for 坷
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E5%9D%B7.mp3 HTTP/1.1" 200 2508
+INFO:root:getting audio for 灌醉
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E7%81%8C%E9%86%89.mp3 HTTP/1.1" 200 4284
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): www.memrise.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /course/1117733/14313/edit/database/2084987/?page=1 HTTP/1.1" 200 None
+INFO:root:getting audio for 旋转
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E6%97%8B%E8%BD%AC.mp3 HTTP/1.1" 200 4598
+INFO:root:getting audio for 橇
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E6%A9%87.mp3 HTTP/1.1" 200 2821
+INFO:root:getting audio for 乳头
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E4%B9%B3%E5%A4%B4.mp3 HTTP/1.1" 200 4075
+INFO:root:getting audio for 坚
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E5%9D%9A.mp3 HTTP/1.1" 200 2821
+INFO:root:getting audio for 柿
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E6%9F%BF.mp3 HTTP/1.1" 200 2508
+INFO:root:getting audio for 窃
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E7%AA%83.mp3 HTTP/1.1" 200 2508
+INFO:root:getting audio for 黎明
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E9%BB%8E%E6%98%8E.mp3 HTTP/1.1" 200 4284
+INFO:root:getting audio for 营地
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E8%90%A5%E5%9C%B0.mp3 HTTP/1.1" 200 4180
+INFO:root:getting audio for 回信
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E5%9B%9E%E4%BF%A1.mp3 HTTP/1.1" 200 4284
+INFO:root:getting audio for 罪孽
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E7%BD%AA%E5%AD%BD.mp3 HTTP/1.1" 200 4075
+INFO:root:getting audio for 裁缝
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E8%A3%81%E7%BC%9D.mp3 HTTP/1.1" 200 3866
+INFO:root:getting audio for 简称
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E7%AE%80%E7%A7%B0.mp3 HTTP/1.1" 200 4598
+INFO:root:getting audio for 压抑
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 37
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E5%8E%8B%E6%8A%91.mp3 HTTP/1.1" 200 3344
+INFO:root:getting audio for 天亮
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E5%A4%A9%E4%BA%AE.mp3 HTTP/1.1" 200 4389
+INFO:root:getting audio for 海湾
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E6%B5%B7%E6%B9%BE.mp3 HTTP/1.1" 200 4180
+INFO:root:getting audio for 金额
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E9%87%91%E9%A2%9D.mp3 HTTP/1.1" 200 4075
+INFO:root:getting audio for 棒棒糖
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E6%A3%92%E6%A3%92%E7%B3%96.mp3 HTTP/1.1" 200 5851
+INFO:root:getting audio for 胸罩
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E8%83%B8%E7%BD%A9.mp3 HTTP/1.1" 200 4598
+INFO:root:getting audio for 坷
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E5%9D%B7.mp3 HTTP/1.1" 200 2508
+INFO:root:getting audio for 灌醉
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /sounds HTTP/1.1" 200 38
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): soundoftext.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /static/sounds/zh-CN/%E7%81%8C%E9%86%89.mp3 HTTP/1.1" 200 4284

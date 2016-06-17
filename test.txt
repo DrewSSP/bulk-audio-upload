@@ -1,0 +1,1444 @@
+<!doctype html>
+
+<!--[if IE 9]>    <html class="lt-ie10" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html lang="en"> <!--<![endif]-->
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#"><title>
+    
+        Edit database - 
+    
+        Editing - ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! 14313 ⛅ ⛅ ⛅ ⛅ ⛅,  
+    
+
+    
+ - Memrise</title><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta property="fb:app_id" content="143688012353890" /><meta property="fb:page_id" content="149149908445051" /><meta name="verify-v1" content="r5bzTFj/sOtziIZeSFKZUP+iE3hSIhSVsZvGn5UvoA4=" /><meta name="theme-color" content="#28A0ED" /><meta name="apple-mobile-web-app-capable" content="yes"><meta property="og:site_name" content="Memrise" /><meta property="og:title" content="! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! 14313 ⛅ ⛅ ⛅ ⛅ ⛅" /><meta property="twitter:card" content="summary" /><meta property="twitter:title" content="! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! 14313 ⛅ ⛅ ⛅ ⛅ ⛅ - Learn Mandarin Chinese (Simplified) on @memrise" /><meta name="description" content="" /><meta property="og:description" content="" /><meta property="twitter:description" content="" /><meta property="og:url" content="http://www.memrise.com/course/1117733/14313/" /><meta property="og:image" content="http://d2rhekw5qr4gcj.cloudfront.net/img/400sqf/from/uploads/course_photos/6963938000160528073003.jpg" /><meta property="og:image:width" content="400" /><meta property="og:image:height" content="400" /><meta property="twitter:image" content="http://d2rhekw5qr4gcj.cloudfront.net/img/400sqf/from/uploads/course_photos/6963938000160528073003.jpg" /><meta name="apple-itunes-app" content="app-id=635966718"><meta property="og:site_name" content="Memrise" /><link rel="alternate" hreflang="en" href="http://www.memrise.com/course/1117733/14313/" /><meta name="robots" content="noindex, nofollow" /><link href="https://plus.google.com/113645013176360560927/" rel="publisher" /><link rel="canonical" href="http://www.memrise.com/course/1117733/14313/" /><link href="https://plus.google.com/113645013176360560927/" rel="publisher" /><link rel="icon" type="image/png" href="http://static.memrise.com/img/icon_16x16.png?v=35" /><link rel="apple-touch-icon" sizes="72x72" href="http://static.memrise.com/img/logo/white-iphone.png?v=35" /><link rel="apple-touch-icon" sizes="114x114" href="http://static.memrise.com/img/logo/white-ipad.png?v=35" /><link rel="image_src" href="http://d2rhekw5qr4gcj.cloudfront.net/img/400sqf/from/uploads/course_photos/6963938000160528073003.jpg"><link rel="stylesheet" type="text/css" href="http://static.memrise.com/dist/css/extern/bootstrap-e5b4f1973.css?v=35" /><link rel="stylesheet" type="text/css" href="http://static.memrise.com/dist/css/web-70a943733.css?v=35" /><link rel="stylesheet" type="text/css" href="http://static.memrise.com/dist/css/icons-a215f2503.css?v=35" /><link rel="stylesheet" type="text/css" href="http://static.memrise.com/garden/dist/css/views/course-d5d411553.css?v=35" /><link rel="stylesheet" type="text/css" href="http://static.memrise.com/editing/dist/css/editing-fd2cfc703.css?v=35" /><!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="http://static.memrise.com/dist/css/ie-b99bce0c3.css?v=35" /><![endif]--><script>
+                (function (d) {
+                    var h = d.documentElement, t = (new Date()).getHours(); 
+                    if((t >= 23 || t < 5)) { h.className = h.className + " night"; } 
+                })(document);
+            </script></head>
+
+<body class="reverse-header-ruled course_edit wide_mode "  data-course-id="1117733" data-course-url="/course/1117733/14313/">
+
+    
+
+    
+
+        
+<div id="header" class="header-v2">
+    <div class="header-row row">
+        <a class="header-logo" href="/" title="Home">
+            
+                <span class="header-logo-wrapper">
+                    <span class="header-logo-img"></span>
+                    <span class="header-logo-text"></span>
+                </span>
+            
+        </a>
+        <ul class="header-nav ">
+            
+            <li class="header-nav-item plain ">
+                <a href="/home/" class="nav-item-btn">
+                    <span class="nav-item-btn-text">Home</span>
+                </a>
+            </li>
+            
+            <li class="header-nav-item plain is-active">
+                <a href="/courses/" class="nav-item-btn">
+                    <span class="nav-item-btn-text">Courses</span>
+                </a>
+            </li>
+            
+                
+                <li class="header-nav-item plain create ">
+                    <a href="/groups/" class="nav-item-btn">
+                        <span class="nav-item-btn-text">Groups</span>
+                    </a>
+                </li>
+                
+                <li class="header-profile-wrapper">
+                    <span class="header-info-card js-info-toggle">
+                        <span class="info-card-inner" accesskey="h">
+                            <span class="info-card-picture">
+                                <img class="profile-avatar" src="http://d2rhekw5qr4gcj.cloudfront.net/img/100sqf/from/uploads/profiles/DrewSSP_160516_0233_57.jpg" alt=""/>
+                            </span>
+                            <span class="profile-badge rank-badge rank-badge-meminence rank-badge-s">
+                                <span class="badge-inner badge-inner-s">
+                                    <span class="badge-ico"></span>
+                                </span>
+                            </span>
+                        </span>
+                    </span>
+                    <span class="header-dropdown-arrow js-info-toggle"></span>
+                    
+
+<ul class="header-profile-inner">
+    <li class="profile-row">
+        <div class="profile-col rank-badge rank-badge-meminence rank-badge-m">
+            <div class="badge-inner badge-inner-m">
+                <div class="badge-ico"></div>
+            </div>
+        </div>
+        <div class="profile-col rank-text rank-badge-meminence">
+            <p class="profile-rank-text text-small">11,491,440 points</p>
+            <p class="profile-rank-text text-big">Meminence</p>
+        </div>
+    </li>
+    <li class="profile-row profile-progress">
+        <span class="profile-progress-bar js-progress-bar" data-progress="0.0373"></span>
+    </li>
+    <li class="profile-row">
+        <div class="profile-col rank-badge rank-badge-memperor rank-badge-m rank-badge-inactive">
+            <div class="badge-inner badge-inner-m">
+                <div class="badge-ico"></div>
+            </div>
+        </div>
+        <div class="profile-col rank-text rank-badge-memperor">
+            <p class="profile-rank-text text-small">+38,508,560 points to</p>
+            <p class="profile-rank-text text-big"><strong>Memperor</strong></p>
+        </div>
+    </li>
+    
+        <hr />
+    
+    <li class="profile-row profile-links">
+        <a href="/user/DrewSSP/" class="profile-link">
+            <i class="profile-link-icon link-icon-1"></i>
+            <span class="profile-link-text">My profile</span>
+        </a>
+        <a href="/settings/" class="profile-link">
+            <i class="profile-link-icon link-icon-2"></i>
+            <span class="profile-link-text">Settings</span>
+        </a>
+        <a href="/logout/" class="profile-link js-logout">
+            <i class="profile-link-icon link-icon-3"></i>
+            <span class="profile-link-text">Log out</span>
+        </a>
+    </li>
+</ul>
+
+                </li>
+            
+        </ul>
+    </div>
+</div>
+<div class="header-fake"></div>
+
+
+    
+
+    
+
+        <div id="page-head" class="">
+            <div class="inner">
+                
+    <div class="course-header course-header-slim clearfix">
+
+    <div class="more-info">
+
+            
+
+            <div class="course-creator">
+
+                <a href="/user/Arete_Hime/courses/teaching/" class="creator-image thumbnail whitebox thumbnail-s">
+                    <img src="http://d2rhekw5qr4gcj.cloudfront.net/img/100sqf/from/uploads/profiles/Arete_Hime_150120_0009_42.jpg" />
+                </a>
+
+                <div class="details">
+
+                    <h5 class="created-by">Created by</h5>
+
+                    <a data-role="hovercard" data-user-id="6963938" data-direction="bottom" href="/user/Arete_Hime/courses/teaching/" rel="author" class="creator-name">
+                        Arete_Hime
+                    </a>
+
+                </div>
+
+            </div>
+
+    </div>
+
+    <a href="/course/1117733/14313/" class="course-photo">
+        <img src="http://d2rhekw5qr4gcj.cloudfront.net/img/100sqf/from/uploads/course_photos/6963938000160528073003.jpg" />
+    </a>
+
+    <div class="course-details">
+
+        <a href="/course/1117733/14313/" accesskey="c">
+            <h1 class="course-name" title="! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! 14313 ⛅ ⛅ ⛅ ⛅ ⛅">! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! 14313 ⛅ ⛅ ⛅ ⛅ ⛅</h1>
+        </a>
+
+    </div>
+
+</div>
+
+
+            </div>
+        </div>
+    
+
+    
+    
+
+
+<div class="course-tabs-wrap">
+    <div class="container">
+        <div class="left">
+            <h2>Editing</h2>
+
+            <ul class="nav nav-pills chromeless">
+                <li >
+                    <a href="/course/1117733/14313/edit/" class="tab">
+                        <i class="ico ico-list"></i>
+                        
+                            Levels (12)
+                        
+                    </a>
+                </li>
+                
+                <li class="dropdown active">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <i class="ico ico-re-order"></i>
+                        Databases
+                        <i class="ico ico-s ico-arr-down ico-right"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                        
+                            <li>
+                                <a href="/course/1117733/14313/edit/database/2084987/">
+                                Mandarin Chinese (Simplified)
+                                </a>
+                            </li>
+                        
+
+                        <li class="divider"></li>
+
+                        <li>
+                            <a href="/course/1117733/14313/edit/database/add/">
+                                <i class="ico ico-plus"></i>
+                                Add New
+                            </a>
+                        </li>
+
+                    </ul>
+                </li>
+                
+                <li >
+                    <a href="/course/1117733/14313/edit/contributors/" class="tab">
+                        <i class="ico ico-people"></i>
+                        Contributors
+                    </a>
+                </li>
+                <li >
+                    <a href="/course/1117733/14313/edit/details/" class="tab">
+                        <i class="ico ico-settings"></i>
+                        Details
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="right">
+            
+                <a href="/course/1117733/14313/" class="button">
+                    <span class="ico ico-arr-left"></span>
+                    <span class="text">Back to Course</span>
+                </a>
+            
+        </div>
+    </div>
+</div>
+
+
+    <div id="thing_file_uploader" style="width:0px;height:0px;position:absolute;top:-1000;">&nbsp;</div>
+
+
+    
+        <div id="content" class="">
+            <div class="container container-main">
+                
+    <div id="p2084987" class="tab-pane active" data-pool-id="2084987">
+
+        <div class="pool-header clearfix">
+            <h2 class="pool-name" data-role="pool-name">
+                Mandarin Chinese (Simplified)
+            </h2>
+
+            <div class="pull-right">
+                <form id="search_form" action="" method="GET" class="form-inline">
+                    <div class="input-with-button search-box">
+                        <input id="search_string" name="q" type="text" placeholder="Search &hellip;" value="" />
+                        <button type="submit" class="btn-default btn-ico">
+                            <i class="ico ico-search"></i>
+                        </button>
+                    </div>
+                </form>
+                <form class="form-inline">
+                    <label class="checkbox">
+                        
+                    </label>
+
+                    
+
+<button class="btn btn-icos-active" data-role="pool-column-add">
+    <i class="ico ico-plus"></i>
+    Add Column
+</button>
+
+                    
+
+<button class="btn btn-icos-active" data-role="pool-bulk-add">
+    <i class="ico ico-plus"></i>
+    Bulk Add
+</button>
+
+
+                    
+                    <div class="input-prepend input-append">
+                        <input type="text" value="15" style="width:50px" title="The number of things per level" />
+                        <span class="add-on">words/level</span>
+                        <a class="btn" data-role="course-pool-levelify">
+                            Create levels
+                        </a>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+
+        <div class="table-container"><table data-pool-id="2084987"
+           class="table pool-things"
+           width="100%"><thead class="columns"><tr><th></th><th class="column" data-role="pool-column-header" data-key="1"><span class="txt">1</span>&nbsp;
+                        <i class="ico ico-edit ico-blue"></i></th><th class="column" data-role="pool-column-header" data-key="2"><span class="txt">2</span>&nbsp;
+                        <i class="ico ico-edit ico-blue"></i></th><th class="column" data-role="pool-column-header" data-key="3"><span class="txt">prompt</span>&nbsp;
+                        <i class="ico ico-edit ico-blue"></i></th><th class="column" data-role="pool-column-header" data-key="4"><span class="txt">test</span>&nbsp;
+                        <i class="ico ico-edit ico-blue"></i></th><th class="column" data-role="pool-column-header" data-key="5"><span class="txt">5</span>&nbsp;
+                        <i class="ico ico-edit ico-blue"></i></th><th class="column" data-role="pool-column-header" data-key="6"><span class="txt">6</span>&nbsp;
+                        <i class="ico ico-edit ico-blue"></i></th><th class="column" data-role="pool-column-header" data-key="7"><span class="txt">7</span>&nbsp;
+                        <i class="ico ico-edit ico-blue"></i></th><th class="column" data-role="pool-column-header" data-key="8"><span class="txt">8</span>&nbsp;
+                        <i class="ico ico-edit ico-blue"></i></th><th class="column" data-role="pool-column-header" data-key="9"><span class="txt">9</span>&nbsp;
+                        <i class="ico ico-edit ico-blue"></i></th><th class="column" data-role="pool-column-header" data-key="10"><span class="txt">Audio</span>&nbsp;
+                        <i class="ico ico-edit ico-blue"></i></th></tr></thead><tbody class="things"><tr class="thing" data-thing-id="107788608"><td><i class="ico ico-close" data-role="delete" title="Delete word"></i></td><td class="cell text column"
+    data-key="1"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">旋转</div></div></td><td class="cell text column"
+    data-key="2"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">旋转 xuán↗ zhuǎn</div></div></td><td class="cell text column"
+    data-key="3"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">旋转 ˊ ˇ | | | | | 物体围绕一个点或一个轴作圆周运动,如地球绕地轴旋转,同时也围绕太阳旋转。 ⛅ ⛅ ⛅ ⛅ ⛅ ⛅ The cog wheels started to turn. &gt; 齿轮开始旋转。 | | | | The earth revolves around the sun. &gt; 地球围绕太阳旋转。 | 16.42 | v | .v.vn. | new6</div></div></td><td class="cell text column"
+    data-key="4"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">旋转 ___ xuán zhuǎn __ ⛅ to rotate; to revolve; to spin; to whirl</div></div></td><td class="cell text column"
+    data-key="5"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">旋  ~  Composed of  (yǎn) &#39;flag&#39; and 疋 (shū) &#39;foot&#39;.   ◆  &quot;From  (streamer:) to swing, to turn, and 疋 foot&quot; --Karlgren.</div></div></td><td class="cell text column"
+    data-key="6"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">旋 [ xuán ] to revolve; a loop; a circle ♥ ♥ [ xuàn ] to whirl; immediately; variant of 鏇|镟[xuan4] Ω 凯旋、旋、盘旋、旋律、螺旋、*旋转、旋风、回旋、周旋、螺旋桨</div></div></td><td class="cell text column"
+    data-key="7"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">转  ~  From 车(車 chē) &#39;car&#39; (wheels) and 专(專) zhuān phonetic.   ◆  Of the two pronunciations zhuǎn and zhuàn, the former is more common, while the latter is only used for the literal sense of physical rotation.</div></div></td><td class="cell text column"
+    data-key="8"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">转 [ zhuǎn ] to turn; to change direction; to transfer; to forward (mail) ♥ ♥ [ zhuàn ] to revolve; to turn; to circle about; to walk about; classifier for revolutions (per minute etc): revs, rpm; classifier for repeated actions ∞ 转换、转转、好转、转角、转移、转给、转变、转身、*旋转、转接、转学、转折点、晕头转向</div></div></td><td class="cell text column"
+    data-key="9"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">物体围绕一个点或一个轴作圆周运动,如地球绕地轴旋转,同时也围绕太阳旋转。</div></div></td><td class="cell audio column"
+    data-key="10"
+    data-cell-type="column"><div class="btn-group"><div class="btn btn-mini files-add">
+                    Upload <input type="file" name="f" class="add_thing_file" /></div><div class="btn btn-mini open-recorder">Record</div><button class="btn btn-mini dropdown-toggle disabled" data-toggle="dropdown" style="overflow:hidden;">
+                    
+                        
+                            no audio file
+                        
+                    
+                    <i class="ico ico-s ico-arr-down"></i></button><div class="dropdown-menu audios"></div></div></td></tr><tr class="thing" data-thing-id="107788609"><td><i class="ico ico-close" data-role="delete" title="Delete word"></i></td><td class="cell text column"
+    data-key="1"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">橇</div></div></td><td class="cell text column"
+    data-key="2"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">橇 QIĀO</div></div></td><td class="cell text column"
+    data-key="3"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">橇 ⛅♥♫♣  qiāo(1)在冰雪上滑行的交通工具,如雪橇。(2)古时在泥路上行走的用具。    ⛅ ⛅ ⛅ ⛅   雪橇</div></div></td><td class="cell text column"
+    data-key="4"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">橇 _____ QIĀO _____ ⛅ sled; sleigh ⛅</div></div></td><td class="cell text column"
+    data-key="5"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">橇  ~  From 木 (mù) &#39;wood&#39; and 毳 cuì phonetic.</div></div></td><td class="cell text column"
+    data-key="6"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">橇 [qiāo] sledge, sled, sleigh   |  ☼      橇 3qiāo n. sledge; sled; sleigh</div></div></td><td class="cell text column"
+    data-key="7"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">雪橇</div></div></td><td class="cell text column"
+    data-key="8"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text"></div></div></td><td class="cell text column"
+    data-key="9"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text"></div></div></td><td class="cell audio column"
+    data-key="10"
+    data-cell-type="column"><div class="btn-group"><div class="btn btn-mini files-add">
+                    Upload <input type="file" name="f" class="add_thing_file" /></div><div class="btn btn-mini open-recorder">Record</div><button class="btn btn-mini dropdown-toggle disabled" data-toggle="dropdown" style="overflow:hidden;">
+                    
+                        
+                            no audio file
+                        
+                    
+                    <i class="ico ico-s ico-arr-down"></i></button><div class="dropdown-menu audios"></div></div></td></tr><tr class="thing" data-thing-id="107788610"><td><i class="ico ico-close" data-role="delete" title="Delete word"></i></td><td class="cell text column"
+    data-key="1"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">乳头</div></div></td><td class="cell text column"
+    data-key="2"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">乳头 rǔ tóu↗</div></div></td><td class="cell text column"
+    data-key="3"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">乳头 ˇ ˊ | | | | | (1)乳房上圆球形的突起,尖端有小孔,乳汁从小孔流出。也叫奶头。(2)象乳头的东西:真皮乳头|视神经乳头。 ⛅ ⛅ ⛅ ⛅ ⛅ ⛅ The papillae of the tongue. &gt; 舌头的乳头状突起。 | | | | Indeed, if all goes well with current clinical trials, women at high risk for breast cancer will soon be able to be screened with a device that removes a sample of breast cells through the nipple. &gt; 的确,如果目前临床实验顺利进行,有高风险患乳腺癌的妇女不久就可以使用一种装置,从乳头做取样化验。 | 8.53 | n | .n. |</div></div></td><td class="cell text column"
+    data-key="4"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">乳头 ___ rǔ tóu _____ ⛅ nipple</div></div></td><td class="cell text column"
+    data-key="5"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">乳  ~  Depiction of a 子 (zǐ) child nursing. 乚 is a breast. 爫(爪 zhǎo) may be the woman&#39;s hand.   ◆  Compare 孔 kǒng &#39;hole&#39; and 孚 fú &#39;inspire confidence&#39;.</div></div></td><td class="cell text column"
+    data-key="6"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">乳 breast; milk Ω 哺乳、哺乳动物、乳酪、*乳头、乳房、乳、乳齿象、乳腺癌、乳糖、母乳、乳臭未干</div></div></td><td class="cell text column"
+    data-key="7"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">头  ~  The full form 頭 is composed of 豆 dòu (&#39;bean&#39;) phonetic and 頁 yè &#39;head&#39;. The simple form 头 is a 大 (dà) person, with the head indicated by two 丶 dots (头 also traces the outline of 頭).   ◆  Don&#39;t confuse 头 tóu with 斗 dǒu dòu.</div></div></td><td class="cell text column"
+    data-key="8"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">头 [ tóu ] head; hair style; the top; end; beginning or end; a stub; remnant; chief; boss; side; aspect; first; leading; classifier for pigs or livestock; CL:個|个[ge4] ♥ ♥ [ tou ] suffix for nouns ∞ 回头、里头、老头子、钟头、掉头、石头、碰头、*乳头、头衔、从头、块头、头骨、户头</div></div></td><td class="cell text column"
+    data-key="9"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">(1)乳房上圆球形的突起,尖端有小孔,乳汁从小孔流出。也叫奶头。(2)象乳头的东西:真皮乳头|视神经乳头。</div></div></td><td class="cell audio column"
+    data-key="10"
+    data-cell-type="column"><div class="btn-group"><div class="btn btn-mini files-add">
+                    Upload <input type="file" name="f" class="add_thing_file" /></div><div class="btn btn-mini open-recorder">Record</div><button class="btn btn-mini dropdown-toggle disabled" data-toggle="dropdown" style="overflow:hidden;">
+                    
+                        
+                            no audio file
+                        
+                    
+                    <i class="ico ico-s ico-arr-down"></i></button><div class="dropdown-menu audios"></div></div></td></tr><tr class="thing" data-thing-id="107788611"><td><i class="ico ico-close" data-role="delete" title="Delete word"></i></td><td class="cell text column"
+    data-key="1"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">坚</div></div></td><td class="cell text column"
+    data-key="2"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">坚 JIĀN</div></div></td><td class="cell text column"
+    data-key="3"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">坚 ⛅♥♫♣  jiān(1)硬;坚固:坚冰|坚城|坚不可破|坚如磐石。(2)坚固的东西(多指阵地):攻坚|无坚不摧。(3)坚定;坚决:坚信|坚守阵地。(4)姓。    ⛅ ⛅ ⛅ ⛅   坚贞不屈、坚韧、坚实、坚硬、坚持、坚固、坚守、坚、坚果、坚决、坚定、坚信、坚强、坚持不懈、坚不可摧、坚挺、美利坚、坚定不移</div></div></td><td class="cell text column"
+    data-key="4"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">坚 _____ JIĀN _____ ⛅ strong; solid; firm; unyielding; resolute ⛅</div></div></td><td class="cell text column"
+    data-key="5"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">坚  ~  Originally written 臤, 臣 (chén) &#39;subject&#39; (as opposed to 君 jūn &#39;prince&#39;), plus 又 (yòu) &#39;hand&#39;. The meaning is for a prince to have his 臣 subjects firmly in 又 hand. To emphasize the meaning of solidity, 土 (tǔ) &#39;earth&#39; was added, forming 堅. In the simple form 坚, 臣 is reduced to two vertical strokes (the form 坚 is at least 800 years old).   ◆  臤 (or ) is a phonetic component in 紧(緊) jǐn &#39;tight&#39; and 贤(賢) xián &#39;virtuous&#39;. It is a signific component in 肾(腎) shèn &#39;kidneys&#39; and 竖(豎) shù &#39;upright&#39;.</div></div></td><td class="cell text column"
+    data-key="6"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">坚(F堅) [jiān] hard, solid; firmly; 坚持 persist; 坚定 firm   |  ☼      坚[堅] 7jiān b.f. 1hard; solid     ※ jiānyìng 2firm; strong     ※ 2jiāngù 3stronghold; fortification     ※ 1gōngjiān ◆adv. firmly; resolutely ◆n. Surname</div></div></td><td class="cell text column"
+    data-key="7"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">坚贞不屈、坚韧、坚实、坚硬、坚持、坚固、坚守、坚、坚果、坚决、坚定、坚信、坚强、坚持不懈、坚不可摧、坚挺、美利坚、坚定不移</div></div></td><td class="cell text column"
+    data-key="8"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text"></div></div></td><td class="cell text column"
+    data-key="9"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text"></div></div></td><td class="cell audio column"
+    data-key="10"
+    data-cell-type="column"><div class="btn-group"><div class="btn btn-mini files-add">
+                    Upload <input type="file" name="f" class="add_thing_file" /></div><div class="btn btn-mini open-recorder">Record</div><button class="btn btn-mini dropdown-toggle disabled" data-toggle="dropdown" style="overflow:hidden;">
+                    
+                        
+                            no audio file
+                        
+                    
+                    <i class="ico ico-s ico-arr-down"></i></button><div class="dropdown-menu audios"></div></div></td></tr><tr class="thing" data-thing-id="107788612"><td><i class="ico ico-close" data-role="delete" title="Delete word"></i></td><td class="cell text column"
+    data-key="1"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">柿</div></div></td><td class="cell text column"
+    data-key="2"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">柿 Shì</div></div></td><td class="cell text column"
+    data-key="3"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">柿 ⛅♥♫♣  shì(1)柿子树,落叶乔木,品种很多,叶子椭圆形或倒卵形,背面有绒毛,花黄白色。结浆果,扁圆形或圆锥形,橙黄色或红色,可以吃。(2)这种植物的果实。    ⛅ ⛅ ⛅ ⛅   西红柿</div></div></td><td class="cell text column"
+    data-key="4"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">柿 _____ Shì _______ ⛅ [ shì ] old variant of 柿[shi4] ♥ ♥ [ shì ] persimmon ⛅</div></div></td><td class="cell text column"
+    data-key="5"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">柿  ~  From 木 (mù) &#39;tree&#39; and 市 shì phonetic.</div></div></td><td class="cell text column"
+    data-key="6"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">柿 [shì] 柿子 shìzi persimmon; 西红柿 xīhóngshì tomato   |  ☼      柿 17shì b.f. persimmon     ※ 1shìzi</div></div></td><td class="cell text column"
+    data-key="7"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">西红柿</div></div></td><td class="cell text column"
+    data-key="8"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text"></div></div></td><td class="cell text column"
+    data-key="9"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text"></div></div></td><td class="cell audio column"
+    data-key="10"
+    data-cell-type="column"><div class="btn-group"><div class="btn btn-mini files-add">
+                    Upload <input type="file" name="f" class="add_thing_file" /></div><div class="btn btn-mini open-recorder">Record</div><button class="btn btn-mini dropdown-toggle disabled" data-toggle="dropdown" style="overflow:hidden;">
+                    
+                        
+                            no audio file
+                        
+                    
+                    <i class="ico ico-s ico-arr-down"></i></button><div class="dropdown-menu audios"></div></div></td></tr><tr class="thing" data-thing-id="107788613"><td><i class="ico ico-close" data-role="delete" title="Delete word"></i></td><td class="cell text column"
+    data-key="1"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">窃</div></div></td><td class="cell text column"
+    data-key="2"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">窃 Qiè↘</div></div></td><td class="cell text column"
+    data-key="3"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">窃 ˋ | | | | | qiè(1)偷:行窃|窃案◇窃国大盗。(2)偷偷地:窃笑|窃听。(3)&lt;书&gt;谦指自己(意见):窃谓|窃以为不可。 ⛅ ⛅ ⛅ ⛅ ⛅ ⛅ He left the scene in a hurry after the robbery. &gt; 他绺窃得手后就匆忙离开了现场。 | | | |  &gt;  | 7.3 | g | .g. |</div></div></td><td class="cell text column"
+    data-key="4"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">窃 _____ Qiè _______ ⛅ to steal; secretly; (humble) I</div></div></td><td class="cell text column"
+    data-key="5"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">窃  ~  The simple form 窃 is composed of 穴 (xué) &#39;hole&#39; over 切 qiè phonetic.   ◆  The full form 竊 is 穴 over 釆 (biàn) and 禼 xiè phonetic.   ◆  &quot;The seal has not 釆 but 廿 and 米: 穴 break a hole and rob 廿 plenty of 釆 rice?&quot; --Karlgren.</div></div></td><td class="cell text column"
+    data-key="6"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">窃 to steal; secretly; (humble) I Ω 失窃、窃取、窃听、*窃、窃听器、偷窃、盗窃、剽窃、窃贼</div></div></td><td class="cell text column"
+    data-key="7"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text"></div></div></td><td class="cell text column"
+    data-key="8"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text"></div></div></td><td class="cell text column"
+    data-key="9"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">qiè(1)偷:行窃|窃案◇窃国大盗。(2)偷偷地:窃笑|窃听。(3)&lt;书&gt;谦指自己(意见):窃谓|窃以为不可。</div></div></td><td class="cell audio column"
+    data-key="10"
+    data-cell-type="column"><div class="btn-group"><div class="btn btn-mini files-add">
+                    Upload <input type="file" name="f" class="add_thing_file" /></div><div class="btn btn-mini open-recorder">Record</div><button class="btn btn-mini dropdown-toggle disabled" data-toggle="dropdown" style="overflow:hidden;">
+                    
+                        
+                            no audio file
+                        
+                    
+                    <i class="ico ico-s ico-arr-down"></i></button><div class="dropdown-menu audios"></div></div></td></tr><tr class="thing" data-thing-id="107788614"><td><i class="ico ico-close" data-role="delete" title="Delete word"></i></td><td class="cell text column"
+    data-key="1"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">黎明</div></div></td><td class="cell text column"
+    data-key="2"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">黎明 lí↗ míng↗</div></div></td><td class="cell text column"
+    data-key="3"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">黎明 ˊ ˊ | | | | | 天快要亮或刚亮的时候。 ⛅ ⛅ ⛅ ⛅ ⛅ ⛅ The darkest hour is that before the dawn. &gt; 黎明之前是最黑暗的时刻。 | | | | The first hint of dawn was touching the valley. &gt; 黎明的第一缕微曦正照亮这个山谷。 | 7.33 | t | .t. | new6</div></div></td><td class="cell text column"
+    data-key="4"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">黎明 ___ lí míng ____ ⛅ dawn; daybreak</div></div></td><td class="cell text column"
+    data-key="5"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">黎  ~  The phonetic is 利 lì, but with a three-stroke variant of 刀 knife, instead of 刂.   ◆  &quot;Black, blackhaired; the black-haired ones: the people --- the signific is not, as generally stated, 黍 millet but 桼 varnish abbreviated&quot; --Karlgren.   ◆  Compare 黧 lí.</div></div></td><td class="cell text column"
+    data-key="6"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">黎 [ Lí ] Li ethnic group of Hainan Province; surname Li; abbr. for Lebanon 黎巴嫩[Li2 ba1 nen4] ♥ ♥ [ lí ] black Ω 波多黎各、黎巴嫩、哥斯达黎加、*黎明、巴黎、苏黎世</div></div></td><td class="cell text column"
+    data-key="7"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">明  ~  From 日 (rì) &#39;sun&#39; and 月 (yuè) &#39;moon&#39;.</div></div></td><td class="cell text column"
+    data-key="8"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">明 [ Míng ] Ming Dynasty (1368-1644); surname Ming; Ming (c. 2000 BC), fourth of the legendary Flame Emperors, 炎帝[Yan2 di4] descended from Shennong 神農|神农[Shen2 nong2] Farmer God ♥ ♥ [ míng ] bright; opposite: dark 暗[an4]; (of meaning) clear; to understand; next; public or open; wise; generic term for a sacrifice to the gods ∞ 明星、高明、精明、明信片、透明、神明、查明、*黎明、明、不明、三明治、文明、明明</div></div></td><td class="cell text column"
+    data-key="9"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">天快要亮或刚亮的时候。</div></div></td><td class="cell audio column"
+    data-key="10"
+    data-cell-type="column"><div class="btn-group"><div class="btn btn-mini files-add">
+                    Upload <input type="file" name="f" class="add_thing_file" /></div><div class="btn btn-mini open-recorder">Record</div><button class="btn btn-mini dropdown-toggle disabled" data-toggle="dropdown" style="overflow:hidden;">
+                    
+                        
+                            no audio file
+                        
+                    
+                    <i class="ico ico-s ico-arr-down"></i></button><div class="dropdown-menu audios"></div></div></td></tr><tr class="thing" data-thing-id="107788615"><td><i class="ico ico-close" data-role="delete" title="Delete word"></i></td><td class="cell text column"
+    data-key="1"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">营地</div></div></td><td class="cell text column"
+    data-key="2"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">营地 yíng↗ Dì↘</div></div></td><td class="cell text column"
+    data-key="3"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">营地 ˊ ˋ | | | | | 部队扎营的地方。 ⛅ ⛅ ⛅ ⛅ ⛅ ⛅ Many campsites were located near the flowage. &gt; 积水湖附近有许多营地。 | | | | The temporary camps were inadequately equipped. &gt; 临时的营地装备不充分。 | 22.24 | n | .n. |</div></div></td><td class="cell text column"
+    data-key="4"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">营地 ___ yíng Dì ____ ⛅ camp</div></div></td><td class="cell text column"
+    data-key="5"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">营  ~  From 荧(熒) yíng phonetic over 吕 two walls or tents.   ◆  &quot;To plan a building; build, found, arrange; encampment; army corps&quot; --Karlgren.   ◆  Compare 劳(勞) láo and 荣(榮) róng.</div></div></td><td class="cell text column"
+    data-key="6"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">营 camp; barracks; battalion; to build; to operate; to manage; to strive for ∞ 野营、营养、营救、露营、营销、运营、营、经营、*营地、营造、军营、大本营、兵营</div></div></td><td class="cell text column"
+    data-key="7"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">地  ~  From 土 (tǔ) &#39;earth&#39; and 也 yě (&#39;also&#39;) phonetic. The pronunciations have gradually changed so that 地 dì no longer sounds similar to 也 yě.</div></div></td><td class="cell text column"
+    data-key="8"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">地 [ de ] -ly; structural particle: used before a verb or adjective, linking it to preceding modifying adverbial adjunct ♥ ♥ [ dì ] earth; ground; field; place; land; CL:片[pian4] ∞ 谢天谢地、地面、地板、地毯、地铁、地盘、本地、*营地、军事基地、地下、地下室、草地鹨</div></div></td><td class="cell text column"
+    data-key="9"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">部队扎营的地方。</div></div></td><td class="cell audio column"
+    data-key="10"
+    data-cell-type="column"><div class="btn-group"><div class="btn btn-mini files-add">
+                    Upload <input type="file" name="f" class="add_thing_file" /></div><div class="btn btn-mini open-recorder">Record</div><button class="btn btn-mini dropdown-toggle disabled" data-toggle="dropdown" style="overflow:hidden;">
+                    
+                        
+                            no audio file
+                        
+                    
+                    <i class="ico ico-s ico-arr-down"></i></button><div class="dropdown-menu audios"></div></div></td></tr><tr class="thing" data-thing-id="107788616"><td><i class="ico ico-close" data-role="delete" title="Delete word"></i></td><td class="cell text column"
+    data-key="1"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">回信</div></div></td><td class="cell text column"
+    data-key="2"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">回信 huí↗ Xìn↘</div></div></td><td class="cell text column"
+    data-key="3"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">回信 ˊ ˋ | | | | | 1答复来信:希望早日回信|回了他一封信。 ♥  ♥  2(1)答复的信:给哥哥写了一封回信。(2)(回信儿)答复的话:事情办妥了,我给你个回信儿。 ⛅ ⛅ ⛅ ⛅ ⛅ ⛅ She has still not written back. &gt; 她还未回信。 | | | | by return of post &gt; 由下一班回程邮递立即回信 | 4.14 | n | .n.v. | old2</div></div></td><td class="cell text column"
+    data-key="4"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">回信 ___ huí Xìn ____ ⛅ to reply; to write back; letter written in reply; CL:封[feng1]</div></div></td><td class="cell text column"
+    data-key="5"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">回  ~  Image of an object (clouds, volutes of the smoke) that turns, that rolls, that revolves; 转也。象。Abstract notion of revolving, of return. --Wieger.   ◆  The form that was a circle within a circle, was really a different character, 囗 wéi doubled: a double fence. That form survives in 啬 sè (墙 qiáng &#39;wall&#39;), 鄙 bǐ, etc.   ◆  The swirling form became 囘, and then the same as the double wall form 回.</div></div></td><td class="cell text column"
+    data-key="6"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">回 [ huí ] to circle; to go back; to turn around; to answer; to return; to revolve; Hui ethnic group (Chinese Muslims); time; classifier for acts of a play; section or chapter (of a classic book) ♥ ♥ [ huí ] to curve; to return; to revolve ♥ ♥ [ huí ] variant of 迴|回[hui2] ∞ 回击、回到、回答、退回、起死回生、回话、撤回、*回信、取回、回电、驳回、巡回、回头</div></div></td><td class="cell text column"
+    data-key="7"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">信  ~  From 亻(人 rén) &#39;person&#39; and 言 (yán) &#39;words&#39;: a 亻 person&#39;s 言 word.</div></div></td><td class="cell text column"
+    data-key="8"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">信 letter; mail; CL:封[feng1]; to trust; to believe; to profess faith in; truthful; confidence; trust; at will; at random ∞ 信、信誉、深信、信息、信奉、信守、信任、推荐信、*回信、明信片、信托、信号、迷信、信用</div></div></td><td class="cell text column"
+    data-key="9"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">1答复来信:希望早日回信|回了他一封信。 ♥  ♥  2(1)答复的信:给哥哥写了一封回信。(2)(回信儿)答复的话:事情办妥了,我给你个回信儿。</div></div></td><td class="cell audio column"
+    data-key="10"
+    data-cell-type="column"><div class="btn-group"><div class="btn btn-mini files-add">
+                    Upload <input type="file" name="f" class="add_thing_file" /></div><div class="btn btn-mini open-recorder">Record</div><button class="btn btn-mini dropdown-toggle disabled" data-toggle="dropdown" style="overflow:hidden;">
+                    
+                        
+                            no audio file
+                        
+                    
+                    <i class="ico ico-s ico-arr-down"></i></button><div class="dropdown-menu audios"></div></div></td></tr><tr class="thing" data-thing-id="107788617"><td><i class="ico ico-close" data-role="delete" title="Delete word"></i></td><td class="cell text column"
+    data-key="1"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">罪孽</div></div></td><td class="cell text column"
+    data-key="2"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">罪孽 Zuì↘ Niè↘</div></div></td><td class="cell text column"
+    data-key="3"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">罪孽 ˋ ˋ | | | | | 迷信的人认为应受到报应的罪恶:罪孽深重。 ⛅ ⛅ ⛅ ⛅ ⛅ ⛅ It was a hotbed of vice. &gt; 这里是罪孽的滋生地。 | | | | You already have one foot in the grave. Why don&#39;t you repent of your sins? &gt; 你的死期将至,还不好好反省自己的罪孽? | 5.16 | n | .n. |</div></div></td><td class="cell text column"
+    data-key="4"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">罪孽 ___ Zuì Niè ___ ⛅ sin; crime; wrongdoing</div></div></td><td class="cell text column"
+    data-key="5"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">罪  ~  From 罒(网 wǎng) &#39;net&#39; over 非 (fēi) &#39;wrong&#39;.   ◆  A 网 net used to capture the criminal who has done 非 wrong.</div></div></td><td class="cell text column"
+    data-key="6"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">罪 [ zuì ] guilt; crime; fault; blame; sin ♥ ♥ [ zuì ] variant of 罪[zui4], crime ∞ 罪状、受罪、犯罪、怪罪、替罪羊、罪、得罪、*罪孽、赎罪、罪人、重罪、罪过、罪案</div></div></td><td class="cell text column"
+    data-key="7"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">孽  ~  Composed of 薛 (Xuē) over 子 (zǐ) &#39;child&#39;. Originally from a (now obsolete) character 山 over 𠂤, which was phonetic; and 辛 &#39;criminal&#39; and 子 &#39;child&#39;. The top got changed to 薛 (Xuē, a surname) through confusion.   ◆  &quot;Bastard, concubine&#39;s son; misfortune, ill-omen -- 辛 (criminal&#39;s:) slave&#39;s 子 son, signific; the ...form with 薛 at the top is really erroneous, though very common&quot; --Karlgren.   ◆  Compare 蘖.</div></div></td><td class="cell text column"
+    data-key="8"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">孽 [ niè ] variant of 孽[nie4] ♥ ♥ [ niè ] son born of a concubine; disaster; sin; evil Ω *罪孽、孽</div></div></td><td class="cell text column"
+    data-key="9"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">迷信的人认为应受到报应的罪恶:罪孽深重。</div></div></td><td class="cell audio column"
+    data-key="10"
+    data-cell-type="column"><div class="btn-group"><div class="btn btn-mini files-add">
+                    Upload <input type="file" name="f" class="add_thing_file" /></div><div class="btn btn-mini open-recorder">Record</div><button class="btn btn-mini dropdown-toggle disabled" data-toggle="dropdown" style="overflow:hidden;">
+                    
+                        
+                            no audio file
+                        
+                    
+                    <i class="ico ico-s ico-arr-down"></i></button><div class="dropdown-menu audios"></div></div></td></tr><tr class="thing" data-thing-id="107788618"><td><i class="ico ico-close" data-role="delete" title="Delete word"></i></td><td class="cell text column"
+    data-key="1"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">裁缝</div></div></td><td class="cell text column"
+    data-key="2"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">裁缝 cái↗ féng↗</div></div></td><td class="cell text column"
+    data-key="3"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">裁缝 ˊ ˊ | | | | | &lt;轻&gt;做衣服的工人。 ⛅ ⛅ ⛅ ⛅ ⛅ ⛅ I was measured for a custom suit. &gt; 裁缝为我量体裁衣。 | | | | Everyone in his family works or has worked as a tailor. &gt; 他家是裁缝世家。 | 4.14 | n | .n.v. | new6</div></div></td><td class="cell text column"
+    data-key="4"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">裁缝 ___ cái féng ___ ⛅ tailor; dressmaker</div></div></td><td class="cell text column"
+    data-key="5"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">裁  ~  From 𢦏 zái &#39;cut&#39; and 衣 (yī) &#39;clothing&#39;.</div></div></td><td class="cell text column"
+    data-key="6"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">裁 to cut out (as a dress); to cut; to trim; to reduce; to diminish; to cut back (e.g. on staff); decision; judgment Ω 裁军、独裁、裁员、制裁、裁、裁定、*裁缝、裁决、总裁、裁判、独裁者、仲裁</div></div></td><td class="cell text column"
+    data-key="7"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">缝  ~  From 纟(糸 sī) &#39;thread&#39; and 逢 féng (&#39;meet&#39;) phonetic.</div></div></td><td class="cell text column"
+    data-key="8"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">缝 [ féng ] to sew; to stitch ♥ ♥ [ fèng ] seam; crack; narrow slit; CL:道[dao4] Ω *裁缝、缝合、裂缝、天衣无缝、缝、缝纫、缝隙、缝制</div></div></td><td class="cell text column"
+    data-key="9"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">&lt;轻&gt;做衣服的工人。</div></div></td><td class="cell audio column"
+    data-key="10"
+    data-cell-type="column"><div class="btn-group"><div class="btn btn-mini files-add">
+                    Upload <input type="file" name="f" class="add_thing_file" /></div><div class="btn btn-mini open-recorder">Record</div><button class="btn btn-mini dropdown-toggle disabled" data-toggle="dropdown" style="overflow:hidden;">
+                    
+                        
+                            no audio file
+                        
+                    
+                    <i class="ico ico-s ico-arr-down"></i></button><div class="dropdown-menu audios"></div></div></td></tr><tr class="thing" data-thing-id="107788619"><td><i class="ico ico-close" data-role="delete" title="Delete word"></i></td><td class="cell text column"
+    data-key="1"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">简称</div></div></td><td class="cell text column"
+    data-key="2"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">简称 jiǎn CHĒNG</div></div></td><td class="cell text column"
+    data-key="3"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">简称 ˇ ˉ | | | | | (1)较复杂的名称的简化形式。如中共(中国共产党)等。(2)使名称简化:化学肥料简称化肥。 ⛅ ⛅ ⛅ ⛅ ⛅ ⛅ Fred is short for Frederick &gt; 弗雷德是弗雷德里克的简称 | | | | DOT is the Department of Transportation in the United States. &gt; DOT是美国运输部的简称。 | 3.34 | v | .v.n. | old4</div></div></td><td class="cell text column"
+    data-key="4"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">简称 ___ jiǎn CHĒNG _ ⛅ abbreviation; short form</div></div></td><td class="cell text column"
+    data-key="5"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">简  ~  From 竹 (zhú) &#39;bamboo&#39; and 间(間) jiān phonetic.   ◆  Originally 简 jiǎn meant 竹简 the bamboo strips which were used for writing on instead of paper. Then it meant a brief letter or note (etymologically the same word as 柬). Now it means short and simple.</div></div></td><td class="cell text column"
+    data-key="6"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">简 simple; uncomplicated; letter; to choose; to select; bamboo strips used for writing (old) ∞ 简便、精简、简要、简化、简陋、简易、简单、简直、*简称、简报、简短、简历、简、简洁</div></div></td><td class="cell text column"
+    data-key="7"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">称  ~  The left side is 禾 (hé) &#39;grain&#39;. In the full form 稱, the right side is 爯: a 爫 hand holding 冉 scales, weighing the grain. In the simple form 称 the right side is 尔 ěr, like the right side of 你 nǐ. (称 is also the Japanese form.)   ◆  Compare 秤 chèng &#39;balance&#39;, which is a cognate word.</div></div></td><td class="cell text column"
+    data-key="8"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">称 [ chèn ] to fit; balanced; suitable ♥ ♥ [ chēng ] to weigh; to state; to name; name; appellation; to praise ♥ ♥ [ chèng ] variant of 秤[cheng4]; steelyard ∞ 职称、称心、称心如意、尊称、号称、对称、*简称、称号、名称、称赞、称职、宣称</div></div></td><td class="cell text column"
+    data-key="9"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">(1)较复杂的名称的简化形式。如中共(中国共产党)等。(2)使名称简化:化学肥料简称化肥。</div></div></td><td class="cell audio column"
+    data-key="10"
+    data-cell-type="column"><div class="btn-group"><div class="btn btn-mini files-add">
+                    Upload <input type="file" name="f" class="add_thing_file" /></div><div class="btn btn-mini open-recorder">Record</div><button class="btn btn-mini dropdown-toggle disabled" data-toggle="dropdown" style="overflow:hidden;">
+                    
+                        
+                            no audio file
+                        
+                    
+                    <i class="ico ico-s ico-arr-down"></i></button><div class="dropdown-menu audios"></div></div></td></tr><tr class="thing" data-thing-id="107788620"><td><i class="ico ico-close" data-role="delete" title="Delete word"></i></td><td class="cell text column"
+    data-key="1"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">压抑</div></div></td><td class="cell text column"
+    data-key="2"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">压抑 YĀ Yì↘</div></div></td><td class="cell text column"
+    data-key="3"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">压抑 ˉ ˋ | | | | | 对感情、力量等加以限制,使不能充分流露或发挥。 ⛅ ⛅ ⛅ ⛅ ⛅ ⛅ The atmosphere was oppressive. &gt; 气氛很压抑。 | | | | The summer was sultry and oppressive. &gt; 夏天闷热、压抑。 | 8.7 | v | .v.a.an.vn. | new6</div></div></td><td class="cell text column"
+    data-key="4"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">压抑 ___ YĀ Yì ____ ⛅ to constrain or repress emotions; oppressive; stifling; depressing; repression</div></div></td><td class="cell text column"
+    data-key="5"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">压  ~  The full form 壓 is 厭 yàn phonetic over 土 (tǔ) &#39;earth&#39; signific.</div></div></td><td class="cell text column"
+    data-key="6"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">压 [ yā ] to press; to push down; to keep under (control); pressure ♥ ♥ [ yà ] see 壓根兒|压根儿[ya4 gen1 r5] ∞ 电压、镇压、高压、气压、施压、压力、压迫、压、*压抑、压倒、血压、挤压、减压、压低</div></div></td><td class="cell text column"
+    data-key="7"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">抑  ~  From 扌(手 shǒu) &#39;hand&#39; and 卬 (from 印 yìn) &#39;seal&#39;.   ◆  The right side is from 印 yìn with a stroke missing.   ◆  Not related to 卬 áng.</div></div></td><td class="cell text column"
+    data-key="8"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">抑 to restrain; to restrict; to keep down; or Ω 抑郁症、抑制、抑郁、*压抑、抑或、抑</div></div></td><td class="cell text column"
+    data-key="9"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">对感情、力量等加以限制,使不能充分流露或发挥。</div></div></td><td class="cell audio column"
+    data-key="10"
+    data-cell-type="column"><div class="btn-group"><div class="btn btn-mini files-add">
+                    Upload <input type="file" name="f" class="add_thing_file" /></div><div class="btn btn-mini open-recorder">Record</div><button class="btn btn-mini dropdown-toggle disabled" data-toggle="dropdown" style="overflow:hidden;">
+                    
+                        
+                            no audio file
+                        
+                    
+                    <i class="ico ico-s ico-arr-down"></i></button><div class="dropdown-menu audios"></div></div></td></tr><tr class="thing" data-thing-id="107788621"><td><i class="ico ico-close" data-role="delete" title="Delete word"></i></td><td class="cell text column"
+    data-key="1"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">天亮</div></div></td><td class="cell text column"
+    data-key="2"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">天亮 TIĀN Liàng↘</div></div></td><td class="cell text column"
+    data-key="3"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">天亮 ˉ ˋ | | | | | 太阳快要露出地平线时天空发出光亮。 ⛅ ⛅ ⛅ ⛅ ⛅ ⛅ I am setting out at first light tomorrow. &gt; 我明天天亮就起身。 | | | | We played cards the whole night last night. &gt; 昨天晚上我们通宿打牌直到天亮。 | 5.99 | v | .v. |</div></div></td><td class="cell text column"
+    data-key="4"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">天亮 ___ TIĀN Liàng _ ⛅ dawn; daybreak</div></div></td><td class="cell text column"
+    data-key="5"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">天  ~  Picture of a person with a big head. An anthropomorphic symbol for the power of Heaven, that is, the sky. The head is now written as a 一 horizontal line at the top.</div></div></td><td class="cell text column"
+    data-key="6"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">天 day; sky; heaven ∞ 这天、天线、天然、天主教徒、老天、天性、信天翁、*天亮、成天、天使、改天、天主教、天分</div></div></td><td class="cell text column"
+    data-key="7"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">亮  ~  From 京 jīng &#39;capital&#39; over 儿(人 rén) &#39;person&#39;. Karlgren says 京 is phonetic. Notice the similarity to 高 gāo &#39;high&#39; and 亭 tíng &#39;pavilion&#39;.</div></div></td><td class="cell text column"
+    data-key="8"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">亮 bright; clear; resonant; to shine; to show; to reveal Ω 漂亮、亮光、响亮、光亮、发亮、亮点、明亮、照亮、*天亮、闪亮、亮、月亮、亮相、擦亮</div></div></td><td class="cell text column"
+    data-key="9"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">太阳快要露出地平线时天空发出光亮。</div></div></td><td class="cell audio column"
+    data-key="10"
+    data-cell-type="column"><div class="btn-group"><div class="btn btn-mini files-add">
+                    Upload <input type="file" name="f" class="add_thing_file" /></div><div class="btn btn-mini open-recorder">Record</div><button class="btn btn-mini dropdown-toggle disabled" data-toggle="dropdown" style="overflow:hidden;">
+                    
+                        
+                            no audio file
+                        
+                    
+                    <i class="ico ico-s ico-arr-down"></i></button><div class="dropdown-menu audios"></div></div></td></tr><tr class="thing" data-thing-id="107788622"><td><i class="ico ico-close" data-role="delete" title="Delete word"></i></td><td class="cell text column"
+    data-key="1"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">海湾</div></div></td><td class="cell text column"
+    data-key="2"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">海湾 hǎi WĀN</div></div></td><td class="cell text column"
+    data-key="3"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">海湾 ˇ ˉ | | | | | 海洋伸入陆地的部分。 ⛅ ⛅ ⛅ ⛅ ⛅ ⛅ There&#39;s a bonny bay beyond. &gt; 那边有一个漂亮的海湾。 | | | | The water in the inlet beat roughly against the shore. &gt; 海湾里的水粗暴地撞击着海岸。 | 7.45 | n | .n. |</div></div></td><td class="cell text column"
+    data-key="4"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">海湾 ___ hǎi WĀN ___ ⛅ [ Hǎi wān ] (Persian) Gulf ♥ ♥ [ hǎi wān ] bay; gulf (body of water)</div></div></td><td class="cell text column"
+    data-key="5"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">海  ~  From 氵(水 shuǐ) &#39;water&#39; and 每 měi (&#39;every&#39;) phonetic (the ancient sounds, which have become hǎi and měi, were similar). 每 &#39;every&#39; also suggests the meaning: every drop of water in the ocean.</div></div></td><td class="cell text column"
+    data-key="6"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">海 [ Hǎi ] surname Hai ♥ ♥ [ hǎi ] ocean; sea; CL:個|个[ge4],片[pian4]; great number of people or things; (dialect) numerous ∞ 海蜇、海外、海马、海胆、海牛、海、海豚、海里、*海湾、海鸥、海底、海报、海上、海洛因</div></div></td><td class="cell text column"
+    data-key="7"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">湾  ~  From 氵(水 shuǐ) &#39;water&#39; and 弯(彎) wān &#39;curve&#39;. Possibly cognate with 弯; a curved part of the coastline making a harbor.</div></div></td><td class="cell text column"
+    data-key="8"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">湾 bay; gulf; to cast anchor; to moor (a boat) Ω 台湾、港湾、*海湾、湾</div></div></td><td class="cell text column"
+    data-key="9"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">海洋伸入陆地的部分。</div></div></td><td class="cell audio column"
+    data-key="10"
+    data-cell-type="column"><div class="btn-group"><div class="btn btn-mini files-add">
+                    Upload <input type="file" name="f" class="add_thing_file" /></div><div class="btn btn-mini open-recorder">Record</div><button class="btn btn-mini dropdown-toggle disabled" data-toggle="dropdown" style="overflow:hidden;">
+                    
+                        
+                            no audio file
+                        
+                    
+                    <i class="ico ico-s ico-arr-down"></i></button><div class="dropdown-menu audios"></div></div></td></tr><tr class="thing" data-thing-id="107788623"><td><i class="ico ico-close" data-role="delete" title="Delete word"></i></td><td class="cell text column"
+    data-key="1"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">金额</div></div></td><td class="cell text column"
+    data-key="2"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">金额 JĪN é↗</div></div></td><td class="cell text column"
+    data-key="3"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">金额 ˉ ˊ | | | | | &lt;书&gt;钱数。 ⛅ ⛅ ⛅ ⛅ ⛅ ⛅ I asked the accountant to sum up the invoice. &gt; 我让会计合计发票金额。 | | | | The bill was astronomically high. &gt; 账单上的金额高得没谱儿。 | 3.52 | n | .n. | old4</div></div></td><td class="cell text column"
+    data-key="4"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">金额 ___ JĪN é ____ ⛅ sum of money; monetary value</div></div></td><td class="cell text column"
+    data-key="5"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">金  ~  The bottom apparently came from 土 (tǔ) &#39;earth&#39; and (dots:) gold nuggets.   ◆  The top was at one time 今 jīn phonetic, but before that it may have been part of the picture of gold covered up in the ground.   ◆  金 occurs as a component on the left side of characters, written (full form:) 釒 or (simple form:) 钅, usually suggesting that the meaning is related to metal.</div></div></td><td class="cell text column"
+    data-key="6"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">金 [ Jīn ] surname Jin; surname Kim (Korean); Jurchen Jin dynasty (1115-1234) ♥ ♥ [ jīn ] gold; chemical element Au; generic term for lustrous and ductile metals; money; golden; highly respected; one of the eight ancient musical instruments 八音[ba1 yin1] ∞ 金币、金枪鱼、押金、金字塔、金鱼、合金、金鱼、*金额、养老金、白金、金、佣金、金刚</div></div></td><td class="cell text column"
+    data-key="7"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">额  ~  From 客 kè phonetic and 页(頁 yè) &#39;head&#39;.   ◆  &quot;Forehead; frontispiece, inscription; regulation; fixed number&quot; --Karlgren.</div></div></td><td class="cell text column"
+    data-key="8"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">额 [ é ] variant of 額|额[e2] ♥ ♥ [ é ] forehead; horizontal tablet or inscribed board; specified number or amount Ω 超额、定额、总额、数额、名额、巨额、前额、*金额、额头、额、额外、焦头烂额、高额、销售额、份额、余额、额度</div></div></td><td class="cell text column"
+    data-key="9"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">&lt;书&gt;钱数。</div></div></td><td class="cell audio column"
+    data-key="10"
+    data-cell-type="column"><div class="btn-group"><div class="btn btn-mini files-add">
+                    Upload <input type="file" name="f" class="add_thing_file" /></div><div class="btn btn-mini open-recorder">Record</div><button class="btn btn-mini dropdown-toggle disabled" data-toggle="dropdown" style="overflow:hidden;">
+                    
+                        
+                            no audio file
+                        
+                    
+                    <i class="ico ico-s ico-arr-down"></i></button><div class="dropdown-menu audios"></div></div></td></tr><tr class="thing" data-thing-id="107788624"><td><i class="ico ico-close" data-role="delete" title="Delete word"></i></td><td class="cell text column"
+    data-key="1"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">棒棒糖</div></div></td><td class="cell text column"
+    data-key="2"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">棒棒糖 Bàng↘ Bàng↘ táng↗</div></div></td><td class="cell text column"
+    data-key="3"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">棒棒糖 ˋ ˋ ˊ | | | | |  ⛅ ⛅ ⛅ ⛅ ⛅ ⛅ Almost all children love lollypops. &gt; 小孩子都喜欢吃棒棒糖。 | | | |  &gt;  | 3.79 | n | .n. |</div></div></td><td class="cell text column"
+    data-key="4"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">棒棒糖 __ Bàng Bàng táng _ ⛅ lollipop; sucker; CL:根[gen1]</div></div></td><td class="cell text column"
+    data-key="5"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">棒  ~  From 木 (mù) &#39;wood&#39; and 奉 fèng &#39;hold respectfully with both hands&#39;.   ◆  The component 奉 is signific as well as phonetic in 棒 (it suggests both the meaning and the sound).</div></div></td><td class="cell text column"
+    data-key="6"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">棒 stick; club; cudgel; smart; capable; strong; wonderful; classifier for legs of a relay race Ω 棒、棍棒、*棒棒糖、棒子、棒球</div></div></td><td class="cell text column"
+    data-key="7"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">棒  ~  From 木 (mù) &#39;wood&#39; and 奉 fèng &#39;hold respectfully with both hands&#39;.   ◆  The component 奉 is signific as well as phonetic in 棒 (it suggests both the meaning and the sound).</div></div></td><td class="cell text column"
+    data-key="8"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">棒 stick; club; cudgel; smart; capable; strong; wonderful; classifier for legs of a relay race Ω 棒、棍棒、*棒棒糖、棒子、棒球</div></div></td><td class="cell text column"
+    data-key="9"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text"></div></div></td><td class="cell audio column"
+    data-key="10"
+    data-cell-type="column"><div class="btn-group"><div class="btn btn-mini files-add">
+                    Upload <input type="file" name="f" class="add_thing_file" /></div><div class="btn btn-mini open-recorder">Record</div><button class="btn btn-mini dropdown-toggle disabled" data-toggle="dropdown" style="overflow:hidden;">
+                    
+                        
+                            no audio file
+                        
+                    
+                    <i class="ico ico-s ico-arr-down"></i></button><div class="dropdown-menu audios"></div></div></td></tr><tr class="thing" data-thing-id="107788605"><td><i class="ico ico-close" data-role="delete" title="Delete word"></i></td><td class="cell text column"
+    data-key="1"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">胸罩</div></div></td><td class="cell text column"
+    data-key="2"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">胸罩 XIŌNG Zhào↘</div></div></td><td class="cell text column"
+    data-key="3"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">胸罩 ˉ ˋ | | | | |  ⛅ ⛅ ⛅ ⛅ ⛅ ⛅ My bra keeps pinching me under my arms. &gt; 我的胸罩把我胳膊下面勒得很紧。 | | | | If you have a large bust, invest in a good support bra. &gt; 如果你的胸很大,就应当选用支撑能力好的胸罩。 | 7.48 | n | .n. |</div></div></td><td class="cell text column"
+    data-key="4"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">胸罩 ___ XIŌNG Zhào _ ⛅ brassiere (underwear); bra</div></div></td><td class="cell text column"
+    data-key="5"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">胸  ~  From 月(肉 ròu) &#39;flesh&#39; and 匈 xiōng.   ◆  The character 匈 (made of 勹 and 凶 xiōng phonetic), already meant &#39;chest&#39;, but was enlarged by 肉 anyway. 勹 is simply 人 (rén) &#39;person&#39;, with room in the middle to show what&#39;s inside.</div></div></td><td class="cell text column"
+    data-key="6"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">胸 [ xiōng ] variant of 胸[xiong1] ♥ ♥ [ xiōng ] chest; bosom; heart; mind; thorax Ω 胸怀、胸膛、胸前、胸腔、*胸罩、心胸、胸口、胸、胸脯、胸部、胸骨、胸有成竹</div></div></td><td class="cell text column"
+    data-key="7"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">罩  ~  From 罒 (网 wǎng) &#39;net&#39; and 卓 zhuó phonetic.</div></div></td><td class="cell text column"
+    data-key="8"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">罩 cover; fish trap (basket); shade Ω 笼罩、面罩、*胸罩、眼罩、罩、口罩</div></div></td><td class="cell text column"
+    data-key="9"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text"></div></div></td><td class="cell audio column"
+    data-key="10"
+    data-cell-type="column"><div class="btn-group"><div class="btn btn-mini files-add">
+                    Upload <input type="file" name="f" class="add_thing_file" /></div><div class="btn btn-mini open-recorder">Record</div><button class="btn btn-mini dropdown-toggle disabled" data-toggle="dropdown" style="overflow:hidden;">
+                    
+                        
+                            no audio file
+                        
+                    
+                    <i class="ico ico-s ico-arr-down"></i></button><div class="dropdown-menu audios"></div></div></td></tr><tr class="thing" data-thing-id="107788606"><td><i class="ico ico-close" data-role="delete" title="Delete word"></i></td><td class="cell text column"
+    data-key="1"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">坷</div></div></td><td class="cell text column"
+    data-key="2"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">坷 KĒ ; kě</div></div></td><td class="cell text column"
+    data-key="3"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">坷 ⛅♥♫♣  kě见下。另见kē。 ♥  ♥  kē坷拉,土块。另见kě。    ⛅ ⛅ ⛅ ⛅   坎坷</div></div></td><td class="cell text column"
+    data-key="4"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">坷 _____ KĒ ; kě ___ ⛅ uneven (path); unfortunate (in life) ⛅</div></div></td><td class="cell text column"
+    data-key="5"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">坷  ~  From 土 (tǔ) &#39;earth&#39; and 可 kě.</div></div></td><td class="cell text column"
+    data-key="6"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">坷 [kě] 坎坷 kǎnkě bumpy  [kē] 坷拉 clod   |  ☼      坷 13kē char.     ※ kēla   |  ☼      坷 3kě char.     ※ kǎnkě</div></div></td><td class="cell text column"
+    data-key="7"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">坎坷</div></div></td><td class="cell text column"
+    data-key="8"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text"></div></div></td><td class="cell text column"
+    data-key="9"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text"></div></div></td><td class="cell audio column"
+    data-key="10"
+    data-cell-type="column"><div class="btn-group"><div class="btn btn-mini files-add">
+                    Upload <input type="file" name="f" class="add_thing_file" /></div><div class="btn btn-mini open-recorder">Record</div><button class="btn btn-mini dropdown-toggle disabled" data-toggle="dropdown" style="overflow:hidden;">
+                    
+                        
+                            no audio file
+                        
+                    
+                    <i class="ico ico-s ico-arr-down"></i></button><div class="dropdown-menu audios"></div></div></td></tr><tr class="thing" data-thing-id="107788607"><td><i class="ico ico-close" data-role="delete" title="Delete word"></i></td><td class="cell text column"
+    data-key="1"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">灌醉</div></div></td><td class="cell text column"
+    data-key="2"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">灌醉 Guàn↘ Zuì↘</div></div></td><td class="cell text column"
+    data-key="3"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">灌醉 ˋ ˋ | | | | |  ⛅ ⛅ ⛅ ⛅ ⛅ ⛅ He got them all drunk. &gt; 他把别人都灌醉了。 | | | | He was drunk under the table that night. &gt; 那天晚上,他被灌醉了。 | 3.04 | v | .v. |</div></div></td><td class="cell text column"
+    data-key="4"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">灌醉 ___ Guàn Zuì __ ⛅ to fuddle; to befuddle; to inebriate; to get someone drunk</div></div></td><td class="cell text column"
+    data-key="5"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">灌  ~  From 氵(水 shuǐ) &#39;water&#39; and 雚 guàn phonetic.   ◆  &quot;Sprinkle, pour, wash; dense, bushy&quot; --Karelgren.</div></div></td><td class="cell text column"
+    data-key="6"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">灌 to irrigate; to pour; to install (software); to record (music) Ω 浇灌、灌溉、灌木、灌输、*灌醉、灌、灌木丛、灌肠</div></div></td><td class="cell text column"
+    data-key="7"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">醉  ~  From 酉 (yǒu) &#39;wine&#39; and 卒 zú (&#39;soldier&#39;) phonetic.</div></div></td><td class="cell text column"
+    data-key="8"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text">醉 intoxicated Ω 如醉如痴、醉醺醺、醉鬼、麻醉剂、醉、*灌醉、陶醉、麻醉、沉醉、麻醉药、醉汉</div></div></td><td class="cell text column"
+    data-key="9"
+    data-cell-type="column"><div class="wrapper"><button class="edit-alts btn btn-small btn-icos-active">
+                    Alts
+                    <i class="ico ico-s ico-edit"></i></button><div class="text"></div></div></td><td class="cell audio column"
+    data-key="10"
+    data-cell-type="column"><div class="btn-group"><div class="btn btn-mini files-add">
+                    Upload <input type="file" name="f" class="add_thing_file" /></div><div class="btn btn-mini open-recorder">Record</div><button class="btn btn-mini dropdown-toggle disabled" data-toggle="dropdown" style="overflow:hidden;">
+                    
+                        
+                            no audio file
+                        
+                    
+                    <i class="ico ico-s ico-arr-down"></i></button><div class="dropdown-menu audios"></div></div></td></tr></tbody><tbody class="adding" data-role="pool-thing-add" data-original-only="true"><tr class="header"><td></td><td class="addHeader" colspan="100">
+            Add words:
+        </td></tr><tr data-role="add-form"><td><i class="ico ico-plus ico-blue"></i></td><td class="text column"
+                        data-key="1"><input class="wide" type="text"></td><td class="text column"
+                        data-key="2"><input class="wide" type="text"></td><td class="text column"
+                        data-key="3"><input class="wide" type="text"></td><td class="text column"
+                        data-key="4"><input class="wide" type="text"></td><td class="text column"
+                        data-key="5"><input class="wide" type="text"></td><td class="text column"
+                        data-key="6"><input class="wide" type="text"></td><td class="text column"
+                        data-key="7"><input class="wide" type="text"></td><td class="text column"
+                        data-key="8"><input class="wide" type="text"></td><td class="text column"
+                        data-key="9"><input class="wide" type="text"></td><td class="audio column"
+                        data-key="10"></td></tr></tbody></table></div><div class="pagination pagination-centered"><ul><li class="active"><a href="?page=1">
+                1
+            </a></li><li class=""><a href="?page=2">
+                2
+            </a></li><li class=""><a href="?page=3">
+                3
+            </a></li><li class=""><a href="?page=4">
+                4
+            </a></li><li class=""><a href="?page=5">
+                5
+            </a></li><li class=""><a href="?page=6">
+                6
+            </a></li><li class="disabled"><a href="#" class="disabled">&hellip;</a></li><li><a href="?page=261">
+                261
+            </a></li><li><a href="?page=262">
+                262
+            </a></li><li><a href="?page=2">
+              Next &raquo;
+            </a></li></ul></div>
+
+
+        <div class="delete-me center">
+            <a id="delete-button"
+               class="btn btn-small btn-danger"
+               data-role="course-pool-delete">
+                <i class="ico ico-white ico-trash"></i>
+                Delete database
+            </a>
+        </div>
+    </div>
+
+            </div>
+        </div>
+    
+
+    
+
+    
+    <div id="footer" class="footer full-width divide alternate pattern-dark">
+        
+
+<div class="footer-row">
+    <div class="footer-col footer-links-col">
+
+        <h4 class="footer-section-heading">Memrise</h4>
+
+        <ul class="footer-ul">
+            <li class="footer-li"><a class="footer-link" href="/about/">About Us</a></li>
+            <li class="footer-li"><a class="footer-link" href="/science/">Science</a></li>
+            <li class="footer-li"><a class="footer-link" href="/contact/">Contact Us</a></li>
+
+            <li class="footer-li"><a class="footer-link" href="/team/">Team</a></li>
+            <li class="footer-li"><a class="footer-link" href="/jobs/">Jobs</a></li>
+
+            <li class="footer-li"><a class="footer-link" href="/terms/">Terms of Use</a></li>
+            <li class="footer-li"><a class="footer-link" href="/privacy/">Privacy Policy</a></li>
+
+        </ul>
+
+    </div>
+    <div class="footer-col footer-links-col">
+        <h4 class="footer-section-heading">More</h4>
+
+        <ul class="footer-ul">
+            <li class="footer-li"><a class="footer-link" href="https://blog.memrise.com">Blog</a></li>
+            <li class="footer-li"><a class="footer-link" href="https://community.memrise.com">Forums</a></li>
+            <li class="footer-li"><a class="footer-link" href="/teachers/">Teachers</a></li>
+            <li class="footer-li"><a class="footer-link" href="http://membus.memrise.com/">Membus</a></li>
+        </ul>
+
+        <h4 class="footer-section-heading">Help</h4>
+
+        <ul class="footer-ul">
+            <li class="footer-li"><a class="footer-link" href="http://feedback.memrise.com/knowledgebase/">FAQ &amp; Help</a></li>
+        </ul>
+
+    </div>
+    <div class="footer-col footer-links-col">
+
+        <h4 class="footer-section-heading">Browse courses</h4>
+
+        <ul class="footer-ul">
+            <li class="footer-li">
+                <a class="footer-link" href="/courses/english/languages/">
+                    Languages
+                </a>
+            </li>
+            <li class="footer-li">
+                <a class="footer-link" href="/courses/english/arts-literature/">
+                    Arts &amp; Literature
+                </a>
+            </li>
+            <li class="footer-li">
+                <a class="footer-link" href="/courses/english/maths-science/">
+                    Maths &amp; Science
+                </a>
+            </li>
+            <li class="footer-li">
+                <a class="footer-link" href="/courses/english/the-natural-world/">
+                    The Natural World
+                </a>
+            </li>
+            <li class="footer-li">
+                <a class="footer-link" href="/courses/english/history-geography/">
+                    History &amp; Geography
+                </a>
+            </li>
+            <li class="footer-li">
+                <a class="footer-link" href="/courses/english/professional-and-careers/">
+                    Professional &amp; Careers
+                </a>
+            </li>
+            <li class="footer-li">
+                <a class="footer-link" href="/courses/english/entertainment/">
+                    Entertainment
+                </a>
+            </li>
+            <li class="footer-li">
+                <a class="footer-link" href="/courses/english/trivia/">
+                    Trivia
+                </a>
+            </li>
+            
+        </ul>
+    </div>
+    <div class="footer-col footer-logo-col">
+
+        <a href="/" class="footer-logo"></a>
+        
+        <div class="footer-social-buttons">
+
+            <a href="https://www.facebook.com/memrise"
+               target="_blank"
+               class="btn btn-flacebook btn-squared footer-social-button">
+                <i class="ico ico-facebook ico-white footer-ico"></i>
+            </a>
+
+            <a href="https://twitter.com/memrise"
+               target="_blank"
+               class="btn btn-twitter btn-squared footer-social-button">
+                <i class="ico ico-twitter ico-white footer-ico"></i>
+            </a>
+
+        </div>
+        
+        
+    </div>
+</div>
+
+    </div>
+    
+
+    
+
+    
+
+
+
+
+
+<script type="text/javascript">
+
+    // make sure that there is a global _gaq variable loaded before every custom script
+    var _gaq = _gaq || [];
+
+    MEMRISE = {
+        DEBUG: false, 
+        STATIC_URL: 'http://static.memrise.com/',
+        FACEBOOK_APP_ID: '143688012353890',
+        FACEBOOK_API_VERSION: "2.3",
+        GOOGLE_ANALYTICS_ID: 'UA-1631385-8',
+        DOMAIN: 'http://www.memrise.com',
+        LANG: 'en',
+        csrftoken: "2N828n66bh5Alhbc463wYtoqpyWosyON",
+        user: {
+            is_authenticated: true
+            
+                ,
+                id: 6200449,
+                username: 'DrewSSP',
+                
+                profile: {
+                    settings: {
+                        mem_creation_share_disabled: true,
+                        mem_creation_tutorial_seen: true
+                    }
+                },
+                is_premium: true,
+            
+        },
+        trans: {
+            quitCourse: '\u000A    \u000A        Quitting \u003Cstrong\u003Ewill not\u003C/strong\u003E wipe your learning history,\u000A        but will remove it entirely from your dashboard.\u000A        You can re\u002Djoin the course to restore your progress at any point,\u000A        but you will need to find it again in \u0022Courses\u0022.\u000A        \u003C/p\u003E\u003Cp\u003EAre you sure you would like to quit?\u000A    \u000A'
+        },
+        urls: {
+            locale: 'dist/locales/en/translation-4750bd6e3.json',
+            memEditor: 'garden/dist/js/mem-editor-c6b54ee63.js?v=35',
+            jsFunctionalPolyfills: 'dist/js/functional-polyfills-a74a9c643.js?v=35',
+            jsPresentationPolyfills: 'dist/js/presentation-polyfills-4e6d76a43.js?v=35',
+            cssPresentationPolyfills: 'dist/css/presentation-polyfills-6fb853e83.css?v=35',
+            iosJsPolyfills: 'dist/js/ios-df3387253.js?v=35'
+        },
+        
+    };
+</script>
+
+    <script src="http://static.memrise.com/dist/js/libs-8687411b3.js?v=35"></script>
+    <script src="http://static.memrise.com/dist/js/templates-4d7dc88b3.js?v=35"></script>
+    <script src="http://static.memrise.com/dist/js/memrise-bundle-0bd0334f3.js?v=35"></script>
+    
+    <script type="text/javascript" src="http://static.memrise.com/editing/dist/js/editing-e50d9f973.js?v=35"></script>
+
+
+</body>
+</html>
