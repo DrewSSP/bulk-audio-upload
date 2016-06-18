@@ -1,3 +1,4 @@
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -91,3 +92,4 @@ ENV/
 main.log
 temp.mp3
 test.txt
+.DS_Store
