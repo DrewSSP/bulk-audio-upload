@@ -3,6 +3,7 @@
 $id = $argv[1];
 $file = $argv[2];
 $course = $argv[3];
+$audio_column_number = $argv[4];
 
 
 
@@ -16,7 +17,7 @@ $curlFile->setMimeType( "audio/mpeg" );
 
 $post = array(
     'thing_id'  => $id,
-    'cell_id'   => '4',
+    'cell_id'   => $audio_column_number,
     'cell_type' => 'column',
     'csrfmiddlewaretoken'   => '2N828n66bh5Alhbc463wYtoqpyWosyON',
     'f' => $curlFile,

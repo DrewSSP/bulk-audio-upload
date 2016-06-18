@@ -6,7 +6,13 @@ import subprocess
 import click
 import logging
 
-def get_words_and_info(course_database_url):
+def append_ns_for_regex(number_of_ns):
+	compiled_string = ''
+	for n in range(number_of_ns-1):
+		compiled_string += '.*\\n.*\\n.*\\n.*\\n'
+	return compiled_string
+
+def get_words_and_info(course_database_url, column_of_audio):
 	number_of_database_pages = int(sys.argv[2])+1
 	cookies = dict(__uvt='',
 		__utmt='6',
@@ -21,15 +27,12 @@ def get_words_and_info(course_database_url):
 	with click.progressbar(range(1, number_of_database_pages), width=0, label='Getting database info') as bar:
 		for n in bar:
 			response = requests.get(course_database_url+'?page='+str(n), cookies=cookies)
-			regex_pattern = re.compile(r'data-thing-id="(.*?)".*\n.*\n.*\n.*\n.*"text">(.*?)</div>(.)')
-			for (id, word, number_of_audio_files) in re.findall(regex_pattern, response.text):
+			regex_pattern = re.compile('data-thing-id="(.*?)".*\\n.*\\n.*\\n.*\\n.*"text">(.*?)</div>' + append_ns_for_regex(column_of_audio) + '.*\\n.*\\n.*no audio file')
+			for (id, word) in re.findall(regex_pattern, response.text):
 				words_and_info.append(dict(
 					id=id,
-					word=word,
-					number_of_audio_files=number_of_audio_files))
-				print id
-				print word
-				print number_of_audio_files
+					word=word))
+				print id + ' ' + word
 	return words_and_info
 
 def download_audio(path):
@@ -45,21 +48,22 @@ def download_audio(path):
 def main():
 	logging.basicConfig(filename='main.log',level=logging.DEBUG)
 	course_database_url = sys.argv[1]
+	column_of_audio = int(sys.argv[3])
 	# download database list and extract the words, their ids, and whther they have audio
-	words_and_info = get_words_and_info(course_database_url)
+	words_and_info = get_words_and_info(course_database_url, column_of_audio)
 	with click.progressbar(words_and_info, width=0, label='Uploading audio') as bar:
 		for item in bar:
-			if item['number_of_audio_files'] == '<': # filter out words that alreayd have audio files
+			try:
 				logging.info('getting audio for ' + item['word'])
-				requests.post('http://soundoftext.com/sounds', data={'text':item['word'], 'lang':'zh-CN'}) # for some reason the server doesn't guarantee that a file is there until we trick it into thinking that we're using the form on the front page
+				requests.post('http://soundoftext.com/sounds', data={'text':item['word'], 'lang':'zh-CN'}) # for some reason the server doesn't guarantee that a file will be there until we trick it into thinking that we're using the form on the front page
 				audio = download_audio('http://soundoftext.com/static/sounds/zh-CN/' + item['word'] + '.mp3') # download temporary audio file
 				if audio == False:
 					continue
 				else:
-					subprocess.call(['php', 'upload.php', item['id'], 'temp.mp3', course_database_url]) # upload audio
-					os.remove('temp.mp3') # delete temporary audio file
-			else:
-				logging.info(item['word'] + ' --SKIPPED--')
+					subprocess.call(['php', 'upload.php', item['id'], 'temp.mp3', course_database_url, str(column_of_audio)]) # upload audio
+			except requests.exceptions.RequestException as e:
+				logging.warning(e)
+				continue
 
 if __name__ == "__main__":
 	main()
