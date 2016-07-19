@@ -7,7 +7,7 @@ It requires two parameters:
   * **number_of_pages** is the number of pages that exist in your course's database
 
 To run the script:
-python main.py **database_page** **number_of_pages**\
+python main.py **database_page** **number_of_pages**
 
 For example:
 `ipython main.py http://www.memrise.com/course/1036119/hsk-level-6/edit/database/2000662/ 126`
