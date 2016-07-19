@@ -1,12 +1,7 @@
-import requests
-import sys
-import os
-import subprocess
-import logging
+import requests, tempfile, sys, subprocess, logging
 from variables import cookies
 from multiprocessing import Pool
-from lxml.html.soupparser import fromstring
-import tempfile
+from lxml.html.soupparser import fromstring 
 
 # logging.getLogger("requests").setLevel(logging.WARNING)
 
@@ -60,6 +55,7 @@ def map_function(audio):
 			logging.info('SKIPPED: ' + audio['chinese_word'] + ' - Audio files already exist')
 			return None
 		else:
+			print('Adding audio to ' + audio['chinese_word'])
 			requests.post('http://soundoftext.com/sounds', data={'text':audio['chinese_word'], 'lang':'zh-CN'}) # warn the server of what file I'm going to need
 			temp_file = download_audio('http://soundoftext.com/static/sounds/zh-CN/' + audio['chinese_word'] + '.mp3') #download audio file
 			if temp_file == False:
