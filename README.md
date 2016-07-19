@@ -11,6 +11,7 @@ python main.py **database_page** **number_of_pages**
 
 For example:
 `ipython main.py http://www.memrise.com/course/1036119/hsk-level-6/edit/database/2000662/ 126`
+This will add audio to any words that are missing it for the course `http://www.memrise.com/course/1036119/hsk-level-6`. This course's database page is `http://www.memrise.com/course/1036119/hsk-level-6/edit/database/2000662/` and it has `126` pages.
 
 ## Set up
 make a file in the root directory of your script called 'variables.py' and create a python dictionary of your cookies. It should look something like this:
