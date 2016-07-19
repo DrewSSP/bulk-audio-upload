@@ -1,69 +1,82 @@
 import requests
 import sys
-import re
 import os
 import subprocess
-import click
 import logging
+from variables import cookies
+from multiprocessing import Pool
+from lxml.html.soupparser import fromstring
+import tempfile
 
-def append_ns_for_regex(number_of_ns):
-	compiled_string = ''
-	for n in range(number_of_ns-1):
-		compiled_string += '.*\\n.*\\n.*\\n.*\\n'
-	return compiled_string
+# logging.getLogger("requests").setLevel(logging.WARNING)
 
-def get_words_and_info(course_database_url, column_of_audio):
-	number_of_database_pages = int(sys.argv[2])+1
-	cookies = dict(__uvt='',
-		__utmt='6',
-		csrftoken='2N828n66bh5Alhbc463wYtoqpyWosyON',
-		sessionid='zj8suxtx841zlwrn10o6x3suzdjw9wpt',
-		__utma='216705802.691983187.1416840006.1429942996.1430039373.8',
-		__utmb='216705802.6.10.1440401822',
-		__utmc='216705802',
-		__utmz='216705802.1416840006.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
-		uvts='2Mnc8QsWzuuv8GVh')
-	words_and_info = list()
-	with click.progressbar(range(1, number_of_database_pages), width=0, label='Getting database info') as bar:
-		for n in bar:
-			response = requests.get(course_database_url+'?page='+str(n), cookies=cookies)
-			regex_pattern = re.compile('data-thing-id="(.*?)".*\\n.*\\n.*\\n.*\\n.*"text">(.*?)</div>' + append_ns_for_regex(column_of_audio) + '.*\\n.*\\n.*no audio file')
-			for (id, word) in re.findall(regex_pattern, response.text):
-				words_and_info.append(dict(
-					id=id,
-					word=word))
-				print id + ' ' + word
-	return words_and_info
+def get_audio_files_from_course(first_database_page, number_of_pages):
+	database_urls = []
+	for page in range(1, number_of_pages + 1):
+		database_urls.append(first_database_page + '?page=' + str(page))
+	pool = Pool(processes = 7)
+	audio_files = pool.map(get_thing_information, database_urls)
+	return fix_list(audio_files)
+
+def get_thing_information(database_url):
+	response = requests.get(database_url, cookies = cookies)
+	tree = fromstring(response.text)
+	div_elements = tree.xpath("//tr[contains(@class, 'thing')]")
+	return_object = []
+	for div in div_elements:
+		chinese_word = div.xpath("td[2]/div/div/text()")[0]
+		thing_id = div.attrib['data-thing-id']
+		column_number_of_audio = div.xpath("td[contains(@class, 'audio')]/@data-key")[0]
+		audio_files = div.xpath("td[contains(@class, 'audio')]/div/div[contains(@class, 'dropdown-menu')]/div")
+		number_of_audio_files = len(audio_files)
+		return_object.append({'thing_id': thing_id, 'number_of_audio_files': number_of_audio_files, 'chinese_word': chinese_word, 'column_number_of_audio': column_number_of_audio})
+	return return_object
+
+def fix_list(given_list):
+	new_list = []
+	for bunch_of_items in given_list:
+		for item in bunch_of_items:
+			new_list.append(item)
+	return new_list
 
 def download_audio(path):
-	with open('temp.mp3', "wb") as file:
-		# get request
-		response = requests.get(path)
-		# write to file
-		if response.status_code == requests.codes.ok:
-			file.write(response.content)
-		else:
-			return False
+	response = requests.get(path)
+	# write to file
+	if response.status_code == requests.codes.ok:
+		logging.info('Getting ' + path + ': ' + str(response.status_code))
+		temp_file = tempfile.NamedTemporaryFile(suffix='.mp3')
+		temp_file.write(response.content)
+		return temp_file
+	else:
+		return False
 
-def main():
-	logging.basicConfig(filename='main.log',level=logging.DEBUG)
-	course_database_url = sys.argv[1]
-	column_of_audio = int(sys.argv[3])
-	# download database list and extract the words, their ids, and whther they have audio
-	words_and_info = get_words_and_info(course_database_url, column_of_audio)
-	with click.progressbar(words_and_info, width=0, label='Uploading audio') as bar:
-		for item in bar:
-			try:
-				logging.info('getting audio for ' + item['word'])
-				requests.post('http://soundoftext.com/sounds', data={'text':item['word'], 'lang':'zh-CN'}) # for some reason the server doesn't guarantee that a file will be there until we trick it into thinking that we're using the form on the front page
-				audio = download_audio('http://soundoftext.com/static/sounds/zh-CN/' + item['word'] + '.mp3') # download temporary audio file
-				if audio == False:
-					continue
-				else:
-					subprocess.call(['php', 'upload.php', item['id'], 'temp.mp3', course_database_url, str(column_of_audio)]) # upload audio
-			except requests.exceptions.RequestException as e:
-				logging.warning(e)
-				continue
+def download_then_upload_audios(audios):
+	pool = Pool(processes=7)
+	pool.map(map_function, audios)
+
+def map_function(audio):
+	try:
+		if audio['number_of_audio_files'] > 0:
+			logging.info('SKIPPED: ' + audio['chinese_word'] + ' - Audio files already exist')
+			return None
+		else:
+			requests.post('http://soundoftext.com/sounds', data={'text':audio['chinese_word'], 'lang':'zh-CN'}) # warn the server of what file I'm going to need
+			temp_file = download_audio('http://soundoftext.com/static/sounds/zh-CN/' + audio['chinese_word'] + '.mp3') #download audio file
+			if temp_file == False:
+				logging.warning('SKIPPED -- soundoftext.com returned a bad response code on ' + audio['chinese_word'])
+				return None
+			else:
+				subprocess.call(['php', 'upload.php', audio['thing_id'], temp_file.name, course_database_url, audio['column_number_of_audio']]) # upload audio
+				temp_file.close()
+	except requests.exceptions.RequestException as e:
+		logging.warning("SKIPPED - Error uploading  " + audio['chinese_word'])
+		loggin.warning(e)
+		return None
 
 if __name__ == "__main__":
-	main()
+	logging.basicConfig(filename='main.log',level=logging.DEBUG)
+	logging.getLogger("urllib3").setLevel(logging.CRITICAL)
+	course_database_url = sys.argv[1]
+	number_of_pages = int(sys.argv[2])
+	words_and_info = get_audio_files_from_course(course_database_url, number_of_pages)
+	download_then_upload_audios(words_and_info)	
