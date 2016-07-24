@@ -11,29 +11,29 @@ def get_audio_files_from_course(first_database_page, number_of_pages):
 	for page in range(1, number_of_pages + 1):
 		database_urls.append(first_database_page + '?page=' + str(page))
 	pool = Pool(processes = 7)
-	audio_files = pool.map(get_thing_information, database_urls)
-	return fix_list(audio_files)
+	pool.map(get_thing_information, database_urls)
 
 def get_thing_information(database_url):
+	print(database_url)
 	response = requests.get(database_url, cookies = cookies)
-	tree = fromstring(response.text)
+	tree = html.fromstring(response.text)
 	div_elements = tree.xpath("//tr[contains(@class, 'thing')]")
-	return_object = []
+	audios = []
 	for div in div_elements:
 		chinese_word = div.xpath("td[2]/div/div/text()")[0]
 		thing_id = div.attrib['data-thing-id']
 		column_number_of_audio = div.xpath("td[contains(@class, 'audio')]/@data-key")[0]
 		audio_files = div.xpath("td[contains(@class, 'audio')]/div/div[contains(@class, 'dropdown-menu')]/div")
 		number_of_audio_files = len(audio_files)
-		return_object.append({'thing_id': thing_id, 'number_of_audio_files': number_of_audio_files, 'chinese_word': chinese_word, 'column_number_of_audio': column_number_of_audio})
-	return return_object
+		audios.append({'thing_id': thing_id, 'number_of_audio_files': number_of_audio_files, 'chinese_word': chinese_word, 'column_number_of_audio': column_number_of_audio})
+	upload_audios(audios)
 
-def fix_list(given_list):
-	new_list = []
-	for bunch_of_items in given_list:
-		for item in bunch_of_items:
-			new_list.append(item)
-	return new_list
+# def fix_list(given_list):
+# 	new_list = []
+# 	for bunch_of_items in given_list:
+# 		for item in bunch_of_items:
+# 			new_list.append(item)
+# 	return new_list
 
 def download_audio(path):
 	response = requests.get(path)
@@ -46,35 +46,32 @@ def download_audio(path):
 	else:
 		return False
 
-def download_then_upload_audios(audios):
-	pool = Pool(processes=7)
-	pool.map(map_function, audios)
-
-def map_function(audio):
-	try:
-		if audio['number_of_audio_files'] > 0:
-			logging.info('SKIPPED: ' + audio['chinese_word'] + ' - Audio files already exist')
-			return None
-		else:
-			print('Adding audio to ' + audio['chinese_word'])
-			requests.post('http://soundoftext.com/sounds', data={'text':audio['chinese_word'], 'lang':'zh-CN'}) # warn the server of what file I'm going to need
-			temp_file = download_audio('http://soundoftext.com/static/sounds/zh-CN/' + audio['chinese_word'] + '.mp3') #download audio file
-			if temp_file == False:
-				logging.warning('SKIPPED -- soundoftext.com returned a bad response code on ' + audio['chinese_word'])
-				return None
+def upload_audios(audios):
+	print(len(audios))
+	for audio in audios:
+		print(audio)
+		try:
+			if audio['number_of_audio_files'] > 0:
+				logging.info('SKIPPED: ' + audio['chinese_word'] + ' - Audio files already exist')
+				continue
 			else:
-				subprocess.call(['php', 'upload.php', audio['thing_id'], temp_file.name, course_database_url, audio['column_number_of_audio']]) # upload audio
-				temp_file.close()
-	except requests.exceptions.RequestException as e:
-		logging.warning("SKIPPED - Error uploading  " + audio['chinese_word'])
-		loggin.warning(e)
-		return None
+				print('Adding audio to ' + audio['chinese_word'])
+				requests.post('http://soundoftext.com/sounds', data={'text':audio['chinese_word'], 'lang':'zh-CN'}) # warn the server of what file I'm going to need
+				temp_file = download_audio('http://soundoftext.com/static/sounds/zh-CN/' + audio['chinese_word'] + '.mp3') #download audio file
+				if temp_file == False:
+					logging.warning('SKIPPED -- soundoftext.com returned a bad response code on ' + audio['chinese_word'])
+					continue
+				else:
+					subprocess.call(['php', 'upload.php', audio['thing_id'], temp_file.name, course_database_url, audio['column_number_of_audio']]) # upload audio
+					temp_file.close()
+		except requests.exceptions.RequestException as e:
+			logging.warning("SKIPPED - Error uploading  " + audio['chinese_word'])
+			loggin.warning(e)
+			continue
 
 if __name__ == "__main__":
 	logging.basicConfig(filename='main.log',level=logging.DEBUG)
-	logging.getLogger("urllib3").setLevel(logging.CRITICAL)
+	# logging.getLogger("urllib3").setLevel(logging.CRITICAL)
 	course_database_url = sys.argv[1]
 	number_of_pages = int(html.fromstring(requests.get(course_database_url, cookies=cookies).content).xpath("//div[contains(@class, 'pagination')]/ul/li")[-2].text_content())
-	print(number_of_pages)
-	words_and_info = get_audio_files_from_course(course_database_url, number_of_pages)
-	download_then_upload_audios(words_and_info)	
+	get_audio_files_from_course(course_database_url, number_of_pages)
