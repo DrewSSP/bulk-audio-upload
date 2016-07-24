@@ -1,17 +1,5 @@
 # Bulk Upload Audio for Memrise
-
 This script uploads chinese audio for words that don't have any audio uploaded in any course to which you have editor access
-
-It requires two parameters:
-  * **database_page** is the url of the first page for the database of your course
-  * **number_of_pages** is the number of pages that exist in your course's database
-
-To run the script:
-python main.py **database_page** **number_of_pages**
-
-For example:
-`ipython main.py http://www.memrise.com/course/1036119/hsk-level-6/edit/database/2000662/ 126`
-This will add audio to any words that are missing it for the course `http://www.memrise.com/course/1036119/hsk-level-6`. This course's database page is `http://www.memrise.com/course/1036119/hsk-level-6/edit/database/2000662/` and it has `126` pages.
 
 ## Set up
 make a file in the root directory of your script called 'variables.py' and create a python dictionary of your cookies. It should look something like this:
@@ -24,3 +12,10 @@ cookies = {'_sp_id.7bc7': '06d67edb75b999999.1466999953.100.1555544393.123457378
            'i18next': 'en',
            'sessionid': 'xrxg3zofonxmfmf5gfdgv5444defa71'}
 ```
+
+## To run the script
+type `python main.py **database_page**`
+
+For example:
+`ipython main.py http://www.memrise.com/course/1036119/hsk-level-6/edit/database/2000662/`
+This will add audio to any words that are missing it for the course `http://www.memrise.com/course/1036119/hsk-level-6`. This course's database page is `http://www.memrise.com/course/1036119/hsk-level-6/edit/database/2000662/`.
