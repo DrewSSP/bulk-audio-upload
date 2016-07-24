@@ -1,7 +1,8 @@
 import requests, tempfile, sys, subprocess, logging
 from variables import cookies
 from multiprocessing import Pool
-from lxml.html.soupparser import fromstring 
+from lxml.html.soupparser import fromstring
+from lxml import html
 
 # logging.getLogger("requests").setLevel(logging.WARNING)
 
@@ -73,6 +74,7 @@ if __name__ == "__main__":
 	logging.basicConfig(filename='main.log',level=logging.DEBUG)
 	logging.getLogger("urllib3").setLevel(logging.CRITICAL)
 	course_database_url = sys.argv[1]
-	number_of_pages = int(sys.argv[2])
+	number_of_pages = int(html.fromstring(requests.get(course_database_url, cookies=cookies).content).xpath("//div[contains(@class, 'pagination')]/ul/li")[-2].text_content())
+	print(number_of_pages)
 	words_and_info = get_audio_files_from_course(course_database_url, number_of_pages)
 	download_then_upload_audios(words_and_info)	
