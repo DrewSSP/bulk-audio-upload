@@ -23,8 +23,10 @@ cookies = {'_sp_id.7bc7': '06d67edb75b999999.1466999953.100.1555544393.123457378
            'sessionid': 'xrxg3zofonxnfmf5gfdgv5444defa71'}
 ```
 
+If you need help finding these details, you can get this through chrome. Just go onto memrise, then on the Chrome browser, got to `More Tools` and click `Developer Tools`. A window will appear at the bottom of the screen. Click the `Resources` tab on that window. On the left you'll see a folder called `Cookies`. Expand that folder by clicking the arrow to the left of the word "Resources". clicke `www.memrise.com`. Those are your cookies. Format them as shown above.
+
 ## To run the script
-type `python main.py **database_page**`
+type `python main.py **database_page**`, where `**database_page**` is the url of the first page after you go to your course's database
 
 For example:
 `ipython main.py http://www.memrise.com/course/1036119/hsk-level-6/edit/database/2000662/`
