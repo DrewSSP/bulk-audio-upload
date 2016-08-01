@@ -1,7 +1,8 @@
-import requests, tempfile, sys, subprocess
+import requests, tempfile, sys
 from variables import cookies
 from multiprocessing import Pool
 from lxml import html
+from lxml.etree import tostring
 
 def upload_file_to_server(thing_id, cell_id, course, file):
 	files = {'f': ('whatever.mp3', open(file.name, 'rb'), 'audio/mp3')}
@@ -30,8 +31,12 @@ def get_thing_information(database_url):
 	div_elements = tree.xpath("//tr[contains(@class, 'thing')]")
 	audios = []
 	for div in div_elements:
-		chinese_word = div.xpath("td[2]/div/div/text()")[0]
 		thing_id = div.attrib['data-thing-id']
+		try:
+			chinese_word = div.xpath("td[2]/div/div/text()")[0]
+		except IndexError:
+			print("failed to get the word of item with id " + str(thing_id) + ' on ' + str(database_url))
+			continue
 		column_number_of_audio = div.xpath("td[contains(@class, 'audio')]/@data-key")[0]
 		audio_files = div.xpath("td[contains(@class, 'audio')]/div/div[contains(@class, 'dropdown-menu')]/div")
 		number_of_audio_files = len(audio_files)
