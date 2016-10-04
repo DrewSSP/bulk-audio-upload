@@ -1,4 +1,4 @@
-import requests, tempfile, sys
+import requests, tempfile, sys, os
 from variables import cookies
 from multiprocessing import Pool
 from lxml import html
@@ -45,26 +45,31 @@ def get_thing_information(database_url):
 
 def download_audio(path):
 	response = requests.get(path)
-	if response.status_code == requests.codes.ok:
+	if len(response.content) < 100:
+		return 'Not enough data downloaded from texttospeech.com'
+	elif response.status_code == requests.codes.ok:
 		temp_file = tempfile.NamedTemporaryFile(suffix='.mp3')
 		temp_file.write(response.content)
+		temp_file.flush()
 		return temp_file
 	else:
-		return False
+		return 'Bad response when downloading file'
 
 def sequence_through_audios(audios):
 	for audio in audios:
 		if audio['number_of_audio_files'] > 0:
 			continue
 		else:
-			print('Adding audio to ' + audio['chinese_word'])
 			requests.post('http://soundoftext.com/sounds', data={'text':audio['chinese_word'], 'lang':'zh-CN'}) # warn the server of what file I'm going to need
 			temp_file = download_audio('http://soundoftext.com/static/sounds/zh-CN/' + audio['chinese_word'] + '.mp3') #download audio file
-			if temp_file == False:
+			if isinstance(temp_file, str):
+				print(audio['chinese_word'] + ' skipped: ' + temp_file)
 				continue
 			else:
 				upload_file_to_server(audio['thing_id'], audio['column_number_of_audio'], course_database_url, temp_file)
 				temp_file.close()
+				print(audio['chinese_word'] + ' succeeded')
+
 
 if __name__ == "__main__":
 	course_database_url = sys.argv[1]
