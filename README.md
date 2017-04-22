@@ -23,7 +23,9 @@ cookies = {'_sp_id.7bc7': '06d67edb75b999999.1466999953.100.1555544393.123457378
            'sessionid': 'xrxg3zofonxnfmf5gfdgv5444defa71'}
 ```
 
-If you need help finding these details, you can get this through chrome. Just go onto memrise, then on the Chrome browser and open the database for the course that you want to upload audio to. Once there, click the three dots on the top-right of the browser and go to `More Tools` --> `Developer Tools`. A window will appear at the bottom of the screen. Click the `Application` tab on that window. On the left you'll see a folder called `Cookies`. Expand that folder by clicking the triangle to the left of that. click `www.memrise.com`. Those are your cookies. Format them as shown above. When formatting, do not forget the closing brackets, quote marks, or colons. Each one is important and if you miss one the script will surely fail.
+If you need help finding these details, you can get this through chrome. Just go onto memrise, then on the Chrome browser and open the database for the course that you want to upload audio to. Once there, click the three dots on the top-right of the browser and go to `More Tools` --> `Developer Tools`. A window will appear at the bottom of the screen. Click the `Application` tab on that window. On the left you'll see a folder called `Cookies`. Expand that folder by clicking the triangle to the left of that. click `https://www.memrise.com`. What appears are your cookies. Format them as shown above. If you don't see a folder that says `https://www.memrise.com`and only see `https://www.github.com` then it's because you're reading these intructions right now and found the cookies for Github.com. Go back to the database for your course on Memrise and find the cookies there.
+
+When formatting, do not forget the closing brackets, quote marks, or colons. Each one is important and if you miss one the script will surely fail.
 
 ## To run the script
 type `python main.py **database_page**`, where `**database_page**` is the url of the first page after you go to your course's database
