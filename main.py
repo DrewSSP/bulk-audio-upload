@@ -14,7 +14,7 @@ def upload_file_to_server(thing_id, cell_id, course, file):
 	headers = {
 		"User-Agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:35.0) Gecko/20100101 Firefox/35.0",
 		"referer": course}
-	post_url = "http://www.memrise.com/ajax/thing/cell/upload_file/"
+	post_url = "https://www.memrise.com/ajax/thing/cell/upload_file/"
 	r = requests.post(post_url, files=files, cookies=cookies, headers=headers, data=form_data, timeout=60)
 
 def get_audio_files_from_course(first_database_page, number_of_pages):
