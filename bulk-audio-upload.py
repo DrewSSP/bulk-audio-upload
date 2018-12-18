@@ -2,8 +2,6 @@
 # pip install gTTS
 
 import requests, tempfile, sys
-# from variables import cookies
-from multiprocessing import Pool
 from lxml import html
 from lxml.etree import tostring
 
@@ -83,7 +81,7 @@ http://www.memrise.com/course/1036119/hsk-level-6.
 This course's database page is:
 http://www.memrise.com/course/1036119/hsk-level-6/edit/database/2000662/.\n""")
 	parser.add_argument('URLs', metavar='URL', type=str, nargs='*',
-			    help='an integer for the accumulator')
+			    help="is the url of the first page after you go to your course's database")
 	parser.add_argument('-l', '--login', default='',
 			    help='user name or email address to login at memrise.com (if not provided it will be asked for interactively)')
 	parser.add_argument('-p', '--password', default='',
