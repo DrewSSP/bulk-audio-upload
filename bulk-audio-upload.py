@@ -9,6 +9,9 @@ from gtts import gTTS
 import argparse
 import getpass
 import os
+import shutil
+
+os.system('chcp 65001')
 
 def upload_file_to_server(thing_id, cell_id, course, file_name, original_word):
 	files = {'f': ('whatever.mp3', open(file_name, 'rb'), 'audio/mp3')}
@@ -22,9 +25,9 @@ def upload_file_to_server(thing_id, cell_id, course, file_name, original_word):
 	post_url = "https://www.memrise.com/ajax/thing/cell/upload_file/"
 	r = s.post(post_url, files=files, data=form_data, timeout=60)
 	if r.status_code != requests.codes.ok:
-		print('Upload for word "' + original_word + '" failed with error: ' + str(r.status_code))
+		print('Upload for word "' + original_word.encode('utf-8') + '" failed with error: ' + str(r.status_code))
 	else:
-		print('Upload for word "' + original_word + '" succeeded')
+		print('Upload for word "' + original_word.encode('utf-8') + '" succeeded')
 
 def get_audio_files_from_course(first_database_page, number_of_pages):
 	for page in range(1, number_of_pages + 1):
@@ -61,11 +64,18 @@ def sequence_through_audios(audios, page_url):
 			# print(audio['foreign_word'] + ' has audio already ')
 			continue
 		else:
-			tts = gTTS(text=audio['foreign_word'], lang='en')
+			tts = gTTS(text=audio['foreign_word'], lang=args.language)
 			temp_file = 'mp3\\' + audio['thing_id'] + '.mp3'
 			tts.save(temp_file)
 			upload_file_to_server(audio['thing_id'], audio['column_number_of_audio'], page_url, temp_file, audio['foreign_word'])
-			os.remove(temp_file)
+			if (not args.keepaudio):
+				os.remove(temp_file)
+
+def python2and3input(output):
+	#Works in Python 2 and 3:
+	try: input = raw_input
+	except NameError: pass
+	return input(output)
 
 if __name__ == "__main__":
 	parser = argparse.ArgumentParser(description='Bulk Upload Audio for Memrise',
@@ -81,23 +91,30 @@ http://www.memrise.com/course/1036119/hsk-level-6.
 This course's database page is:
 http://www.memrise.com/course/1036119/hsk-level-6/edit/database/2000662/.\n""")
 	parser.add_argument('URLs', metavar='URL', type=str, nargs='*',
-			    help="is the url of the first page after you go to your course's database")
-	parser.add_argument('-l', '--login', default='',
-			    help='user name or email address to login at memrise.com (if not provided it will be asked for interactively)')
+				help="is the url of the first page after you go to your course's database")
+	parser.add_argument('-u', '--user', default='',
+				help='user name or email address to login at memrise.com (if not provided it will be asked for interactively)')
 	parser.add_argument('-p', '--password', default='',
-			    help='password to login at memrise.com (if not provided it will be asked for interactively)')
+				help='password to login at memrise.com (if not provided it will be asked for interactively)')
+	parser.add_argument('-l', '--language', default='',
+				help='language of the audio file to be produced by Google Text-to-Speech (if not provided it will be asked for interactively)')
+	parser.add_argument('-k', '--keepaudio', action='store_true',
+				help='don\'t deleted generated MP3 files in subdirectory \'mp3\' after upload')
+
 
 	args = parser.parse_args()
 	if (not args.URLs):
 		parser.print_help()
 		print()
-                
-	if (args.login == ''):
-		args.login = input("User name or Email:")
+	
+	if (args.user == ''):
+		args.user = python2and3input("User name or Email: ")
 	if (args.password == ''):
 		args.password = getpass.getpass()
+	if (args.language == ''):
+		args.language = python2and3input("Language code, e.g. 'en': ")
 	if (not args.URLs):		
-		args.URLs.append(input("URL of database of Memrise course:"))
+		args.URLs.append(python2and3input("URL of database of Memrise course: "))
 		
 	s = requests.session()
 	s.headers.update({'user-agent': 'Mozilla/5.0', 'Referer':'https://www.memrise.com/login/'})
@@ -106,12 +123,16 @@ http://www.memrise.com/course/1036119/hsk-level-6/edit/database/2000662/.\n""")
 	login_token = html.fromstring(login_page).xpath("//form/input[contains(@name, 'csrfmiddlewaretoken')]/@value")[0]
 
 	r_login = s.post('https://www.memrise.com/login/', 
-		data={ 'username': args.login, 'password': args.password, 'csrfmiddlewaretoken' : login_token })
+		data={ 'username': args.user, 'password': args.password, 'csrfmiddlewaretoken' : login_token })
 	if (r_login.status_code != requests.codes.ok):
 		print( 'login failed with error ' + str(r_login.status_code))
 		exit()
 	print( 'Login succeeded...')
-
+	
+	# make sure we have the working directory
+	if (not os.path.isdir('mp3')):
+		os.mkdir('mp3') 
+	
 	for course_database_url in args.URLs:
 		print ('Processing URL : ' + course_database_url)
 		headers = {
@@ -135,5 +156,9 @@ http://www.memrise.com/course/1036119/hsk-level-6/edit/database/2000662/.\n""")
 					print( 'Please check if you are logged in and that you provided the link to the database of the Memrise course.')
 					exit()
 		print('number of pages: ' + str(number_of_pages))
+		if (args.keepaudio):
+			print('   keeping audio files in subdirectory "mp3"...')
 		get_audio_files_from_course(course_database_url, number_of_pages)
 	print('all done')
+	if (not args.keepaudio):
+		shutil.rmtree('mp3', ignore_errors=True)
