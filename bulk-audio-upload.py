@@ -1,7 +1,7 @@
 # required modules:
 # pip install gTTS
 
-import requests, tempfile, sys
+import requests, sys
 from lxml import html
 from lxml.etree import tostring
 from enum import Enum
@@ -160,7 +160,7 @@ if __name__ == "__main__":
 					 epilog="""Where URL is the url of the first page after you go to your course's database.
 \n
 For example:
-ipython main.py http://www.memrise.com/course/1036119/hsk-level-6/edit/database/2000662/\n
+python main.py http://www.memrise.com/course/1036119/hsk-level-6/edit/database/2000662/\n
 \n
 This will add audio to any words that are missing it for the course:
 http://www.memrise.com/course/1036119/hsk-level-6.
