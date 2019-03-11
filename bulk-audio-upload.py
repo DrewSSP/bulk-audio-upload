@@ -25,9 +25,9 @@ def upload_file_to_server(thing_id, cell_id, course, file_name, original_word):
 	post_url = "https://www.memrise.com/ajax/thing/cell/upload_file/"
 	r = s.post(post_url, files=files, data=form_data, timeout=60)
 	if r.status_code != requests.codes.ok:
-		print('Upload for word "' + original_word.encode('utf-8') + '" failed with error: ' + str(r.status_code))
+		print(b'Upload for word "' + original_word.encode('utf-8') + b'" failed with error: ' + str(r.status_code))
 	else:
-		print('Upload for word "' + original_word.encode('utf-8') + '" succeeded')
+		print(b'Upload for word "' + original_word.encode('utf-8') + b'" succeeded')
 
 def get_audio_files_from_course(first_database_page, number_of_pages):
 	for page in range(1, number_of_pages + 1):
@@ -73,8 +73,15 @@ def sequence_through_audios(audios, page_url):
 
 def python2and3input(output):
 	#Works in Python 2 and 3:
-	try: input = raw_input
-	except NameError: pass
+	if hasattr(__builtins__, 'raw_input'): 
+		input = raw_input
+		#print("python 2 detected")
+	else:
+		from builtins import input
+	#try: input = raw_input
+	#except NameError: 
+	#	print("python 3 detected")
+	#	pass
 	return input(output)
 
 if __name__ == "__main__":
