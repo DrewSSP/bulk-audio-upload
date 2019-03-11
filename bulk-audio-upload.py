@@ -4,8 +4,8 @@
 import requests, tempfile, sys
 from lxml import html
 from lxml.etree import tostring
+from enum import Enum
 
-from gtts import gTTS
 import argparse
 import getpass
 import os
@@ -14,7 +14,8 @@ import shutil
 os.system('chcp 65001')
 
 def upload_file_to_server(thing_id, cell_id, course, file_name, original_word):
-	files = {'f': ('whatever.mp3', open(file_name, 'rb'), 'audio/mp3')}
+	openfile = open(file_name, 'rb')
+	files = {'f': ('whatever.mp3', openfile, 'audio/mp3')}
 	form_data = { 
 		"thing_id": thing_id, 
 		"cell_id": cell_id, 
@@ -28,6 +29,7 @@ def upload_file_to_server(thing_id, cell_id, course, file_name, original_word):
 		print(b'Upload for word "' + original_word.encode('utf-8') + b'" failed with error: ' + str(r.status_code))
 	else:
 		print(b'Upload for word "' + original_word.encode('utf-8') + b'" succeeded')
+	openfile.close()
 
 def get_audio_files_from_course(first_database_page, number_of_pages):
 	for page in range(1, number_of_pages + 1):
@@ -56,20 +58,81 @@ def get_thing_information(database_url):
 			
 		number_of_audio_files = len(audio_files)		
 		audios.append({'thing_id': thing_id, 'number_of_audio_files': number_of_audio_files, 'foreign_word': foreign_word, 'column_number_of_audio': column_number_of_audio})
-	sequence_through_audios(audios, database_url)
+	if args.engine == Engines.gtts:
+		sequence_through_audios_gtts(audios, database_url)
+	else:
+		sequence_through_audios_soundoftext(audios, database_url)
 
-def sequence_through_audios(audios, page_url):        
+def sequence_through_audios_gtts(audios, page_url):        
 	for audio in audios:
-		if audio['number_of_audio_files'] > 0:
+		if audio['number_of_audio_files'] >= args.count:
 			# print(audio['foreign_word'] + ' has audio already ')
 			continue
 		else:
+			try:
+				from gtts import gTTS
+			except:
+				print('gTTS engine not installed. use: pip install gTTS')
+				exit()
+
 			tts = gTTS(text=audio['foreign_word'], lang=args.language)
 			temp_file = 'mp3\\' + audio['thing_id'] + '.mp3'
 			tts.save(temp_file)
 			upload_file_to_server(audio['thing_id'], audio['column_number_of_audio'], page_url, temp_file, audio['foreign_word'])
 			if (not args.keepaudio):
 				os.remove(temp_file)
+
+def download_audio(path, temp_file_name):
+	response = requests.get(path)
+	if len(response.content) < 100:
+		return 'Not enough data downloaded from soundoftext.com'
+	elif response.status_code == requests.codes.ok:		
+		temp_file = open( temp_file_name, 'wb') # tempfile.NamedTemporaryFile(suffix='.mp3')
+		temp_file.write(response.content)
+		temp_file.flush()
+		return temp_file
+	else:
+		return 'Bad response when downloading file'
+
+def sequence_through_audios_soundoftext(audios, page_url):
+	for audio in audios:
+		if audio['number_of_audio_files'] >= args.count:
+			continue
+		else:
+			# print(audio['foreign_word'])
+			payload = {
+				'engine': "Google",
+				"data": {
+					"text": audio['foreign_word'],
+					"voice": args.language # "de-DE"
+				}
+			}
+			# print(payload)
+			request_result = requests.post('https://api.soundoftext.com/sounds', json=payload).json()
+			if not request_result['success'] :
+				print('Sound could not be requested from soundoftext.com:' + request_result['message'] )
+				print(request_result)
+				print()
+				print('See: https://soundoftext.com/docs#voices')
+				exit()
+
+			# print(requestresult)
+			audio_id = request_result['id'] 
+			# print(audio_id)
+			download_request = requests.get('https://api.soundoftext.com/sounds/' + audio_id).json()
+			download_url = download_request['location']
+			temp_file_name = 'mp3\\' + audio['thing_id'] + '.mp3'
+			temp_file = download_audio(download_url, temp_file_name) 
+			if isinstance(temp_file, str):
+				print(audio['foreign_word'] + ' skipped: ' + temp_file)
+				continue
+			else:
+				temp_file.close()
+				upload_file_to_server(audio['thing_id'], audio['column_number_of_audio'], page_url, temp_file_name, audio['foreign_word'])
+				# upload_file_to_server(audio['thing_id'], audio['column_number_of_audio'], course_database_url, temp_file)
+				if (not args.keepaudio):
+					os.remove(temp_file_name)
+				# print(audio['foreign_word'] + ' succeeded')
 
 def python2and3input(output):
 	#Works in Python 2 and 3:
@@ -83,6 +146,13 @@ def python2and3input(output):
 	#	print("python 3 detected")
 	#	pass
 	return input(output)
+
+class Engines(Enum):
+    gtts = 'gTTS'
+    sot = 'SOT'
+
+    def __str__(self):
+        return self.value
 
 if __name__ == "__main__":
 	parser = argparse.ArgumentParser(description='Bulk Upload Audio for Memrise',
@@ -107,6 +177,10 @@ http://www.memrise.com/course/1036119/hsk-level-6/edit/database/2000662/.\n""")
 				help='language of the audio file to be produced by Google Text-to-Speech (if not provided it will be asked for interactively)')
 	parser.add_argument('-k', '--keepaudio', action='store_true',
 				help='don\'t deleted generated MP3 files in subdirectory \'mp3\' after upload')
+	parser.add_argument('-e', '--engine', type=Engines, default=Engines.gtts, choices=list(Engines),
+				help='sound engine to be used. gTTS = "google Text To Speech", SOT = "soundoftext.com" (default is gTTS)')
+	parser.add_argument('-c', '--count', type=int, default=1,
+				help='number of audios allowed per word  (default is 1)')
 
 
 	args = parser.parse_args()
