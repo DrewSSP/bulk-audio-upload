@@ -1,14 +1,16 @@
 import requests, tempfile, sys
-from variables import cookies
+from variables import lang, course_database_url, cookies
 from multiprocessing import Pool
 from lxml import html
 from lxml.etree import tostring
 
+endpoint = 'https://api.soundoftext.com/sounds/'
+
 def upload_file_to_server(thing_id, cell_id, course, file):
 	files = {'f': ('whatever.mp3', open(file.name, 'rb'), 'audio/mp3')}
-	form_data = { 
-		"thing_id": thing_id, 
-		"cell_id": cell_id, 
+	form_data = {
+		"thing_id": thing_id,
+		"cell_id": cell_id,
 		"cell_type": "column",
 		"csrfmiddlewaretoken": cookies['csrftoken']}
 	headers = {
@@ -25,7 +27,6 @@ def get_audio_files_from_course(first_database_page, number_of_pages):
 	pool.map(get_thing_information, database_urls)
 
 def get_thing_information(database_url):
-	print(database_url)
 	response = requests.get(database_url, cookies = cookies)
 	tree = html.fromstring(response.text)
 	div_elements = tree.xpath("//tr[contains(@class, 'thing')]")
@@ -33,45 +34,52 @@ def get_thing_information(database_url):
 	for div in div_elements:
 		thing_id = div.attrib['data-thing-id']
 		try:
-			chinese_word = div.xpath("td[2]/div/div/text()")[0]
+			word = div.xpath("td[2]/div/div/text()")[0]
 		except IndexError:
 			print("failed to get the word of item with id " + str(thing_id) + ' on ' + str(database_url))
 			continue
 		column_number_of_audio = div.xpath("td[contains(@class, 'audio')]/@data-key")[0]
 		audio_files = div.xpath("td[contains(@class, 'audio')]/div/div[contains(@class, 'dropdown-menu')]/div")
 		number_of_audio_files = len(audio_files)
-		audios.append({'thing_id': thing_id, 'number_of_audio_files': number_of_audio_files, 'chinese_word': chinese_word, 'column_number_of_audio': column_number_of_audio})
+		audios.append({'thing_id': thing_id, 'number_of_audio_files': number_of_audio_files, 'word': word, 'column_number_of_audio': column_number_of_audio})
 	sequence_through_audios(audios)
 
-def download_audio(path):
-	response = requests.get(path)
-	if len(response.content) < 100:
-		return 'Not enough data downloaded from texttospeech.com'
-	elif response.status_code == requests.codes.ok:
-		temp_file = tempfile.NamedTemporaryFile(suffix='.mp3')
-		temp_file.write(response.content)
-		temp_file.flush()
-		return temp_file
-	else:
-		return 'Bad response when downloading file'
+def download_audio(id):
+	resp = requests.get(endpoint + id)
+	if resp.ok and resp.json()['status'] == 'Done':
+		resp = requests.get(resp.json()['location'])
+		if len(resp.content) < 1000:
+			return 'Not enough data downloaded from texttospeech.com'
+		elif resp.ok:
+			temp_file = tempfile.NamedTemporaryFile(suffix='.mp3', delete=False)
+			temp_file.write(resp.content)
+			temp_file.flush()
+			return temp_file
+	return 'Bad response when downloading file'
 
 def sequence_through_audios(audios):
 	for audio in audios:
 		if audio['number_of_audio_files'] > 0:
 			continue
 		else:
-			requests.post('http://soundoftext.com/sounds', data={'text':audio['chinese_word'], 'lang':'zh-CN'}) # warn the server of what file I'm going to need
-			temp_file = download_audio('http://soundoftext.com/static/sounds/zh-CN/' + audio['chinese_word'] + '.mp3') #download audio file
+			args = {
+				'engine': 'Google',
+				'data': {
+					'text':audio['word'],
+					'voice':lang,
+				}
+			}
+			response = requests.post(endpoint, json=args) # warn the server of what file I'm going to need
+			if response.ok:
+				temp_file = download_audio(response.json()["id"]) #download audio file
 			if isinstance(temp_file, str):
-				print(audio['chinese_word'] + ' skipped: ' + temp_file)
+				print(audio['word'] + ' skipped: ' + temp_file)
 				continue
 			else:
 				upload_file_to_server(audio['thing_id'], audio['column_number_of_audio'], course_database_url, temp_file)
 				temp_file.close()
-				print(audio['chinese_word'] + ' succeeded')
-
+				print(audio['word'] + ' succeeded')
 
 if __name__ == "__main__":
-	course_database_url = sys.argv[1]
 	number_of_pages = int(html.fromstring(requests.get(course_database_url, cookies=cookies).content).xpath("//div[contains(@class, 'pagination')]/ul/li")[-2].text_content())
 	get_audio_files_from_course(course_database_url, number_of_pages)
