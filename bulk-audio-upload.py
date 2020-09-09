@@ -1,4 +1,6 @@
 # required modules:
+# pip install requests
+# pip install lxml
 # pip install gTTS
 
 import requests, sys
@@ -12,6 +14,7 @@ import os
 import shutil
 
 os.system('chcp 65001')
+base_url = 'https://app.memrise.com/'
 
 def upload_file_to_server(thing_id, cell_id, course, file_name, original_word):
 	openfile = open(file_name, 'rb')
@@ -23,10 +26,14 @@ def upload_file_to_server(thing_id, cell_id, course, file_name, original_word):
 		"csrfmiddlewaretoken": login_token }
 	s.headers["referer"] = course
 	s.headers["Cookie"] = "csrftoken=" + login_token + "; sessionid_2=" + s.cookies["sessionid_2"]
-	post_url = "https://www.memrise.com/ajax/thing/cell/upload_file/"
+	post_url = base_url + "ajax/thing/cell/upload_file/"
 	r = s.post(post_url, files=files, data=form_data, timeout=60)
 	if r.status_code != requests.codes.ok:
-		print(b'Upload for word "' + original_word.encode('utf-8') + b'" failed with error: ' + str(r.status_code))
+		print(b'Upload for word "' + original_word.encode('utf-8') + b'" failed with error: ' + str(r.status_code).encode('utf-8'))
+		print('request headers:')
+		print(r.request.headers)
+		print('response headers:')
+		print(r.headers)
 	else:
 		print(b'Upload for word "' + original_word.encode('utf-8') + b'" succeeded')
 	openfile.close()
@@ -48,6 +55,7 @@ def get_thing_information(database_url):
 			foreign_word = div.xpath("td[2]/div/div/text()")[0]
 		except IndexError:
 			print("failed to get the word of item with id " + str(thing_id) + ' on ' + str(database_url))
+			print("   source: " + div.text_content())
 			continue
 		try:
 			column_number_of_audio = div.xpath("td[contains(@class, 'audio')]/@data-key")[0]
@@ -160,13 +168,13 @@ if __name__ == "__main__":
 					 epilog="""Where URL is the url of the first page after you go to your course's database.
 \n
 For example:
-python main.py http://www.memrise.com/course/1036119/hsk-level-6/edit/database/2000662/\n
+python main.py http://app.memrise.com/course/1036119/hsk-level-6/edit/database/2000662/\n
 \n
 This will add audio to any words that are missing it for the course:
-http://www.memrise.com/course/1036119/hsk-level-6.
+http://app.memrise.com/course/1036119/hsk-level-6.
 \n
 This course's database page is:
-http://www.memrise.com/course/1036119/hsk-level-6/edit/database/2000662/.\n""")
+http://app.memrise.com/course/1036119/hsk-level-6/edit/database/2000662/.\n""")
 	parser.add_argument('URLs', metavar='URL', type=str, nargs='*',
 				help="is the url of the first page after you go to your course's database")
 	parser.add_argument('-u', '--user', default='',
@@ -197,13 +205,14 @@ http://www.memrise.com/course/1036119/hsk-level-6/edit/database/2000662/.\n""")
 	if (not args.URLs):		
 		args.URLs.append(python2and3input("URL of database of Memrise course: "))
 		
+	login_url = base_url + 'login/'
 	s = requests.session()
-	s.headers.update({'user-agent': 'Mozilla/5.0', 'Referer':'https://www.memrise.com/login/'})
+	s.headers.update({'user-agent': 'Mozilla/5.0', 'referer': login_url})
 	
-	login_page = s.get('https://www.memrise.com/login/').content
+	login_page = s.get(login_url).content	
 	login_token = html.fromstring(login_page).xpath("//form/input[contains(@name, 'csrfmiddlewaretoken')]/@value")[0]
 
-	r_login = s.post('https://www.memrise.com/login/', 
+	r_login = s.post(login_url, 
 		data={ 'username': args.user, 'password': args.password, 'csrfmiddlewaretoken' : login_token })
 	if (r_login.status_code != requests.codes.ok):
 		print( 'login failed with error ' + str(r_login.status_code))

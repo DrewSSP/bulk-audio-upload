@@ -49,15 +49,15 @@ optional arguments:
 Where URL is the url of the first page after you go to your course's database.
 
 For example:
-python main.py http://www.memrise.com/course/1036119/hsk-level-6/edit/database/2000662/
+python main.py http://app.memrise.com/course/1036119/hsk-level-6/edit/database/2000662/
 
 This will add audio to any words that are missing it for the course:
-http://www.memrise.com/course/1036119/hsk-level-6.
+http://app.memrise.com/course/1036119/hsk-level-6.
 
 This course's database page is:
-http://www.memrise.com/course/1036119/hsk-level-6/edit/database/2000662/.
+http://app.memrise.com/course/1036119/hsk-level-6/edit/database/2000662/.
 
 ### Example:
-`python bulk-audio-upload.py http://www.memrise.com/course/1036119/hsk-level-6/edit/database/2000662/`
+`python bulk-audio-upload.py http://app.memrise.com/course/1036119/hsk-level-6/edit/database/2000662/`
 
-The script will ask for your login, password and language code and then add audio to any words that are missing for the course `http://www.memrise.com/course/1036119/hsk-level-6`. This course's database page is `http://www.memrise.com/course/1036119/hsk-level-6/edit/database/2000662/`.
+The script will ask for your login, password and language code and then add audio to any words that are missing for the course `http://app.memrise.com/course/1036119/hsk-level-6`. This course's database page is `http://app.memrise.com/course/1036119/hsk-level-6/edit/database/2000662/`.
