@@ -3,25 +3,29 @@
 # pip install lxml
 # pip install gTTS
 
-import requests, sys
+import requests, tempfile, sys
+from multiprocessing import Pool
 from lxml import html
 from lxml.etree import tostring
 from enum import Enum
-
 import argparse
 import getpass
 import os
 import shutil
 
-os.system('chcp 65001')
 base_url = 'https://app.memrise.com/'
+endpoint = 'https://api.soundoftext.com/sounds/'
+temp_cookies = ''
+args = ''
+
+os.system('chcp 65001')
 
 def upload_file_to_server(thing_id, cell_id, course, file_name, original_word):
 	openfile = open(file_name, 'rb')
 	files = {'f': ('whatever.mp3', openfile, 'audio/mp3')}
-	form_data = { 
-		"thing_id": thing_id, 
-		"cell_id": cell_id, 
+	form_data = {
+		"thing_id": thing_id,
+		"cell_id": cell_id,
 		"cell_type": "column",
 		"csrfmiddlewaretoken": login_token }
 	s.headers["referer"] = course
@@ -38,21 +42,19 @@ def upload_file_to_server(thing_id, cell_id, course, file_name, original_word):
 		print(b'Upload for word "' + original_word.encode('utf-8') + b'" succeeded')
 	openfile.close()
 
-def get_audio_files_from_course(first_database_page, number_of_pages):
-	for page in range(1, number_of_pages + 1):
-		get_thing_information(first_database_page + '?page=' + str(page))
-	print('Course done: ' + first_database_page)
-
 def get_thing_information(database_url):
+	global temp_cookies
+	global args
 	print('fetching: ' + database_url)
-	response = s.get(database_url)
+	#response = s.get(database_url)
+	response = requests.get(database_url, cookies = temp_cookies)
 	tree = html.fromstring(response.text)
 	div_elements = tree.xpath("//tr[contains(@class, 'thing')]")
 	audios = []
 	for div in div_elements:
 		thing_id = div.attrib['data-thing-id']
 		try:
-			foreign_word = div.xpath("td[2]/div/div/text()")[0]
+			word = div.xpath("td[2]/div/div/text()")[0]
 		except IndexError:
 			print("failed to get the word of item with id " + str(thing_id) + ' on ' + str(database_url))
 			print("   source: " + div.text_content())
@@ -64,12 +66,27 @@ def get_thing_information(database_url):
 			print( '\nError. Course seems to have no audio column.')
 			exit()
 			
-		number_of_audio_files = len(audio_files)		
-		audios.append({'thing_id': thing_id, 'number_of_audio_files': number_of_audio_files, 'foreign_word': foreign_word, 'column_number_of_audio': column_number_of_audio})
+		number_of_audio_files = len(audio_files)
+		audios.append({'thing_id': thing_id, 'number_of_audio_files': number_of_audio_files, 'word': word, 'column_number_of_audio': column_number_of_audio})
 	if args.engine == Engines.gtts:
 		sequence_through_audios_gtts(audios, database_url)
 	else:
 		sequence_through_audios_soundoftext(audios, database_url)
+
+def get_audio_files_from_course_pooled(first_database_page, number_of_pages):
+	database_urls = []
+	for page in range(1, number_of_pages + 1):
+		database_urls.append(first_database_page + '?page=' + str(page))
+	pool = Pool(processes = 7)
+	pool.map(get_thing_information, database_urls)
+	pool.close()
+	pool.join()
+	print('Course done: ' + first_database_page)
+
+def get_audio_files_from_course(first_database_page, number_of_pages):
+	for page in range(1, number_of_pages + 1):
+		get_thing_information(first_database_page + '?page=' + str(page))
+	print('Course done: ' + first_database_page)
 
 def sequence_through_audios_gtts(audios, page_url):        
 	for audio in audios:
@@ -83,64 +100,58 @@ def sequence_through_audios_gtts(audios, page_url):
 				print('gTTS engine not installed. use: pip install gTTS')
 				exit()
 
-			tts = gTTS(text=audio['foreign_word'], lang=args.language)
+			tts = gTTS(text=audio['word'], lang=args.language)
 			temp_file = 'mp3\\' + audio['thing_id'] + '.mp3'
 			tts.save(temp_file)
-			upload_file_to_server(audio['thing_id'], audio['column_number_of_audio'], page_url, temp_file, audio['foreign_word'])
+			upload_file_to_server(audio['thing_id'], audio['column_number_of_audio'], page_url, temp_file, audio['word'])
 			if (not args.keepaudio):
 				os.remove(temp_file)
 
-def download_audio(path, temp_file_name):
-	response = requests.get(path)
-	if len(response.content) < 100:
-		return 'Not enough data downloaded from soundoftext.com'
-	elif response.status_code == requests.codes.ok:		
-		temp_file = open( temp_file_name, 'wb') # tempfile.NamedTemporaryFile(suffix='.mp3')
-		temp_file.write(response.content)
-		temp_file.flush()
-		return temp_file
-	else:
-		return 'Bad response when downloading file'
+def download_audio(id):
+	resp = requests.get(endpoint + id)
+	if resp.ok and resp.json()['status'] == 'Done':
+		resp = requests.get(resp.json()['location'])
+		if len(resp.content) < 1000:
+			return 'Not enough data downloaded from soundoftext.com'
+		elif resp.ok:
+			temp_file = tempfile.NamedTemporaryFile(suffix='.mp3', delete=False)
+			temp_file.write(resp.content)
+			temp_file.flush()
+			return temp_file
+	return 'Bad response when downloading file'
 
 def sequence_through_audios_soundoftext(audios, page_url):
 	for audio in audios:
 		if audio['number_of_audio_files'] >= args.count:
 			continue
 		else:
-			# print(audio['foreign_word'])
-			payload = {
-				'engine': "Google",
-				"data": {
-					"text": audio['foreign_word'],
-					"voice": args.language # "de-DE"
+			args_request = {
+				'engine': 'Google',
+				'data': {
+					'text':audio['word'],
+					'voice':args.language,
 				}
 			}
-			# print(payload)
-			request_result = requests.post('https://api.soundoftext.com/sounds', json=payload).json()
-			if not request_result['success'] :
-				print('Sound could not be requested from soundoftext.com:' + request_result['message'] )
-				print(request_result)
+			response = requests.post(endpoint, json=args_request) # warn the server of what file I'm going to need
+			if response.ok:
+				temp_file = download_audio(response.json()["id"]) #download audio file
+			else:
+				print('Sound could not be requested from soundoftext.com:' + response.json()['message'] )
+				print(response.json())
 				print()
 				print('See: https://soundoftext.com/docs#voices')
 				exit()
 
-			# print(requestresult)
-			audio_id = request_result['id'] 
-			# print(audio_id)
-			download_request = requests.get('https://api.soundoftext.com/sounds/' + audio_id).json()
-			download_url = download_request['location']
-			temp_file_name = 'mp3\\' + audio['thing_id'] + '.mp3'
-			temp_file = download_audio(download_url, temp_file_name) 
 			if isinstance(temp_file, str):
-				print(audio['foreign_word'] + ' skipped: ' + temp_file)
+				print(audio['word'] + ' skipped: ' + temp_file)
 				continue
-			else:
-				temp_file.close()
-				upload_file_to_server(audio['thing_id'], audio['column_number_of_audio'], page_url, temp_file_name, audio['foreign_word'])
-				# upload_file_to_server(audio['thing_id'], audio['column_number_of_audio'], course_database_url, temp_file)
+			else:			
+				temp_file_name = temp_file.name
+				upload_file_to_server(audio['thing_id'], audio['column_number_of_audio'], page_url, temp_file_name, audio['word'])
+				temp_file.close()				
 				if (not args.keepaudio):
 					os.remove(temp_file_name)
-				# print(audio['foreign_word'] + ' succeeded')
+				# print(audio['word'] + ' succeeded')
 
 def python2and3input(output):
 	#Works in Python 2 and 3:
@@ -156,11 +167,11 @@ def python2and3input(output):
 	return input(output)
 
 class Engines(Enum):
-    gtts = 'gTTS'
-    sot = 'SOT'
+	gtts = 'gTTS'
+	sot = 'SOT'
 
-    def __str__(self):
-        return self.value
+	def __str__(self):
+		return self.value
 
 if __name__ == "__main__":
 	parser = argparse.ArgumentParser(description='Bulk Upload Audio for Memrise',
@@ -174,7 +185,9 @@ This will add audio to any words that are missing it for the course:
 http://app.memrise.com/course/1036119/hsk-level-6.
 \n
 This course's database page is:
-http://app.memrise.com/course/1036119/hsk-level-6/edit/database/2000662/.\n""")
+http://app.memrise.com/course/1036119/hsk-level-6/edit/database/2000662/.\n
+\n
+Parameters can also be set in a configuration file 'variables.py'. See README.md for details.""")
 	parser.add_argument('URLs', metavar='URL', type=str, nargs='*',
 				help="is the url of the first page after you go to your course's database")
 	parser.add_argument('-u', '--user', default='',
@@ -189,22 +202,41 @@ http://app.memrise.com/course/1036119/hsk-level-6/edit/database/2000662/.\n""")
 				help='sound engine to be used. gTTS = "google Text To Speech", SOT = "soundoftext.com" (default is gTTS)')
 	parser.add_argument('-c', '--count', type=int, default=1,
 				help='number of audios allowed per word  (default is 1)')
+	parser.add_argument('-o', '--pooled', action='store_true',
+				help='Enable parallel fetching')
 
-
+	# parameters are initialized in this order:
+	# 1. from command line arguments
+	# 2. (if not yet provided) from file "variables.py" 
+	# 3. (if still not provided) user input
 	args = parser.parse_args()
-	if (not args.URLs):
-		parser.print_help()
-		print()
 	
 	if (args.user == ''):
-		args.user = python2and3input("User name or Email: ")
+		try:
+			from variables import user
+			args.user = user
+		except:
+			args.user = python2and3input("User name or Email: ")
 	if (args.password == ''):
-		args.password = getpass.getpass()
+		try:
+			from variables import password
+			args.password = password
+		except:
+			args.password = getpass.getpass()
 	if (args.language == ''):
-		args.language = python2and3input("Language code, e.g. 'en': ")
-	if (not args.URLs):		
-		args.URLs.append(python2and3input("URL of database of Memrise course: "))
-		
+		try:
+			from variables import language
+			args.language = language
+		except:
+			args.language = python2and3input("Language code, e.g. 'en': ")
+	if (not args.URLs):
+		try:
+			from variables import course_database_url
+			args.URLs.append( course_database_url )
+		except:
+			args.URLs.append( python2and3input("URL of database of Memrise course: "))
+
+        
 	login_url = base_url + 'login/'
 	s = requests.session()
 	s.headers.update({'user-agent': 'Mozilla/5.0', 'referer': login_url})
@@ -219,6 +251,8 @@ http://app.memrise.com/course/1036119/hsk-level-6/edit/database/2000662/.\n""")
 		exit()
 	print( 'Login succeeded...')
 	
+	temp_cookies = s.cookies # actually we must write all config to variables.py to allow multiple processes use the info in parallel
+
 	# make sure we have the working directory
 	if (not os.path.isdir('mp3')):
 		os.mkdir('mp3') 
@@ -231,7 +265,7 @@ http://app.memrise.com/course/1036119/hsk-level-6/edit/database/2000662/.\n""")
 		r = s.get(course_database_url, headers=headers)
 		test = r.content
 
-                # depending on the number of pages of the course the actual maximum number can be on different positions
+		# depending on the number of pages of the course the actual maximum number can be on different positions
 		try:
 			number_of_pages = int(html.fromstring(test).xpath("//div[contains(@class, 'pagination')]/ul/li")[-2].text_content())
 		except:
@@ -248,7 +282,10 @@ http://app.memrise.com/course/1036119/hsk-level-6/edit/database/2000662/.\n""")
 		print('number of pages: ' + str(number_of_pages))
 		if (args.keepaudio):
 			print('   keeping audio files in subdirectory "mp3"...')
-		get_audio_files_from_course(course_database_url, number_of_pages)
+		if (args.pooled):
+			get_audio_files_from_course_pooled(course_database_url, number_of_pages)
+		else:
+			get_audio_files_from_course(course_database_url, number_of_pages)
 	print('all done')
 	if (not args.keepaudio):
 		shutil.rmtree('mp3', ignore_errors=True)
