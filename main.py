@@ -3,8 +3,7 @@
 # pip install lxml
 # pip install gTTS
 
-import requests, tempfile, sys
-from multiprocessing import Pool
+import requests, sys
 from lxml import html
 from lxml.etree import tostring
 from enum import Enum
@@ -12,12 +11,10 @@ import argparse
 import getpass
 import os
 import shutil
+import concurrent.futures
 
 base_url = 'https://app.memrise.com/'
 endpoint = 'https://api.soundoftext.com/sounds/'
-temp_cookies = ''
-args = ''
-
 os.system('chcp 65001')
 
 def upload_file_to_server(thing_id, cell_id, course, file_name, original_word):
@@ -43,11 +40,8 @@ def upload_file_to_server(thing_id, cell_id, course, file_name, original_word):
 	openfile.close()
 
 def get_thing_information(database_url):
-	global temp_cookies
-	global args
 	print('fetching: ' + database_url)
-	#response = s.get(database_url)
-	response = requests.get(database_url, cookies = temp_cookies)
+	response = s.get(database_url)
 	tree = html.fromstring(response.text)
 	div_elements = tree.xpath("//tr[contains(@class, 'thing')]")
 	audios = []
@@ -73,19 +67,19 @@ def get_thing_information(database_url):
 	else:
 		sequence_through_audios_soundoftext(audios, database_url)
 
-def get_audio_files_from_course_pooled(first_database_page, number_of_pages):
-	database_urls = []
-	for page in range(1, number_of_pages + 1):
-		database_urls.append(first_database_page + '?page=' + str(page))
-	pool = Pool(processes = 7)
-	pool.map(get_thing_information, database_urls)
-	pool.close()
-	pool.join()
-	print('Course done: ' + first_database_page)
-
 def get_audio_files_from_course(first_database_page, number_of_pages):
+	database_urls = []
+
 	for page in range(1, number_of_pages + 1):
-		get_thing_information(first_database_page + '?page=' + str(page))
+		if (args.pooled):
+			database_urls.append(first_database_page + '?page=' + str(page))
+		else:
+			get_thing_information(first_database_page + '?page=' + str(page))
+			
+	if (args.pooled):
+		# We can use a with statement to ensure threads are cleaned up promptly
+		with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
+			future_to_url = {executor.submit(get_thing_information, url): url for url in database_urls}
 	print('Course done: ' + first_database_page)
 
 def sequence_through_audios_gtts(audios, page_url):        
@@ -114,10 +108,11 @@ def download_audio(id):
 		if len(resp.content) < 1000:
 			return 'Not enough data downloaded from soundoftext.com'
 		elif resp.ok:
-			temp_file = tempfile.NamedTemporaryFile(suffix='.mp3', delete=False)
-			temp_file.write(resp.content)
-			temp_file.flush()
-			return temp_file
+			temp_file = 'mp3\\' + id + '.mp3'
+			openfile = open(temp_file, 'wb')
+			openfile.write(resp.content)
+			openfile.flush()
+			return openfile
 	return 'Bad response when downloading file'
 
 def sequence_through_audios_soundoftext(audios, page_url):
@@ -201,7 +196,7 @@ Parameters can also be set in a configuration file 'variables.py'. See README.md
 	parser.add_argument('-e', '--engine', type=Engines, default=Engines.gtts, choices=list(Engines),
 				help='sound engine to be used. gTTS = "google Text To Speech", SOT = "soundoftext.com" (default is gTTS)')
 	parser.add_argument('-c', '--count', type=int, default=1,
-				help='number of audios allowed per word  (default is 1)')
+				help='number of audios allowed per word  (default is 1). This can be useful if you want to enforce another audio version.')
 	parser.add_argument('-o', '--pooled', action='store_true',
 				help='Enable parallel fetching')
 
@@ -251,8 +246,6 @@ Parameters can also be set in a configuration file 'variables.py'. See README.md
 		exit()
 	print( 'Login succeeded...')
 	
-	temp_cookies = s.cookies # actually we must write all config to variables.py to allow multiple processes use the info in parallel
-
 	# make sure we have the working directory
 	if (not os.path.isdir('mp3')):
 		os.mkdir('mp3') 
@@ -282,10 +275,7 @@ Parameters can also be set in a configuration file 'variables.py'. See README.md
 		print('number of pages: ' + str(number_of_pages))
 		if (args.keepaudio):
 			print('   keeping audio files in subdirectory "mp3"...')
-		if (args.pooled):
-			get_audio_files_from_course_pooled(course_database_url, number_of_pages)
-		else:
-			get_audio_files_from_course(course_database_url, number_of_pages)
+		get_audio_files_from_course(course_database_url, number_of_pages)
 	print('all done')
 	if (not args.keepaudio):
 		shutil.rmtree('mp3', ignore_errors=True)
