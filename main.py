@@ -1,11 +1,9 @@
 # required modules:
 # pip install requests
-# pip install lxml
+# pip install bs4
 # pip install gTTS
 
 import requests, sys
-from lxml import html
-from lxml.etree import tostring
 from enum import Enum
 import argparse
 import getpass
@@ -13,59 +11,19 @@ import os
 import shutil
 import concurrent.futures
 
-base_url = 'https://app.memrise.com/'
+import memrise
+
 endpoint = 'https://api.soundoftext.com/sounds/'
 os.system('chcp 65001')
 
-def upload_file_to_server(thing_id, cell_id, course, file_name, original_word):
-	openfile = open(file_name, 'rb')
-	files = {'f': ('whatever.mp3', openfile, 'audio/mp3')}
-	form_data = {
-		"thing_id": thing_id,
-		"cell_id": cell_id,
-		"cell_type": "column",
-		"csrfmiddlewaretoken": login_token }
-	s.headers["referer"] = course
-	s.headers["Cookie"] = "csrftoken=" + login_token + "; sessionid_2=" + s.cookies["sessionid_2"]
-	post_url = base_url + "ajax/thing/cell/upload_file/"
-	r = s.post(post_url, files=files, data=form_data, timeout=60)
-	if r.status_code != requests.codes.ok:
-		print(b'Upload for word "' + original_word.encode('utf-8') + b'" failed with error: ' + str(r.status_code).encode('utf-8'))
-		print('request headers:')
-		print(r.request.headers)
-		print('response headers:')
-		print(r.headers)
-	else:
-		print(b'Upload for word "' + original_word.encode('utf-8') + b'" succeeded')
-	openfile.close()
 
-def get_thing_information(database_url):
+def handle_single_database_page(database_url):
 	print('fetching: ' + database_url)
-	response = s.get(database_url)
-	tree = html.fromstring(response.text)
-	div_elements = tree.xpath("//tr[contains(@class, 'thing')]")
-	audios = []
-	for div in div_elements:
-		thing_id = div.attrib['data-thing-id']
-		try:
-			word = div.xpath("td[2]/div/div/text()")[0]
-		except IndexError:
-			print("failed to get the word of item with id " + str(thing_id) + ' on ' + str(database_url))
-			print("   source: " + div.text_content())
-			continue
-		try:
-			column_number_of_audio = div.xpath("td[contains(@class, 'audio')]/@data-key")[0]
-			audio_files = div.xpath("td[contains(@class, 'audio')]/div/div[contains(@class, 'dropdown-menu')]/div")
-		except:
-			print( '\nError. Course seems to have no audio column.')
-			exit()
-			
-		number_of_audio_files = len(audio_files)
-		audios.append({'thing_id': thing_id, 'number_of_audio_files': number_of_audio_files, 'word': word, 'column_number_of_audio': column_number_of_audio})
+	things = memriseService.get_thing_information(database_url)
 	if args.engine == Engines.gtts:
-		sequence_through_audios_gtts(audios, database_url)
+		sequence_through_audios_gtts(things, database_url)
 	else:
-		sequence_through_audios_soundoftext(audios, database_url)
+		sequence_through_audios_soundoftext(things, database_url)
 
 def get_audio_files_from_course(first_database_page, number_of_pages):
 	database_urls = []
@@ -74,17 +32,17 @@ def get_audio_files_from_course(first_database_page, number_of_pages):
 		if (args.pooled):
 			database_urls.append(first_database_page + '?page=' + str(page))
 		else:
-			get_thing_information(first_database_page + '?page=' + str(page))
+			handle_single_database_page(first_database_page + '?page=' + str(page))
 			
 	if (args.pooled):
 		# We can use a with statement to ensure threads are cleaned up promptly
 		with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
-			future_to_url = {executor.submit(get_thing_information, url): url for url in database_urls}
+			future_to_url = {executor.submit(handle_single_database_page, url): url for url in database_urls}
 	print('Course done: ' + first_database_page)
 
-def sequence_through_audios_gtts(audios, page_url):        
+def sequence_through_audios_gtts(audios : memrise.MemriseThing, page_url):        
 	for audio in audios:
-		if audio['number_of_audio_files'] >= args.count:
+		if len(audio.audio_files) >= args.count:
 			# print(audio['foreign_word'] + ' has audio already ')
 			continue
 		else:
@@ -94,10 +52,11 @@ def sequence_through_audios_gtts(audios, page_url):
 				print('gTTS engine not installed. use: pip install gTTS')
 				exit()
 
-			tts = gTTS(text=audio['word'], lang=args.language)
-			temp_file = 'mp3\\' + audio['thing_id'] + '.mp3'
+			tts = gTTS(text=audio.original_word, lang=args.language)
+			temp_file = 'mp3\\' + audio.thing_id + '.mp3'
 			tts.save(temp_file)
-			upload_file_to_server(audio['thing_id'], audio['column_number_of_audio'], page_url, temp_file, audio['word'])
+			audio.file_name = temp_file
+			memriseService.upload_file_to_server( page_url, audio)
 			if (not args.keepaudio):
 				os.remove(temp_file)
 
@@ -115,15 +74,15 @@ def download_audio(id):
 			return openfile
 	return 'Bad response when downloading file'
 
-def sequence_through_audios_soundoftext(audios, page_url):
+def sequence_through_audios_soundoftext(audios : memrise.MemriseThing, page_url):
 	for audio in audios:
-		if audio['number_of_audio_files'] >= args.count:
+		if len(audio.audio_files) >= args.count:
 			continue
 		else:
 			args_request = {
 				'engine': 'Google',
 				'data': {
-					'text':audio['word'],
+					'text':audio.original_word,
 					'voice':args.language,
 				}
 			}
@@ -138,15 +97,15 @@ def sequence_through_audios_soundoftext(audios, page_url):
 				exit()
 
 			if isinstance(temp_file, str):
-				print(audio['word'] + ' skipped: ' + temp_file)
+				print(audio.original_word + ' skipped: ' + temp_file)
 				continue
 			else:			
-				temp_file_name = temp_file.name
-				upload_file_to_server(audio['thing_id'], audio['column_number_of_audio'], page_url, temp_file_name, audio['word'])
+				audio.file_name = temp_file.name
+				memriseService.upload_file_to_server(page_url, audio)
 				temp_file.close()				
 				if (not args.keepaudio):
-					os.remove(temp_file_name)
-				# print(audio['word'] + ' succeeded')
+					os.remove(audio.file_name)
+				# print(audio.original_word + ' succeeded')
 
 def python2and3input(output):
 	#Works in Python 2 and 3:
@@ -199,6 +158,8 @@ Parameters can also be set in a configuration file 'variables.py'. See README.md
 				help='number of audios allowed per word  (default is 1). This can be useful if you want to enforce another audio version.')
 	parser.add_argument('-o', '--pooled', action='store_true',
 				help='Enable parallel fetching')
+	parser.add_argument('-d', '--debug', default=False, action='store_true',
+				help='Print debug output')
 
 	# parameters are initialized in this order:
 	# 1. from command line arguments
@@ -231,51 +192,35 @@ Parameters can also be set in a configuration file 'variables.py'. See README.md
 		except:
 			args.URLs.append( python2and3input("URL of database of Memrise course: "))
 
-        
-	login_url = base_url + 'login/'
-	s = requests.session()
-	s.headers.update({'user-agent': 'Mozilla/5.0', 'referer': login_url})
-	
-	login_page = s.get(login_url).content	
-	login_token = html.fromstring(login_page).xpath("//form/input[contains(@name, 'csrfmiddlewaretoken')]/@value")[0]
+	memriseService = memrise.Service()
+	memriseService.SetDebugMode()
 
-	r_login = s.post(login_url, 
-		data={ 'username': args.user, 'password': args.password, 'csrfmiddlewaretoken' : login_token })
-	if (r_login.status_code != requests.codes.ok):
-		print( 'login failed with error ' + str(r_login.status_code))
-		exit()
+	if not memriseService.isLoggedIn():
+		if memriseService.login(args.user,args.password):
+			print('login successful')
+		else:
+			print( "Couldn't log in. Please check your credentials.")
+			exit
+		
 	print( 'Login succeeded...')
-	
+
+	if (args.keepaudio):
+		print('   keeping audio files in subdirectory "mp3"...')
+
 	# make sure we have the working directory
 	if (not os.path.isdir('mp3')):
 		os.mkdir('mp3') 
-	
-	for course_database_url in args.URLs:
-		print ('Processing URL : ' + course_database_url)
-		headers = {
-			"User-Agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:35.0) Gecko/20100101 Firefox/35.0",
-			"referer": course_database_url}
-		r = s.get(course_database_url, headers=headers)
-		test = r.content
 
-		# depending on the number of pages of the course the actual maximum number can be on different positions
-		try:
-			number_of_pages = int(html.fromstring(test).xpath("//div[contains(@class, 'pagination')]/ul/li")[-2].text_content())
-		except:
-			try:
-				number_of_pages = int(html.fromstring(test).xpath("//div[contains(@class, 'pagination')]/ul/li")[-1].text_content())
-			except:
-				try:
-					number_of_pages = int(html.fromstring(test).xpath("//div[contains(@class, 'pagination')]/ul/li")[0].text_content())
-				except:
-					print (test)
-					print( '\nError. Could not parse number of pages from HTML above.')
-					print( 'Please check if you are logged in and that you provided the link to the database of the Memrise course.')
-					exit()
-		print('number of pages: ' + str(number_of_pages))
-		if (args.keepaudio):
-			print('   keeping audio files in subdirectory "mp3"...')
-		get_audio_files_from_course(course_database_url, number_of_pages)
+	for course_database_url in args.URLs:
+		print('Getting database links of course ' + course_database_url )
+		for database in memriseService.getDatabases(course_database_url):
+			url = database[0]
+			number_of_pages = database[1]
+			print ('Processing database URL : ' + url)
+			print('number of pages: ' + str(number_of_pages))
+			
+			get_audio_files_from_course(url, number_of_pages)
+
 	print('all done')
 	if (not args.keepaudio):
 		shutil.rmtree('mp3', ignore_errors=True)
