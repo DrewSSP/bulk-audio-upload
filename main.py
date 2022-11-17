@@ -26,18 +26,18 @@ def handle_single_database_page(database_url):
 		sequence_through_audios_soundoftext(things, database_url)
 
 def get_audio_files_from_course(first_database_page, number_of_pages):
-	database_urls = []
+	database_page_urls = []
 
 	for page in range(1, number_of_pages + 1):
 		if (args.pooled):
-			database_urls.append(first_database_page + '?page=' + str(page))
+			database_page_urls.append(first_database_page + '?page=' + str(page))
 		else:
 			handle_single_database_page(first_database_page + '?page=' + str(page))
 			
 	if (args.pooled):
 		# We can use a with statement to ensure threads are cleaned up promptly
 		with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
-			future_to_url = {executor.submit(handle_single_database_page, url): url for url in database_urls}
+			future_to_url = {executor.submit(handle_single_database_page, url): url for url in database_page_urls}
 	print('Course done: ' + first_database_page)
 
 def sequence_through_audios_gtts(audios : memrise.MemriseThing, page_url):        
@@ -51,8 +51,12 @@ def sequence_through_audios_gtts(audios : memrise.MemriseThing, page_url):
 			except:
 				print('gTTS engine not installed. use: pip install gTTS')
 				exit()
-
-			tts = gTTS(text=audio.original_word, lang=args.language)
+				
+			try:
+				from variables import tld				
+			except:
+				tld ="com"
+			tts = gTTS(text=audio.original_word, lang=args.language, tld=tld)
 			temp_file = 'mp3\\' + audio.thing_id + '.mp3'
 			tts.save(temp_file)
 			audio.file_name = temp_file
@@ -202,8 +206,6 @@ Parameters can also be set in a configuration file 'variables.py'. See README.md
 			print( "Couldn't log in. Please check your credentials.")
 			exit
 		
-	print( 'Login succeeded...')
-
 	if (args.keepaudio):
 		print('   keeping audio files in subdirectory "mp3"...')
 

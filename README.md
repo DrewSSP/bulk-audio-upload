@@ -8,7 +8,7 @@ This script has the following requirements:
   * requests
   * sys
   * (gTTS optional)
-  * lxml
+  * bs4
   * argparse
   * getpass
   * os
@@ -17,9 +17,9 @@ This script has the following requirements:
 It requires your login data for Memrise and the database URL of the desired course.
 
 ## To run the script
-usage: bulk-audio-upload.py [-h] [-u USER] [-p PASSWORD] [-l LANGUAGE] [-k]
-                            [-e {gTTS,SOT}] [-c COUNT]
-                            [URL [URL ...]]
+usage: python main.py [-h] [-u USER] [-p PASSWORD] [-l LANGUAGE] [-k]
+                            [-e {gTTS,SOT}] [-c COUNT] [-o] [-d]
+                            [URL] [URL ...]
 
 Bulk Upload Audio for Memrise
 

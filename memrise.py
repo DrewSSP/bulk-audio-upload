@@ -123,9 +123,18 @@ class Service(object):
     def getDatabases(self, courseUrl):
         result = []
         urls = []
+        # <a href="/course/2069455/kreaenglisch/edit/" class="btn">
+        # in case we got the normal course link and not the "edit course"...
         response = self.openWithRetry(courseUrl)
         soup = bs4.BeautifulSoup(response.read(), 'html.parser')
-        for href in soup.find_all('a', {'href': lambda link: link and bool(re.match('/course/.*/edit/database/\d*/', link))}):
+        editlink = soup.find('a', {'href' : lambda link: link and bool(re.match('/course/.*/edit/$', link))})
+        if editlink:
+            courseUrl = base_url_plain + editlink.get('href')
+            response = self.openWithRetry(courseUrl)
+            soup = bs4.BeautifulSoup(response.read(), 'html.parser')
+
+        # <li class="dropdown ">
+        for href in soup.find('li', {'class' : 'dropdown'}).find_all('a', {'href': lambda link: link and bool(re.match('/course/.*/edit/database/\d*/', link))}):
             urls.append( base_url_plain + href.get('href')) 
 
         for db_url in urls:
