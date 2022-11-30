@@ -17,6 +17,8 @@ This script has the following requirements:
 It requires your login data for Memrise and the URL of the desired course.
 
 ## To run the script
+
+```
 usage: python main.py [-h] [-u USER] [-p PASSWORD] [-l LANGUAGE] [-k]
                             [-e {gTTS,SOT}] [-c COUNT] [-o] [-d]
                             [URL] [URL ...]
@@ -46,7 +48,7 @@ optional arguments:
   -c COUNT, --count COUNT
                         number of audios allowed per word (default is 1). This can be useful if you want to enforce another audio version.
   -o, --pooled          Enable parallel fetching
-
+```
 
 Where URL is the url of your course. (The script will try to upload audios to all databases of the course.)
 
